@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="a_prompt">A</string>
+<string name="about_prefix">IAEA Nuclear Data Section制作</string>
+<string name="abundance">存在比</string>
+<string name="abundance_lbl">同位体存在比</string>
+<string name="and">と</string>
+<string name="app_name">Isotope Browser</string>
+<string name="avg_en">"Avg En[keV]"</string>
+
+<string name="mass_excess">Mass excess</string>
+<string name="specific_activity" >Specific act.y</string>
+<string name="decay_constant">Decay const.</string>
+<string name="radiative_capture">Radiative capture</string>
+<string name="fission">"Fission"</string>
+<string name="absorption">"Absorption"</string>
+<string name="n_fission">"(n,fission)"</string>
+<string name="table_title_rad">Avg. En. [keV]ANDInt. % AND En. max. [keV]  AND En. EC [keV] AND En. [keV]  </string>
+
+<string name="between">間</string>
+<string name="binding_energy">結合エネルギー</string>
+<string name="btn_search_label">検索</string>
+<string name="charge_rad">荷電半径</string>
+<string name="chart_prompt">核図表</string>
+<string name="choose_dec">崩壊様式を選んでください</string>
+<string name="choose_rad">放射線を選んでください</string>
+<string name="cum_ther_fy">熱中性子累積核分裂収率</string>
+<string name="decay">崩壊</string>
+<string name="decay_prompt">崩壊様式</string>
+<string name="decay_rad">放射線</string>
+<!--  in japanese "see the" + "decay chain" has the terms reversed. here the string "see the" is empty and the string decaychain has the entrire wording -->
+<string name="decaychain">崩壊系列参照</string>
+<string name="decays">崩壊</string>
+<string name="electric_mom">電気能率</string>
+非金属
+<string name="element_groups">アルカリ金属,アルカリ土類金属,遷移金属, ポスト遷移金属, 半金属, 非金属,ハロゲン, 希ガス, ランタノイド, アクチノイド</string>
+<string name="elements_alpha_prompt">名前順</string>
+<string name="elements_prompt">周期表</string>
+<string name="elements_names">"中性子,
+水素,
+ヘリウム,
+リチウム,
+ベリリウム,
+ホウ素,
+炭素,
+窒素,
+酸素,
+フッ素,
+ネオン,
+ナトリウム,
+マグネシウム,
+アルミニウム,
+ヶィ素,
+リン,
+硫黄,
+塩素,
+アルゴン,
+カリウム,
+カルシウム,
+スカンジウム,
+チタン,
+バナジウム,
+クロム,
+マンガン,
+鉄,
+コバルト,
+ニッケル,
+銅,
+亜鉛,
+ガリウム,
+ゲルマニウム,
+ヒ素,
+セレン,
+臭素,
+クリプトン,
+ルビジウム,
+ストロンチウム,
+イットリウム,
+ジルコニウム,
+ニオブ,
+モリブデン,
+テクネチウム,
+ルテニウム,
+ロジウム,
+パラジウム,
+銀,
+カドミウム,
+インジウム,
+スズ,
+アンチモン,
+テルル,
+ヨウ素,
+キセノン,
+セシウム,
+バリウム,
+ランタン,
+セリウム,
+プラセオジム,
+ネオジム,
+プロメチウム,
+サマリウム,
+ユウロピウム,
+ガドリニウム,
+テルビウム,
+ジスプロシウム,
+ホルミウム,
+エルビウム,
+ツリウム,
+イッテルビウム,
+ルテチウム,
+ハフニウム,
+タンタル,
+タングステン,
+レニウム,
+オスミウム,
+イリジウム,
+白金,
+金,
+水銀,
+タリウム,
+鉛,
+ビスマス,
+ポロニウム,
+アスタチン,
+ラドン,
+フランシウム,
+ラジウム,
+アクチニウム,
+トリウム,
+プロトアクチニウム,
+ウラン,
+ネプツニウム,
+プルトニウム,
+アメリシウム,
+キュリウム,
+バークリウム,
+カリホルニウム,
+アインスタイニウム,
+フェルミウム,
+メンデレビウム,
+ノーベリウム,
+ローレンシウム,
+ラザホージウム,
+ドブニウム,
+シーボーギウム,
+ボーリウム,
+ハッシウム,
+マイトネリウム,
+ダームスタチウム,
+レントゲニウム,
+コペルニシウム,
+ニホニウム,
+フレロビウム,
+モスコビウム,
+リバモリウム,
+テネシン,
+オガネソン
+Ununennium
+Unbinilium";
+</string>
+<string name="feedback">フィードバック</string>
+<string name="from">から</string>
+<string name="half_life">半減期</string>
+<string name="half_life_unit_prompt">単位</string>
+<string name="half_life_units">ピコ秒,ナノ秒,マイクロ秒,ミリ秒,秒,分,時,日,年</string>
+<string name="iaeands">IAEA Nuclear Data Section</string>
+<!--string name="jp_prompt">スピンパリティ</string-->
+<string name="jplike">スピンパリティ（仮）</string>
+<string name="label_prefs">設定</string>
+<string name="lbl_message_wait">お待ちください</string>
+<string name="lblAdvSearch">詳細検索</string>
+<string name="lblClear">クリア</string>
+<string name="lblHelp">ヘルプ</string>
+<string name="lblSearchDecRad">放射線と主な放射線</string>
+<string name="load_data_title">読み込み中</string>
+<string name="magnetic_mom">磁気能率</string>
+<string name="main">メインメニュー</string>
+<string name="mass">質量</string>
+<string name="mean_square">平均二乗</string>
+<string name="more_about">&#149; この核種のより詳細を&lt;a href=> NDS web &lt;/a>ウェブサイトで見る。  &lt;br>&#149;  不確かさの表示: 12.3(11)は12.3 ± 1.1を意味します。   &lt;br>&#149; データの意味については手引きをご参照ください。 </string>
+<string name="msg_nobranching">非確定崩壊</string>
+<string name="n_prompt">N</string>
+<string name="nds_tag">IAEA Nuclear Data Section提供</string>
+<string name="new_in_ib">Isotope Browserの更新内容</string>
+<string name="no_results">該当する核種がありません</string>
+<!--string name="nuc_input_help">9C あるいは C あるいは 6</string-->
+<string name="nuclide">核種</string>
+<!--
+<string name="one">核種が</string>
+
+
+<string name="other">核種が</string>
+-->
+<string name="orderby">による並び</string>
+<string name="ordering">表示順序</string>
+
+<string name="parents">親核</string>
+<string name="pref_language">言語</string>
+<string name="pref_nuclides_orderby">核種の表示順序</string>
+<string name="pref_radiation_orderby">放射線の表示順序</string>
+<string name="pref_value_orderbyenergy">エネルギー</string>
+<string name="pref_value_orderbyhalflife">半減期</string>
+<string name="pref_value_orderbyintensity">強度</string>
+<string name="pref_value_orderbynandz">中性子数、そして陽子数</string>
+<string name="pref_value_orderbyzandn">陽子数、そして中性子数</string>
+<string name="pref_decaychain">崩壊系列表示</string>
+<string name="pref_value_showparents">全ての親核を表示</string>
+<string name="preferences">設定</string>
+<string name="radiation_energy_lbl">放射エネルギー</string>
+<string name="Radiation_prompt">放射線</string>
+<string name="read">閉じる</string>
+<string name="resonance_int">検索結果</string>
+<string name="result_list">結果一覧</string>
+
+<plurals name="search_results">
+<item quantity="one">%1$d 核種が \"%2$s\": </item>
+<item quantity="other">%1$d 核種が \"%2$s\": </item>
+</plurals>
+<!--  in japanese "see the" + "decay chain" has the terms reversed. here the string "see the" is empty and the string decaychain has the entrire wording -->
+<string name="see_the">""</string>
+<string name="stable_prompt">安定</string>
+<string name="tentative">ENSDF評価（暫定）</string>
+<string name="ther_n_capt">熱中性子捕獲断面積</string>
+<string name="uncertain">不確定</string>
+<string name="uraniumTentative">1952年の水爆実験の灰の中から間接的に発見された核種</string>
+<string name="warn_no_input">最低一つのパラメータを入力する必要があります。</string>
+<string name="warning">注意</string>
+<string name="width">幅</string>
+<string name="z_prompt">Z</string>
+
+<string name="help"><![CDATA["
+<b><br><span style="color:#194CAF">手引き</span></b>
+<br><b>設定パネルで言語の変更ができます。</b>
+<br>元素を選択するか元素記号(例 xe)、原子番号(例 54)、あるいは核種(例 135xe)を入力することにより検索が自動的にはじまります。
+<br>詳細情報を表示するためには検索結果で核種に触れてください。
+<br>このデータベースは基底状態と半減期100E-9秒以上の異性体を含みます。
+<br><b><br><span style="color:#194CAF">チャート</span></b>
+<br>核図表中の選択された核種を表示します。有効なクエリがない場合は全核種が表示されます。
+<br>色は主な崩壊様式を表します。
+<br>核種名を表示するには<b>拡大</b>を押してください。要約データを表示するにはさらに押してください。
+<br>詳細ページを表示するには<b>触れてください。</b>
+<br>核種を<b>長押し</b>することで<b>崩壊系列</b>が表示されます。これには分岐比のある全ての基底状態の崩壊様式が含まれます。破線は二次崩壊様式を表します。
+<br>系列中の上流の<b>親核</b>の表示/非表示は設定で切り替えられます。
+<br>自発的核分裂と"?"で表示される分岐比は図示されません。
+<br>チャートをリセットするには同じ核種を長押ししてください。
+<br><b><br><span style="color:#194CAF">詳細検索</span></b>
+<br>上級者パネルが表示されている時に<b>実行</b>を押してください。非表示のパネルに表示されているパラメータは検索に影響しません。
+<br><b><br><span style="color:#194CAF">結果一覧</span></b>
+<br>初期設定ではZ,N順(<b>設定</b>にて変更可)。項目に触れると詳細を表示します。
+<br><b><br><span style="color:#194CAF">不確かさ</span></b>
+<br>推定値の最後の桁数に対応する部分が括弧内に表示されます。例: 12.34(123)は12.34+-1.23。
+<br><b><br><span style="color:#194CAF">詳細表示</span></b>
+<br><b>Z, N</b> 
+<br>陽子数と中性子数
+<br><b>J\u03C0</b> 
+<br>全角運動量とパリティ。未確定の値は括弧内に表示されます。
+<br><b>存在比</b>
+<br>モル比での同位体比
+<br><b>半減期</b>
+<br>ある物質中の当該核種の半分が放射性崩壊するのに要する時間
+<br><b>親核種</b>
+<br>可能な親核種。崩壊系列の上流を追うには親核をクリックしてください。
+<br><b>崩壊様式</b>
+<br>チャート上で見る場合には<b>崩壊系列</b>に触れてください。
+<br>崩壊系列の上流あるいは下流を見る場合には親核あるいは娘核に触れてください。
+<br>%規格化に関する注釈：
+<br>ec β+  100\u0025<br>β+  p 23\u0025
+<br>はEC+β+崩壊が100\u0025でそのうち23\u0025がβ+p崩壊であることを意味します。
+<br><b>放射線</b>
+<br>各崩壊様式につき、最も強い放射線およびその最も強い放射線に対して1%以上の強度を持つ放射線が線種ごとに表示されます
+<br>β崩壊については平均エネルギーと最大エネルギーが表示されます。
+<br>娘核が表出する光子が含まれます。
+<br>強度順の表示からエネルギー順の表示に変えるには設定を使ってください。
+<br><b>Q値</b>
+<br>基底状態の崩壊により得られるエネルギー
+<br><b>SnとSp</b>
+<br>中性子・陽子分離エネルギー
+<br><b>磁気能率</b>
+<br>磁気双極子能率(μN)
+<br><b>電気能率</b>
+<br>電気四重極子能率 (b)
+<br><b>核子あたり結合エネルギー</b>
+<br>核子あたりの結合エネルギー (keV)
+<br><b>熱中性子捕獲断面積</b>
+<br>約0.025 eVの運動エネルギーをもつ中性子の捕獲断面積
+<br><b>共鳴積分</b>
+<br>バーン単位での中性子吸収断面積の共鳴領域にわたる積分値
+<br><b>ヴェストコットg因子</b>
+<br>マクスウェル平均断面積の2200 m/s (熱)中性子断面積に対する比
+<br>注；C.H.ヴェストコットは1963年にIAEAに着任しNuclear Data Sectionを発足させました。
+<br><b>荷電半径</b>
+<br>荷電半径の二乗平均平方根 (fm)
+<br>中性子に対しては二乗平均 (fm2)
+<br><b>熱中性子累積核分裂収率</b>
+<br>ある熱中性子核分裂後無限時間後に生成される全原子数
+<br><a href="http://www-nds.iaea.org">IAEA Nuclear Data Section</a> へ
+<br><b><br><span style="color:#194CAF">データ出典</span></b>
+<br><b>主な出典</b>
+<br>Evaluated Nuclear Structure Data File (ENSDF)。ENSDFはIAEAの支援により核構造・崩壊データネットワークが維持しています。
+<br><b>Q値、原子質量、分離エネルギー</b>
+<br>Atomic Mass Evaluation 2014
+<br><b>存在比</b>
+Nubase 2012
+<br><b>熱中性子断面積</b>
+<br>S.F. Mughabghab, Atlas of Neutron Resonances Elsevier Science, 6th Edition, Februay 15 2018,
+<br>N.E. Holden in Handbook of Chemistry and Physics 99Th Edition; <br>I. Dillmann, R. Plag, F. Käppeler and T. Rauscher in KADoNiS v0.3; <br>J. Kopecky in UKAEA-R(15)30.
+(Livechartに表示されている通り)
+<br><b>ヴェストコットg因子</b>
+<br>Mughabghab, INDC-NDS-0440
+<br><b>荷電半径</b>
+<br>I. Angeli, K. Marinova ADNDT 99 (2013)
+<br><b>熱中性子核分裂収率</b>
+<br>Joint Evaluated Fission and Fusion File JEFF 3.1.1
+"
+]]></string>
+</resources>

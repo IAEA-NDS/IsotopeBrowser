@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.navigation.NavigationView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="left"
+    android:fitsSystemWindows="true"
+    android:backgroundTint="@color/app_title_bkg"
+    app:itemTextColor="@color/drawer_item"
+    app:headerLayout="@layout/nav_header_main"
+    app:menu="@menu/activity_main_drawer"
+    app:itemTextAppearance="@style/myCustomMenuTextApearance"/>

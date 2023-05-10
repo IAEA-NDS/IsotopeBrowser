@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--string name="Radiation_prompt">Rayonnement de décroissance</string-->
+<string name="Radiation_prompt">Rayonnement</string>
+<string name="a_prompt">A</string>
+<string name="about_prefix">"Développé par la Section des Données Nucléaires (NDS) de l\'IAEA"</string>
+<string name="abundance">Ab.</string>
+<string name="abundance_lbl">Abondance</string>
+<string name="and">et</string>
+<string name="app_name">Isotope Browser</string>
+<string name="avg_en">"Én. Moy[keV]"</string>
+<string name="table_title_rad">Avg. En. [keV]ANDInt. % AND En. max. [keV]  AND En. EC [keV] AND En. [keV]  </string>
+
+<string name="mass_excess">Mass excess</string>
+<string name="specific_activity" >Specific act.y</string>
+<string name="decay_constant">Decay const.</string>
+<string name="radiative_capture">Radiative capture</string>
+<string name="fission">"Fission"</string>
+<string name="absorption">"Absorption"</string>
+<string name="n_fission">"(n,fission)"</string>
+
+<string name="between">entre</string>
+<string name="binding_energy">Énergie de liaison</string>
+<string name="btn_search_label">Go</string>
+<string name="charge_rad">Rayon de charge</string>
+<string name="chart_prompt">Charte</string>
+<string name="choose_dec">Choisissez un mode de décroissance</string>
+<string name="choose_rad">Choisissez un type de rayonnement</string>
+<string name="cum_ther_fy">Production de fission cumulée induite par neutrons thermiques</string>
+<string name="decay">décroissance</string>
+<!--string name="decay_prompt">mode de décroissance</string-->
+<string name="decay_rad">rayonnement de décroissance</string>
+
+<string name="decay_prompt">Décroissance</string>
+
+
+<string name="decaychain">chaîne de décroissance</string>
+<string name="decays">Décroissances</string>
+<string name="electric_mom">Moment électrique</string>
+<string name="element_groups">Métaux Alcalins, Métaux Alcalino-terreux,Métaux de transition,Métaux de post-transition,Métalloïdes,Autres non-Métaux, Halogènes,Gaz Nobles,Lanthanides,Actinides</string>
+<string name="elements_alpha_prompt">Trié par nom</string>
+<string name="elements_prompt">Élément</string>
+
+<string name="elements_names">"Neutron,
+Hydrogène,
+Hélium,
+Lithium,
+Béryllium,
+Bore,
+Carbone,
+Azote,
+Oxygène,
+Fluor,
+Néon,
+Sodium,
+Magnésium,
+Aluminium,
+Silicium,
+Phosphore,
+Soufre,
+Chlore,
+Argon,
+Potassium,
+Calcium,
+Scandium,
+Titane,
+Vanadium,
+Chrome,
+Manganèse,
+Fer,
+Cobalt,
+Nickel,
+Cuivre,
+Zinc,
+Gallium,
+Germanium,
+Arsenic,
+Sélénium,
+Brome,
+Krypton,
+Rubidium,
+Strontium,
+Yttrium,
+Zirconium,
+Niobium,
+Molybdène,
+Technétium,
+Ruthénium,
+Rhodium,
+Palladium,
+Argent,
+Cadmium,
+Indium,
+Étain,
+Antimoine,
+Tellure,
+Iode,
+Xénon,
+Césium,
+Barium,
+Lanthane,
+Cérium,
+Praséodyme,
+Néodyme,
+Prométhium,
+Samarium,
+Europium,
+Gadolinium,
+Terbium,
+Dysprosium,
+Holmium,
+Erbium,
+Thulium,
+Ytterbium,
+Lutécium,
+Hafnium,
+Tantale,
+Tungstène,
+Rhénium,
+Osmium,
+Iridium,
+Platine,
+Or,
+Mercure,
+Thallium,
+Plomb,
+Bismuth,
+Polonium,
+Astate,
+Radon,
+Francium,
+Radium,
+Actinium,
+Thorium,
+Protactinium,
+Uranium,
+Neptunium,
+Plutonium,
+Américium,
+Curium,
+Berkélium,
+Californium,
+Einsteinium,
+Fermium,
+Mendélévium,
+Nobélium,
+Lawrencium,
+Rutherfordium,
+Dubnium,
+Seaborgium,
+Bohrium,
+Hassium,
+Meitnérium,
+Darmstadtium,
+Roentgenium,
+Copernicium,
+Nihonium,
+Flérovium,
+Moscovium,
+Livermorium,
+Tennessine,
+Oganesson,
+Ununennium,
+Unbinilium"</string>
+
+<string name="feedback">Votre réaction</string>
+<string name="from">" "</string>
+<string name="half_life">Demi-vie</string>
+<string name="half_life_unit_prompt">Unité</string>
+<string name="half_life_units">ps,ns,µ s,ms,s,m,h,j,A</string>
+
+<string name="iaeands">"Section des Données Nucléaires (NDS) de l\'IAEA"</string>
+<string name="jplike">"J\u03C0 "</string>
+<string name="label_prefs">Paramètres</string>
+<string name="lblAdvSearch">Expert</string>
+<string name="lblClear">Effacer</string>
+<string name="lblHelp">Aide</string>
+<string name="lblSearchDecRad">Décroissance et principaux Rayonnements</string>
+<string name="lbl_message_wait">Patientez</string>
+<string name="load_data_title">Chargement</string>
+<string name="magnetic_mom">Moment magnétique</string>
+<string name="main">Accueil</string>
+<string name="mass">Masse</string>
+<string name="mean_square">quadratique moyen</string>
+<string name="more_about">"Plus d\'informations sur le Web du  &lt;a href=>NDS  &lt;/a&gt;"</string>
+<string name="msg_nobranching">Mode de décroissance non connu</string>
+<string name="n_prompt">N</string>
+<string name="nds_tag">"Fourni par la Section des Données Nucléaires (NDS) de l\'IAEA"</string>
+<string name="new_in_ib">"Nouveau dans l\'Isotope Browser"</string>
+<string name="no_results">Pas de nucléide pour</string>
+
+<string name="nuclide">Nucléide</string>
+
+<string name="orderby">trié par</string>
+<string name="ordering">tri</string>
+<!--string name="other">nuclides pour</string-->
+<string name="parents">Precurseurs</string>
+<string name="pref_decaychain">Chaîne de décroissance</string>
+<string name="pref_language">Langue</string>
+<string name="pref_nuclides_orderby">Tri par nucléides</string>
+<string name="pref_radiation_orderby">Tri par rayonnements de décroissance</string>
+<string name="pref_value_orderbyenergy">Énergie</string>
+<string name="pref_value_orderbyhalflife">Demi-vie</string>
+<string name="pref_value_orderbyintensity">Intensité</string>
+<string name="pref_value_orderbynandz">N et Z</string>
+<string name="pref_value_orderbyzandn">Z et N</string>
+<string name="pref_value_showparents">Afficher tous les parents</string>
+<string name="preferences">Préférences</string>
+<string name="radiation_energy_lbl">Énergie de rayonnement</string>
+<string name="read">fermer</string>
+<string name="resonance_int">Intégrale de résonnance</string>
+<string name="result_list">Liste des résultats</string>
+
+<string name="see_the">voir la</string>
+<string name="stable_prompt">Stable</string>
+<plurals name="search_results">
+<item quantity="one">%1$d nuclide pour \"%2$s\": </item>
+<item quantity="other">%1$d nuclides pour \"%2$s\": </item>
+</plurals>
+
+<string name="tentative">"indiqué comme \"Provisoire\" dans l\'évaluation ENSDF"</string>
+<string name="ther_n_capt">Capture de neutrons thermiques</string>
+<string name="uncertain">Incertain</string>
+<string name="uraniumTentative">Isotope découvert indirectement dans les débris des essais thermonucléaires de 1952</string>
+<string name="warn_no_input">Vous devez fournir au moins un paramètre</string>
+<string name="warning">Avertissement</string>
+<string name="width">Largeur</string>
+<string name="z_prompt">Z</string>
+
+<string name="help"><![CDATA["<b><br><span style="color:#194CAF">Guide</span></b>
+<br><b><br><span style="color:#194CAF">Changer de langue</span></b> en utilisant le menu des \“préférences\”.
+<br><b><br><span style="color:#194CAF">Choisissez un élément</span></b> (ou donnez un <b>Symbole</b>, par exemple xe, ou un <b>Numéro Atomique</b>, par ex. 54, ou un <b>Nucléide</b>, par ex. 135xe), la recherche commence automatiquement
+<br><b><br><span style="color:#194CAF">Tapez</span></b> sur un les articles de la liste des résultats pour obtenir des informations détaillées.
+<br><b>La Base de Donnée comprend les états fondamentaux et les isomères de demi-vie > 100 ns</b>
+<br><b><br><span style="color:#194CAF">La Charte</span></b>
+<br>Présente les nucléides sélectionnés sur la Charte de Nucléides. Si aucune demande n’a été activée, tous les nucléides sont présents
+<br><b>La couleur</b>  représente le mode de décroissance principal.
+<br><b>Agrandissez</b> pour voir le nom des noyaux. Agrandissez plus pour avoir l’ensemble des données.
+<br>Un <b>Tap</b> permet d’ouvrir une page avec ses détails.
+<br><b>La chaîne de décomposition</b> est affichée en <b>appuyant</b> longuement sur un nuclide. Elle comprend tous les modes de désintégration. Les lignes pointillées représentent des modes de désintégration secondaires.
+<br>Les precurseurs dans la chaîne peuvent être affichés / cachés en utilisant les préférences.
+<br>Les taux de fission spontanée et rapport de branchement marqués comme \"?\" ne sont pas affichés.
+<br>Appuyez longuement sur un nuclide pour réinitialiser le graphique
+<br><b><br><span style="color:#194CAF">Expert </span></b>
+<br>Lorsque le panneau Expert est visible, appuyez sur <b>Go</b> pour commencer la recherche. <b>Lorsque le panneau est caché, ses paramètres n\'influent pas sur la requête</b>
+<br><b><br><span style="color:#194CAF">Liste des résultats</span></b> 
+<br>Le tri par défaut est fait par Z, N. Utilisez les <b>préférences</b> pour le modifier. Cliquez sur un élément pour accéder à sa page de détail
+<br><b><br><span style="color:#194CAF">Incertitude de mesure</span></b> 
+<br>Sont entre parenthèses, et se réfèrent au dernier (s) chiffre (s) significatif (s). 12,34 (123) signifie 12,34 + - 1,23
+<br><b><br><span style="color:#194CAF">Page de détail</span></b>
+<br><b>Z,N</b><br>Nombre de protons, neutrons
+<br><b>Jp </b><br>Moment angulaire total et parité. La valeur est entre parenthèses lorsque l\'attribution n\'est pas certaine
+<br><b>Abondance </b><br>L\'abondance isotopique en tant que fraction molaire
+<br><b>Demi-vie </b><br>Temps requis pour la moitié des isotopes dans un échantillon pour subir une désintégration radioactive
+<br><b>Parents </b><br>Les nuclides precurseurs possibles. Cliquez sur le symbole du parent pour suivre la chaîne de désintégration vers le haut
+<br><b>Mode de décroissance </b><br>Cliquez sur la chaîne de désintégration pour le voir sur le graphique
+<br>Cliquez sur le symbole parent ou descendant pour suivre la chaîne de désintégration vers le haut ou vers le bas, respectivement
+<br>Note sur la normalisation des pourcentages:
+<br>ec \u03b2+ 100\u0025<br>\u03b2+ p 23\u0025
+<br>Signifie que toutes les decroissances sont capture d\' electron \u03b2+, dont 23\u0025 est \u03b2+ p
+<br><b>Rayonnement de décroissance</b> <br>À partir de chaque mode de désintégration, le 11 premieres lignes de rayonnement les plus intenses sont listées pour chaque type.
+<br>Pour le rayonnement bêta, l\'énergie moyenne est rapportée, ainsi que l\'énergie finale. Le défilement horizontal est activé lorsque la table est suffisament grande.
+<br>Les photons émis par le descendant sont aussi inclus.
+<br>Utilisez les préférences pour modifier le tri d\'intensité en énergie, ou vis-versa
+<br><b>Q  </b><br>L\'énergie disponible par la désintégration de l\'état fondamental
+<br><b>Sn et Sp </b><br>L\'énergie de séparation des neutrons et des protons
+<br><b>Moment magnétique </b><br>Moment dipolaire magnétique, exprimé en magnetons nucléaires
+<br><b>Moment électrique </b><br>Moment quadrupolaire électrique, exprimé en barns
+<br><b>Énergie de liaison/A </b><br>L\'énergie de liaison par nucléon, en keV
+<br><b>Capture de neutrons thermiques </b><br>Section de capture pour un neutron à l\'énergie cinétique de ~ 0,025 eV
+<br><b>Integral de  résonance</b><br>Intégral de la section d\'absorption de neutrons sur la région d\'énergie des résonances, en barns
+<br><b>Westcott g </b><br>Le rapport de la section moyenne Maxwellienne à la section (thermique) de 2200 m/s
+<br>En aparté, C.H. Westcott a rejoint l\'AIEA en 1963 et a créé la Section des Données Nucléaires
+<br><b>Rayon de charge</b> <br>Carré de la racine du rayon de charge, exprimé en fm.<br>Pour le neutron, la valeur du carrée moyen est donnée, exprimée en fm<sup>2</sup>
+<br><b>Production de fission cumulée induite par neutrons thermiquess </b><br>Nombre total d\'atomes produits au fil du temps après une fission provoquée par un neutron d\'énergie thermique
+<br><b><br><span style="color:#194CAF">Visitez</span></b> <a href="https://www-nds.iaea.org">IAEA Nuclear Data Section</a>
+<br><b><br><span style="color:#194CAF">Sources de donnéess</span></b>
+<br><b>Principal </b><br>Evaluated Nuclear Structure Data Fichier. L\' ENSDF est mantenue par l\' \"International Nuclear Structure and Decay Data network\" sous l\'auspice de l\' AIEA. 
+<br><b>Q, Masse Atomique,  Énergie Sp et Sn </b><br>Atomic Mass Evaluation 2016
+<br><b>Abondances </b><br>Nubase 2012
+<br><b>Capture de neutrons thermiques </b>
+<br>S.F. Mughabghab, Atlas of Neutron Resonances Elsevier Science, 6th Edition, Februay 15 2018, as presented in the <a href="http://www-nds.iaea.org//relnsd/NdsEnsdf/neutroncs.html">Livechart</a>
+<br>N.E. Holden in Handbook of Chemistry and Physics 99Th Edition; <br>I. Dillmann, R. Plag, F. Käppeler and T. Rauscher in KADoNiS v0.3; <br>J. Kopecky in UKAEA-R(15)30.
+<br><b>Westcott g </b><br>Mughabgahb INDC-NDS-0440
+<br><b>Rayon de charge </b><br>I. Angeli, K. Marinova ADNDT 99 (2013)
+<br><b>Production de fission cumulée </b><br>Joint Evaluated Fission et Fusion Fichier JEFF 3.1.1
+
+"]]></string>
+</resources>

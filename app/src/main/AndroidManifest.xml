@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ib_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ib_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Nuclides">
+
+        <activity android:name=".NuclidesBrowser"  android:exported="true" android:configChanges="orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--  List of Nuclides . -->
+        <activity android:name=".NuclidesListActivity"
+            tools:ignore="Instantiatable" android:exported="true" android:configChanges="orientation|screenSize"></activity>
+
+        <!--  Periodic Table. -->
+        <activity android:name="iaea.nds.mendel.PeriodicTableActivity"
+            tools:ignore="Instantiatable"  android:exported="true" android:configChanges="orientation|screenSize"></activity>
+
+        <!--  Nuclide Chart -->
+        <activity android:name="iaea.nds.nuclides.LivechartActivity"
+            tools:ignore="Instantiatable"  android:exported="true" android:configChanges="orientation|screenSize"></activity>
+
+        <!--  Nuclide's Detail -->
+        <activity android:name="iaea.nds.nuclides.NuclidesActivity"
+            tools:ignore="Instantiatable"  android:exported="true" android:configChanges="orientation|screenSize"></activity>
+
+        <!-- Preferences -->
+        <activity android:name=".PreferenceActivity"
+            tools:ignore="Instantiatable"  android:exported="true" android:configChanges="orientation|screenSize"> </activity>
+
+    </application>
+
+</manifest>

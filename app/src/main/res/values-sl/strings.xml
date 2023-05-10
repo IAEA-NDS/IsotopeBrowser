@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="a_prompt">A</string>
+<string name="about_prefix">Izdelano na Odseku za jedrske podatke IAEA-NDS</string>
+<string name="abundance">i.d.</string>
+<string name="abundance_lbl">Izotopski deleû</string>
+<string name="and">in</string>
+<string name="app_name">Pregledovalnik izotopov</string>
+<string name="avg_en">"Avg En[keV]"</string>
+
+<string name="mass_excess">Mass excess</string>
+<string name="specific_activity" >Specific act.y</string>
+<string name="decay_constant">Decay const.</string>
+<string name="radiative_capture">Radiative capture</string>
+<string name="fission">"Fission"</string>
+<string name="absorption">"Absorption"</string>
+<string name="n_fission">"(n,fission)"</string>
+<string name="table_title_rad">Avg. En. [keV]ANDInt. % AND En. max. [keV]  AND En. EC [keV] AND En. [keV]  </string>
+
+<string name="between">med</string>
+<string name="binding_energy">Vezavna energija</string>
+<string name="btn_search_label">Pojdi</string>
+<string name="charge_rad">Radij jedrskega naboja</string>
+<string name="chart_prompt">Preglednica</string>
+<string name="choose_dec">Izberi vrsto razpada</string>
+<string name="choose_rad">Izberi vrsto sevanja</string>
+<string name="cum_ther_fy">Skupni fisijski pridelek za termicne nevtrone</string>
+<string name="decay">Razpad</string>
+<string name="decay_prompt">Nacin razpada</string>
+<string name="decay_rad">Sevanje pri razpadu</string>
+<string name="decaychain">Razpadna veriga</string>
+<string name="decays">Razpadi</string>
+<string name="electric_mom">Elektricni moment</string>
+<string name="element_groups">alkalijske kovine, zemljo-alkalijske kovine, prehodne kovine, öibke kovine, polkovine, druge nekovine, halogeni, ûlahtni plini, lantanoidi, aktinoidi</string>
+<string name="elements_names">"Nevtron,
+Vodik,
+Helij,
+Litij,
+Berilij,
+Bor,
+Ogljik,
+Dušik,
+Kisik,
+Fluor,
+Neon,
+Natrij,
+Magnezij,
+Aluminij,
+Silicij,
+Fosfor,
+Žveplo,
+Klor,
+Argon,
+Kalij,
+Kalcij,
+Skandij,
+Titan,
+Vanadij,
+Krom,
+Mangan,
+Železo,
+Kobalt,
+Nikelj,
+Baker,
+Cink,
+Galij,
+Germanij,
+Arzen,
+Selen,
+Brom,
+Kripton,
+Rubidij,
+Stroncij,
+Itrij,
+Cirkonij,
+Niobij,
+Molibden,
+Tehnecij,
+Rutenij,
+Rodij,
+Paladij,
+Srebro,
+Kadmij,
+Indij,
+Kositer,
+Antimon,
+Telur,
+Jod,
+Ksenon,
+Cezij,
+Barij,
+Lantan,
+Cerij,
+Prazeodim,
+Neodim,
+Prometij,
+Samarij,
+Evropij,
+Gadolinij,
+Terbij,
+Disprozij,
+Holmij,
+Erbij,
+Tulij,
+Iterbij,
+Lutecij,
+Hafnij,
+Tantal,
+Volfram,
+Renij,
+Osmij,
+Iridij,
+Platina,
+Zlato,
+Živo srebro,
+Talij,
+Svinec,
+Bizmut,
+Polonij,
+Astat,
+Radon,
+Francij,
+Radij,
+Aktinij,
+Torij,
+Protaktinij,
+Uran,
+Neptunij,
+Plutonij,
+Americij,
+Kirij,
+Berkelij,
+Kalifornij,
+Ajnštajnij,
+Fermij,
+Mendelevij,
+Nobelij,
+Lavrencij,
+Raderfordij,
+Dubnij,
+Siborgij,
+Borij,
+Hasij,
+Majtnerij,
+Darmštatij,
+Rentgenij,
+Kopernicij,
+Nihonij,
+Flerovij,
+Moskovij,
+Livermorij,
+Tennessinij,
+Oganessij,
+Ununennij,
+Unbinilij"</string>
+<string name="elements_alpha_prompt">Razvrsti po imenu</string>
+<string name="elements_prompt">Element</string>
+<string name="feedback">Povratne informacije</string>
+<string name="from">od</string>
+<string name="half_life">Razpolovna doba</string>
+<string name="half_life_unit_prompt">Enota</string>
+<string name="half_life_units">ps,ns,µ, s,ms,s,m,u,d,L</string>
+<string name="iaeands">Odsek za jedrske podatke IAEA-NDS</string>
+
+<string name="jplike">J\u03C0 kot</string>
+<string name="label_prefs">Nastavitve</string>
+<string name="lbl_message_wait">Prosim pocakaj</string>
+<string name="lblAdvSearch">Ekspert</string>
+<string name="lblClear">Ponastavi</string>
+<string name="lblHelp">Pomoc</string>
+<string name="lblSearchDecRad">Razpad in glavne vrste sevanja</string>
+<string name="load_data_title">Nalagam</string>
+<string name="magnetic_mom">Magnetni moment</string>
+<string name="main">Osnovni</string>
+<string name="mass">Masa</string>
+<string name="mean_square">kvadratno povprecje</string>
+<string name="more_about">Vec na  &lt;a href=> NDS &lt;/a>  spletni strani</string>
+<string name="msg_nobranching">Ni ugotovljenega razpada</string>
+<string name="n_prompt">N</string>
+<string name="nds_tag">Dano na uporabo s strani IAEA-NDS</string>
+<string name="new_in_ib">"Novo v pregledovalniku izotopov"</string>
+<string name="no_results">Noben nuklid ne ustreza</string>
+<!--string name="nuc_input_help">9C ali C ali 6</string-->
+<string name="nuclide">Nuklid</string>
+<!--string name="other">Nuklid za </string-->
+
+<string name="orderby">razvrsti po</string>
+<string name="ordering">razvröcanje</string>
+
+<string name="parents">Predniki</string>
+<string name="pref_language">Jeziki</string>
+<string name="pref_nuclides_orderby">Razvrstitev seznama nuklidov</string>
+<string name="pref_radiation_orderby">Razvrstitev razpadnega sevanja</string>
+<string name="pref_value_orderbyenergy">Energija</string>
+<string name="pref_value_orderbyhalflife">Razpolovna doba</string>
+<string name="pref_value_orderbyintensity">Intenziteta</string>
+<string name="pref_value_orderbynandz">N in Z</string>
+<string name="pref_value_orderbyzandn">Z in N</string>
+<string name="pref_decaychain">Prikaz razpadne verige</string>
+<string name="pref_value_showparents">Prikaûi vse prednike</string>
+<string name="preferences">Izbor nastavitev</string>
+<string name="radiation_energy_lbl">Energija sevanja</string>
+<string name="Radiation_prompt">Razp.sevanje</string>
+<string name="read">Zapri</string>
+<string name="resonance_int">Resonancni integral</string>
+<string name="result_list">Seznam rezultatov</string>
+
+<string name="see_the">glej</string>
+<string name="stable_prompt">Stabilen</string>
+
+
+<plurals name="search_results">
+<item quantity="one">%1$d Nuklid za \"%2$s\": </item>
+<item quantity="two">%1$d Nuklid za \"%2$s\": </item>
+<item quantity="few">%1$d Nuklid za \"%2$s\": </item>
+<item quantity="other">%1$d Nuklid za \"%2$s\": </item>
+</plurals>
+
+<string name="tentative">ENSDF evalvacija oznacena kot zacasna</string>
+<string name="ther_n_capt">Zajetje termicnih nevtronov</string>
+<string name="uncertain">Negotov</string>
+<string name="uraniumTentative">Izotop posredno najden v ostankih termonuklearnih testov izvedenih v letu 1952</string>
+<string name="warn_no_input">Vnesti moraö vsaj en parameter</string>
+<string name="warning">Opozorilo</string>
+<string name="width">äirina</string>
+<string name="z_prompt">Z</string>
+<string name="help"><![CDATA["
+<b><br><span style="color:#194CAF">Vodič</span></b>
+<br>Sprememba jezika preko panela Prednostnih izbir
+<br>Izberi element (ali njegov kemijski simbol, n.p.r. Xe, ali vrstno število, n.pr. 54, ali nuklid, n.p.r. 135Xe), iskanje se prične avtomatsko.
+<br>Klikni na postavko na seznamu rezultatov za podrobnejše informacije
+<br>Podatkovna baza vsebuje podatke za jedra v osnovnem stanju in za izomere z razpolovno dobo daljšo od 100 ns
+<br><b><br><span style="color:#194CAF">Preglednica</span></b>
+<br>Prikaže izbrane nuklide na Preglednici nuklidov. Vsi nuklidi so prikazani, če izbira ni aktivirana
+<br>Barva ponazarja glavni razpadni način
+<br>Povečaj da se prikažejo imena nuklidov, še bolj da se prikaže povzetek podatkov
+<br>Klikni za stran s podrobnimi podatki
+<br>Razpadna veriga se prikaže z dolgim klikom na nuklid. Veriga vsebuje vse razpadne načine v osnovno stanje, za katere obstajajo razvejitvena razmerja. Črtkane črte ponazarjajo sekundarne razpadne načine.
+<br>Predniki navzgor po verigi so lahko prikazani/skriti glede na nastavljene prednostne izbire
+<br>Razpadi preko spontane fisije in za razvejitvena razmerja označena  z "?" niso narisana
+<br>Dolgi klik na isti nuklid resetira preglednico
+<br><b><br><span style="color:#194CAF">Ekspertno iskanje</span></b>
+<br>Klikni "Pojdi", ko je viden Ekspertni panel da začneš z iskanjem. Če je panel skrit, njegovi parametri NE VPLIVAJO na povpraševanje
+<br><b><br><span style="color:#194CAF">Seznam rezultatov</span></b>
+<br>Avtomatsko privzeta razvrstitev je po Z in N. Nastavi Prednostne izbire za spremembo. Klikni postavko da dobišstran s podrobnimi informacijami
+<br><b>Negotovosti</b>
+<br>se nahajajo v oklepajih in se nanašajo na zadnje številčne vrednosti; n.pr. 12.34(123) pomeni 12.34+-1.23
+<br><b><br><span style="color:#194CAF">Stran s podrobnostmi</span></b>
+<br><b>Z,N</b>
+<br>Število protonov in nevtronov
+<br><b>J\u03C0</b>
+<br>Kotni moment in parnost. Vrednost je podana v oklepaju kadar določitev  ni zanesljiva
+<br><b>Izotopski delež</b>
+<br>zotopski delež izražen kot molski delež (delež atomov izotopa v elementu)
+<br><b>Razpolovna doba</b>
+<br>Čas potreben da polovica atomov izotopa razpade
+<br><b>Predniki</b>
+<br>Možni predniki nekega nuklida. Klikni na simbol "Prednik" za prikaz razpadne verige prednikov
+<br><b>Razpadni načini</b>
+<br>Klikni na Razpadno verigo za prikaz preglednice
+<br>Klikni na simbol "Prednik" ali "Potomec" za prikaz razpadne verige navzgor ali navzdol
+<br>Opomba na normalizacijo procentov:
+<br>ec β+  100\u0025<br>β+  p 23\u0025
+<br>pomeni, da so vsi razpadi ec β+, od katerih je 23\u0025  β+ p
+<br><b>Razpadna sevanja</b>
+<br>Od vsakega razpadnega načina je podanih 11 najmočnejših črt za vsako vrsto sevanja
+<br>Za beta sevanje je podana povprečna energija, kot tudi končna energija. Horizontalno rolanje je možno, kadar je tabela velika.
+<br>Vključeni so tudi fotoni, emitirani iz potomcev
+<br>Uporabi panel Prednostinih izbir za izbiro med razvrščanjem po intenziteti ali energiji
+<br><b>Q-vrednosti</b>
+\Razpoložljiva energija pri razpadu v osnovno stanje
+<br><b>Sn in Sp</b>
+Separacijska energija za nevtron in proton
+<br><b>Magnetni moment</b>
+Magnetni dipolni moment, izražen v jedrskih magnetonih
+<br><b>Električni moment</b>
+Električni kvadrupolni moment, izražen v barnih
+<br><b>Vezavna energija/A</b>
+Vezavna energija na nukleon v enotah keV
+<br><b>Presek za zajetje termičnih nevtronov</b>
+Presek za zajetje netronov z enegijo ~0.0253 eV
+<br><b>Resonančni integral</b>
+Integral reakcijske hitrosti absorpcije v resonančnem območju  (0.5 eV - \u221E) v cistem 1/Espektru, v enotah barn
+<br><b>Westcottov g-faktor</b>
+Razmerje √π/2 \u00D7 preseka povprečenega v čistem termičnem Maxwellskem spektru in preseka za  termične nevtrone s hitrostjo 2200 m/s (z energijo 0.0253 eV)
+<br>Opomba: C.H. Westcott je služboval na IAEA in je leta 1964 ustanovil Odsek za jedrske podatke
+<br><b>Radij jedrskega naboja</b>
+Koren vadratno povprecenega radija jedrskega naboja, izražen v fm
+<br>Za nevtrone je podana kvadratno povprecena vrednost, izražena v fm2
+<br><b>Skupni fisijski pridelek za termične nevtrone</b>
+<br>Celotno število atomov vsakega cepitvenega produkta iz ene cepitve povzročene s termičnimi nevtroni
+<br><b>Obiščite spletno stran Odseka za jedrske podatke</b>
+<br>
+<br><b><br><span style="color:#194CAF">Viri podatkov</span></b>
+<br><b>Glavni</b>
+<a href="http://www-nds.iaea.org/ensdf">Evaluated Nuclear Structure Data Files</a>
+<br><b>Q-vrednosti, atomske mase in separacijske energije</b><br><a href="http://amdc.impcas.ac.cn/evaluation/data2012/ame.html">Atomic Mass Evaluation 2016</a>
+<br><b>Izotopski deleži</b><br><a href="http://amdc.impcas.ac.cn/evaluation/data2012/nubase.html">Nubase 2012</a>
+<br><b>Preseki za termicne nevtrone</b>
+<br>S.F. Mughabghab, Atlas of Neutron Resonances Elsevier Science, 6th Edition, Februay 15 2018, as presented in the <a href="http://www-nds.iaea.org//relnsd/NdsEnsdf/neutroncs.html">Livechart</a>
+<br>N.E. Holden in Handbook of Chemistry and Physics 99Th Edition; <br>I. Dillmann, R. Plag, F. Käppeler and T. Rauscher in KADoNiS v0.3; <br>J. Kopecky in UKAEA-R(15)30.
+<br><b>Westcottov g-faktor</b><br>Mughabgahb  <a href="http://www-nds.iaea.org/publications/indc/indc-nds-0440/">INDC-NDS-0440</a>
+<br><b>Radiji jedrskih nabojev</b>
+I. Angeli, K. Marinova   <a href="http://dx.doi.org/10.1016/j.adt.2011.12.006">ADNDT 99 (2013)</a>
+<br><b>Pridelki cepitvenih produktov za termicne nevtrone</b>
+Joint Evaluated Fission and Fusion File JEFF 3.1.1
+"]]></string>
+
+
+</resources>

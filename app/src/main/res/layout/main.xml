@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layMain"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/default_background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/app_title_bkg"
+        android:orientation="horizontal"
+        android:paddingBottom="6dp" >
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true" >
+            <ImageButton
+               style="@style/button_drawer"
+                android:id="@+id/imgbuttonopendrawer"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/imageframe" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/helloTxt"
+            style="@style/app_title"
+
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:textSize="15sp" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" >
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/imageframe" />
+        </FrameLayout>
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/default_background"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:weightSum="1" >
+
+        <ScrollView
+            android:id="@+id/main_scroll"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/default_background"
+            android:isScrollContainer="true" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/default_background"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/layNucid"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/default_background"
+                    android:orientation="horizontal" >
+
+                    <!-- #00BB00 -->
+                    <!-- NUCID -->
+
+                    <Button
+                        android:id="@+id/btnChart"
+                        style="@style/btn_chart"
+                        android:layout_marginBottom="0dp"
+                        android:layout_marginRight="0dp"
+                        android:layout_weight="2.2"
+                        android:textSize="@dimen/btn_font_size" />
+
+                    <Button
+                        android:id="@+id/btnElements"
+                        style="@style/btn_elements"
+                        android:layout_marginBottom="0dp"
+                        android:layout_marginRight="0dp"
+                        android:layout_weight="2.4"
+                        android:textSize="@dimen/btn_font_size" />
+                    <EditText
+                        android:id="@+id/txtNucid"
+                        style="@style/edit_text_square"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.5"
+                        android:gravity="center"
+                        android:hint="@string/nuc_input_help"
+                        android:textSize="14sp" >
+                    </EditText>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layButtons"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/default_background"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingBottom="0sp"
+                    android:weightSum="9" >
+
+                    <Button
+                        android:id="@+id/btnGo"
+                        style="@style/btn_search"
+                        android:layout_width="0dp"
+                        android:layout_marginRight="0dp"
+                        android:layout_weight="3"
+                        android:textSize="@dimen/btn_font_size" />
+
+                    <Button
+                        android:id="@+id/buttonClear"
+                        style="@style/btn_clear"
+                        android:layout_width="0dp"
+                        android:layout_weight="3"
+                        android:textSize="@dimen/btn_font_size" />
+
+                    <Button
+                        android:id="@+id/btnAdvSearch"
+                        style="@style/btn_advanced"
+                        android:layout_margin="0sp"
+                        android:layout_weight="3"
+                        android:textSize="@dimen/btn_font_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layAdvSearch"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/default_background"
+                    android:orientation="vertical"
+                    android:paddingBottom="2sp"
+                    android:visibility="gone" >
+
+                    <!-- Z N A JP SELECTION -->
+
+                    <LinearLayout
+                        android:id="@+id/layMass"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/default_background"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/margin_wide">
+
+                        <EditText
+                            android:id="@+id/txtN"
+                            style="@style/edit_text"
+                            android:layout_height="@dimen/slim_spinner_height"
+                            android:layout_weight="1.2"
+                            android:ems="10"
+                            android:hint="@string/n_prompt"
+                            android:inputType="number"
+                            android:ellipsize="start"
+                            android:textSize="20sp" >
+                        </EditText>
+
+                        <EditText
+                            android:id="@+id/txtA"
+                            style="@style/edit_text"
+                            android:layout_height="@dimen/slim_spinner_height"
+                            android:layout_weight="1.2"
+                            android:ems="10"
+                            android:hint="@string/a_prompt"
+                            android:inputType="number"
+                            android:ellipsize="start"
+                            android:textSize="20sp" >
+                        </EditText>
+
+                        <EditText
+                            android:id="@+id/txtJp"
+                            style="@style/edit_text"
+                            android:layout_height="@dimen/slim_spinner_height"
+                            android:layout_weight="1.5"
+                            android:ems="10"
+                            android:hint="@string/jp_prompt"
+                            android:textSize="20sp" >
+                        </EditText>
+
+                        <CheckBox
+                            android:id="@+id/chkStable"
+                            style="@style/label_small"
+                            android:layout_marginLeft="7dip"
+                            android:layout_weight="3.5"
+                            android:text="@string/stable_prompt" />
+                    </LinearLayout>
+                    <!-- END Z N A SELECTION -->
+
+
+                    <!-- HALF LIFE -->
+
+                    <LinearLayout
+                        android:id="@+id/layHalf"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/default_background"
+                        android:orientation="horizontal" >
+
+                        <EditText
+                            android:id="@+id/txtHLLow"
+                            style="@style/edit_text"
+                            android:layout_height="@dimen/slim_spinner_height"
+                            android:layout_weight="2.3"
+                            android:ems="10"
+                            android:inputType="numberDecimal"
+                            android:textSize="20sp" >
+                        </EditText>
+
+                        <Spinner
+                            android:id="@+id/spinHLunitLow"
+                            style="@style/slim_spinner"
+                            android:layout_weight="3"
+                           />
+
+                        <TextView
+                            style="@style/label_small"
+                            android:layout_weight="2.5"
+                            android:text="@string/half_life_prompt" />
+
+                        <EditText
+                            android:id="@+id/txtHLHigh"
+                            style="@style/edit_text"
+                            android:layout_height="@dimen/slim_spinner_height"
+                            android:layout_weight="2.30"
+                            android:ems="10"
+                            android:inputType="numberDecimal"
+                            android:textSize="20sp" >
+                        </EditText>
+
+                        <Spinner
+                            android:id="@+id/spinHLunitHigh"
+                            style="@style/slim_spinner"
+                            android:layout_weight="3" />
+                    </LinearLayout>
+
+                    <!-- END HALF LIFE -->
+
+
+                    <!-- Decay and radiation search label -->
+
+                    <TextView
+                        android:id="@+id/lblSearchDecRad"
+                        style="@style/label_results"
+                        android:text="@string/lblSearchDecRad"
+                        android:textColor="@color/text_foreground"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <!-- DECAY MODE -->
+
+                    <LinearLayout
+                        android:id="@+id/layDecay"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/default_background"
+                        android:orientation="horizontal" >
+
+                        <Spinner
+                            android:id="@+id/spindDecayModes"
+                            style="@style/slim_spinner"
+                            android:layout_marginRight="5dip"
+                            android:layout_marginLeft="5dip"
+                            android:layout_weight="8" />
+
+                        <EditText
+                            android:id="@+id/txtDecPercLow"
+                            style="@style/edit_text"
+                            android:layout_height="@dimen/slim_spinner_height"
+                            android:layout_weight="2.4"
+                            android:ems="10"
+                            android:hint="@string/zero_prompt"
+                            android:inputType="numberDecimal"
+                            android:textSize="20sp" >
+                        </EditText>
+
+                        <TextView
+                            style="@style/label_small"
+                            android:layout_weight="3"
+                            android:text="@string/perc_decay" />
+
+                        <EditText
+                            android:id="@+id/txtDecPercHigh"
+                            style="@style/edit_text"
+                            android:layout_height="@dimen/slim_spinner_height"
+                            android:layout_weight="2.4"
+                            android:ems="10"
+                            android:hint="@string/hundred_prompt"
+                            android:inputType="numberDecimal"
+                            android:textSize="20sp" >
+                        </EditText>
+                    </LinearLayout>
+
+                    <!-- END DECAY MODE -->
+
+
+                    <!-- RADIATIONS -->
+
+                    <LinearLayout
+                        android:id="@+id/layRad"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/default_background"
+                        android:orientation="horizontal" >
+
+                        <Spinner
+                            android:id="@+id/spinRadTypes"
+                            style="@style/slim_spinner"
+                            android:layout_marginRight="5dip"
+                             android:layout_marginLeft="5dip"
+                            android:layout_weight="8" />
+
+                        <EditText
+                            android:id="@+id/txtRadEnLow"
+                            style="@style/edit_text"
+                            android:layout_height="@dimen/slim_spinner_height"
+                            android:layout_weight="2.4"
+                            android:ems="10"
+                            android:hint="@string/zero_prompt"
+                            android:inputType="numberDecimal"
+                            android:textSize="20sp" >
+                        </EditText>
+
+                        <TextView
+                            style="@style/label_small"
+                            android:layout_weight="3"
+                            android:text="@string/radiation_energy" />
+
+                        <EditText
+                            android:id="@+id/txtRadEnHigh"
+                            style="@style/edit_text"
+                            android:layout_height="@dimen/slim_spinner_height"
+                            android:layout_weight="2.4"
+                            android:ems="10"
+                            android:hint="@string/hundred_prompt"
+                            android:inputType="numberDecimal"
+                            android:textSize="20sp" >
+                        </EditText>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layCbDecChain"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/default_background"
+                        android:visibility="gone"
+                        android:orientation="horizontal" >
+                        <CheckBox
+                            android:id="@+id/chkDecayChain"
+                            style="@style/label_small"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="false"
+                            android:clickable="false"
+                            android:text="@string/decaychain_prompt" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1sp"
+                        android:layout_marginBottom="0sp"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginRight="10sp"
+                        android:layout_marginTop="5sp"
+                        android:background="@color/app_title"
+                        android:orientation="vertical" >
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- END RADIATION -->
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout android:layout_width="fill_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/news"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0sp"
+        android:background="@color/default_background"
+        android:paddingBottom="0dp"
+        android:paddingLeft="11dp"
+        android:paddingRight="16dp"
+        android:text="&lt;span>test&lt;/span>"
+        android:textColor="@color/help_text"
+        android:textSize="18dip" />
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0sp"
+
+        android:background="@color/default_background"
+        android:paddingBottom="5dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="@string/help"
+        android:textColor="@color/help_text"
+        android:textSize="18dip" />
+
+</LinearLayout>
+
+</ScrollView>
+
+
+</LinearLayout>
+

@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="app_name">Isotope Browser</string>
+
+<string name="iaeands">"IAEA Nuclear Data Section"</string>>
+
+<!-- Shown above search results when we receive a search request. -->
+<plurals name="search_results">
+<item quantity="one">%1$d nuclide per \"%2$s\": </item>
+<item quantity="other">%1$d nuclidi per \"%2$s\": </item>
+</plurals>
+
+<string name="mass_excess">Mass excess</string>
+<string name="specific_activity" >Specific act.y</string>
+<string name="decay_constant">Decay const.</string>
+<string name="radiative_capture">Radiative capture</string>
+<string name="fission">"Fission"</string>
+<string name="absorption">"Absorption"</string>
+<string name="n_fission">"(n,fission)"</string>
+<string name="table_title_rad">Avg. En. [keV]ANDInt. % AND En. max. [keV]  AND En. EC [keV] AND En. [keV]  </string>
+
+<!-- Search failure message. -->
+<string name="no_results">"&lt;b>Nessun nuclide &lt;/b> per %s"</string>
+
+
+<string name="help"><![CDATA[ "<b><br><span style="color:#194CAF">Guida</span></b>
+<br><b><br><span style="color:#194CAF">Cambia la lingua</span></b> nelle \"Preferenze\"
+<br><b><br><span style="color:#194CAF">Scegliere un elemento</span></b> (o inserire un <b>Simbolo</b>, es. xe, o un  <b>Numero Atomico</b>, es. 54, o un <b>Nuclide</b>, es. 135xe), la ricerca parte automaticamente
+<br><b><br><span style="color:#194CAF">Tap sulla lista</span></b> dei risultati per avere il dettaglio del nuclide
+<br><b>Il Database ha tutti gli stati fondamentali, e gli isomeri con T<sub>1/2</sub> > 100 ns </b>
+<br><b><br><span style="color:#194CAF">Mappa</span></b>
+<br>La mappa dei nuclidi mostra tutti in nuclidi se non c\'e nessuna ricerca gia\' effettuata con \"Cerca\"
+<br><b>Il colore</b> si riferisce al decadimento principale
+<br><b>Zoom</b> per vedere i simboli, zoom ulteriore per vedere piu\' informazioni
+<br><b>Tap</b> per andare alla pagina dettaglio del nuclide
+<br><b>La catena di decadimento</b> e\' mostrata con un <b>long tap</b> su un nuclide. Include tutti gli stati fondamentali per cui vi e\' un decadimento certo. Fissioni spontanee e decadimenti incerti (?) non sono mostrati
+<br>Long tap on sullo stesso nuclide per tornare alla visualizzazione normale
+<br>Le linee tratteggiate rappresentano modi di decadimento secondarii .
+<br><i>La mappa, se aperta dal pannello principale o dalla lista dei risultati, mostra i nuclidi filtrati dalla ricerca, altrimenti si apre mostrando lo stato con cui e\' stata chiusa precedentemente </i>
+<br><b><br><span style="color:#194CAF">Ricerca avanzata</span></b>
+<br>Quando si visualizzano i campi per la ricerca avanzata, si usi <b>Cerca</b> per iniziare la ricerca. <b>Quando il pannello e\' chiuso, la ricerca non ne considera campi anche se riempiti</b>
+<br><b><br><span style="color:#194CAF">Lista dei risultati</span></b>
+<br>L\'ordinamento standard e\' per z, n. Con le  <b>Preferenze</b> puo\' essere cambiato. Tap su un risultato per aprire la pagina di dettaglio
+<br><b><br><span style="color:#194CAF">Errori</span></b>
+<br>Sono indicati tra parentesi, e si riferiscono alle ultime cifre significative: 12.34 (123) indica 12.34 +- 1.23
+<br><b><br><span style="color:#194CAF">Pagina di dettaglio</span></b>
+<br><b>Z, N</b><br>Numero di protoni e neutroni
+<br><b>J\u03C0</b><br>Momento angolare totale e parita\'.  Se il valore e\' tra parentesi, l\'attribuzione non e\' certa
+<br><b>Abbondanza</b><br>Abbondanza isotopica in frazione molare : frazione di atomi di un isotopo in un elemento
+<br><b>Tempo di dimezzamento</b><br>Tempo in cui meta\' degli isotopi in un campione subiscono un decadimento
+<br><b>Genitori</b>
+<br>Nuclidi il cui decadimento genera direttamente il nuclide selezionato. Tap sul simbolo del genitore per risalire la catena di decadimento
+<br><b>Modi di decadimento</b><br>Tap su <b>catena di decadimento</b> per visualizzarla sulla mappa dei nuclidi<br>Tap sul simbolo del genitore o del prodotto di decadimento per muoversi lungo la catena
+<br>Nota sulle percentuali di decadimento:
+<br>ec \u03b2+ 100\u0025
+<br>\u03b2+ p 23\u0025
+<br>indica che tutti i decadimenti sono ec \u03b2+, di cui 23\u0025 sono \u03b2+ p
+<br><b>Radiazioni</b><br>Per ogni modo di decadimento, sono elencate le linee aventi intensita\' >1\u0025 rispetto alla line piu\' intensa linea di quel tipo.
+<br>Per la radiazione beta e\' indicata l\' energia media e l\'energia massima. Quando la tabella e\' molto larga, lo scorrimento orizzontale e\' abilitato.
+<br>Sono inclusi i fotoni emessi dal prodotto di decadimento.
+<br>con le <b>Preferenze</b> si puo\' scegliere se ordinare per intensita\' o energia
+<br><b>Q </b><br>Energia disponibile per il decadimento dello stato fondamentale
+<br><b>Sn and Sp</b><br>Energia di separazione per neutrone e protone
+<br><b>Momento magnetico</b><br>Momento di dipolo magnetico, in magnetoni nucleari
+<br><b>Momento elettrico</b><br>Momento elettrico di quadrupolo, in barn
+<br><b>Energian di legame/A </b><br>Energia di legame per nucleone, in keV
+<br><b>Sezione d\'urto per cattura di neutrone termico</b><br>Sezione d\'urto per cattura di neutrone con energia cinetica ~0.025 eV
+<br><b>Integrale di risonanza</b><br>Integrale della sezione d\'urto di assorbimento di neutrone nella regione di risonanza (0.5 eV - \u221E, in barn
+<br><b>Westcott g-factor</b><br>Rapporto di √π/2 per la media Maxwelliana della sezione d\'urto per neutrone con la sezione d\'urto per neutrone a 2200 m/s (termico 0.0253 eV)<br>Come nota, C.H. Westcott alla IAEA nel 1963 fondo\' la Nuclear Data Sectio
+<br><b>Raggio di carica</b><br>Media quadratica del raggio di carica, in fm. Per il neutrone, e\' data la media del quadrato, in fm<sup>2</sup>
+<br><b>Fissione da neutrone lento, frazioni cumulative</b><br>Numero totale di atomi prodotti, per ogni singolo prodotto di fissione, dopo tutti i decadimenti, da una fissione causata da un neutrone termico.
+<br><b><br><span style="color:#194CAF">Visita</span></b> la   <a href="http://www-nds.iaea.org">IAEA Nuclear Data Section</a>
+<br><b><br><span style="color:#194CAF">Sorgenti dei dati</span></b>
+<br><b>Principale</b><br><a href="http://www-nds.iaea.org/ensdf">Evaluated Nuclear Structure Data Files</a>. ENSDF e\' prodotto dall\' International Nuclear Structure and Decay Data network sotto gli auspici della IAEA.
+<br><b>Q,  masse atomiche, e energie di separazione</b><br><a href="http://amdc.impcas.ac.cn/evaluation/data2016/ame.html">Atomic Mass Evaluation 2016</a>
+<br><b>Abbondanze</b>
+<br><a href="http://amdc.impcas.ac.cn/evaluation/data2012/nubase.html">Nubase 2012</a>
+<br><b>Sezioni d\' urto per neutroni termici</b>
+<br>S.F. Mughabghab, Atlas of Neutron Resonances Elsevier Science, 6th Edition, Februay 15 2018, as presented in the <a href="http://www-nds.iaea.org//relnsd/NdsEnsdf/neutroncs.html">Livechart</a>
+<br>N.E. Holden in Handbook of Chemistry and Physics 99Th Edition; <br>I. Dillmann, R. Plag, F. Käppeler and T. Rauscher in KADoNiS v0.3; <br>J. Kopecky in UKAEA-R(15)30.
+<br><b>Westcott g-factor</b><br>Mughabgahb  <a href="http://www-nds.iaea.org/publications/indc/indc-nds-0440/">INDC-NDS-0440</a>
+<br><b>Raggi di carica</b><br>I. Angeli, K. Marinova   <a href="http://dx.doi.org/10.1016/j.adt.2011.12.006">ADNDT 99 (2013)</a>
+<br><b>Frazioni cumulative da neutrone lento</b><br>Joint Evaluated Fission and Fusion File JEFF 3.1.1
+<br>"
+]]></string>
+
+
+
+
+<string name="a_prompt">  A</string>
+<string name="abundance_lbl">Abbondanza</string>
+<string name="about_prefix">Developed at the IAEA Nuclear Data Section</string>
+<string name="and">" e "</string>
+<string name="avg_en">"Avg En[keV]"</string>
+
+<string name="binding_energy">Energia di legame</string>
+<string name="between">" tra "</string>
+<string name="btn_search_label">Cerca</string>
+
+
+<string name="charge_rad">Raggio</string>
+<string name="chart_prompt">Mappa</string>
+<string name="choose_dec">" Scegliere un decadimento "</string>
+<string name="choose_rad">" Scegliere una radiazione "</string>
+<string name="cum_ther_fy">Cumulative thermal n FY</string>
+
+<string name="decay_prompt">Decadimento</string>
+<string name="decay_rad">Radiazione</string>
+<string name="decays">Decadimenti</string>
+<string name="decay"> </string>
+<string name="decaychain">catena di decadimento </string>
+
+
+<string name="electric_mom">Momento elettrico</string>
+<string name="elements_alpha_prompt">Ordine per nome</string>
+<string name="elements_prompt">Elementi</string>
+<string name="element_groups">"Metalli alcalini,Metalli alcalino terrosi,Metalli di transizione,Metalli del blocco p,Metalloidi,Non metalli,Alogeni,Gas nobili,Lantanoidi,Attinoidi"</string>
+
+
+
+<string name="elements_names">"Neutrone,
+Idrogeno,
+Elio,
+Litio,
+Berillio,
+Boro,
+Carbonio,
+Azoto,
+Ossigeno,
+Fluoro,
+Neon,
+Sodio,
+Magnesio,
+Alluminio,
+Silicio,
+Fosforo,
+Zolfo,
+Cloro,
+Argon,
+Potassio,
+Calcio,
+Scandio,
+Titanio,
+Vanadio,
+Cromo,
+Manganese,
+Ferro,
+Cobalto,
+Nichel,
+Rame,
+Zinco,
+Gallio,
+Germanio,
+Arsenico,
+Selenio,
+Bromo,
+Krypton,
+Rubidio,
+Stronzio,
+Yttrio,
+Zirconio,
+Niobio,
+Molibdeno,
+Technezio,
+Rutenio,
+Rodio,
+Palladio,
+Argento,
+Cadmio,
+Indio,
+Stagno,
+Antimonio,
+Tellurio,
+Iodio,
+Xeno,
+Cesio,
+Bario,
+Lantanio,
+Cerio,
+Praseodimio,
+Neodimio,
+Promezio,
+Samario,
+Europio,
+Gadolinio,
+Terbio,
+Disprosio,
+Olmio,
+Erbio,
+Tulio,
+Ytterbio,
+Lutezio,
+Hafnio,
+Tantalio,
+Tungsteno,
+Renio,
+Osmio,
+Iridio,
+Platino,
+Oro,
+Mercurio,
+Tallio,
+Piombo,
+Bismuto,
+Polonio,
+Astato,
+Radon,
+Francio,
+Radio,
+Actinio,
+Torio,
+Protoattinio,
+Uranio,
+Nettunio,
+Plutonio,
+Americio,
+Curio,
+Berkelio,
+Californio,
+Einsteinio,
+Fermio,
+Mendelevio,
+Nobelio,
+Lawrencio,
+Rutherfordio,
+Dubnio,
+Seaborgio,
+Bohrio,
+Hassio,
+Meitnerio,
+Darmstadio,
+Roentgenio,
+Copernicio,
+Nihonio,
+Flerovio,
+Moscovio,
+Livermorio,
+Tennessinio,
+Oganessio,
+Ununennium,
+Unbinilium"</string>
+
+
+<string name="feedback">"Feedback"</string>
+<string name="from">"Da"</string>
+
+<string name="half_life">" Half-life "</string>
+<string name="half_life_units">"ps,ns,µ s,ms,s,m,h,d,Y"</string>
+<string name="half_life_unit_prompt">Unita\'</string>
+
+
+<string name="jplike">" J\u03C0  "</string>
+
+<string name="label_prefs">Impostazioni</string>
+
+<string name="lblAdvSearch">Campi</string>
+<string name="lblClear">Pulisci</string>
+<string name="lblHelp">Help</string>
+<string name="lbl_message_wait"> In preparazione ...</string>
+<string name="lblSearchDecRad">Decadimento e radiazioni</string>
+<!-- This is used in NuclideBrowser to resize the scrollview and display the list of nuclides -->
+
+<string name="load_data_title">Loading</string>
+<string name="magnetic_mom">Momento magnetico</string>
+<string name="main">Ricerca</string>
+<string name="mass">Massa</string>
+<string name="mean_square">"Errore quadratico medio"</string>
+<string name="more_about">"&#149; Ulteriori dati  &lt;a href=>su NDS web &lt;/a&gt; &lt;br&gt;&#149;  <b>Errori:</b> 12.3 (11) significa 12.3 &#177;1.1&lt;br>&#149;  <b>La guida</b> spiega in dettaglio i dati"</string>a
+<string name="msg_nobranching">Nessun decadimento certo</string>
+
+<string name="n_prompt">  N</string>
+<string name="new_in_ib"> "New in Isotope Browser"</string>
+<string name="nds_tag">"<b>Provided by the\nIAEA Nuclear Data Section</b>"</string>
+
+<string name="nuclide">" Nuclide "</string>
+
+
+<string name="orderby">" ordine per "</string>
+<string name="ordering">" ordinamento"</string>
+<!--string name="other">nuclidi per </string-->
+<string name="parents">Precursori</string>
+
+<string name="radiation_energy_lbl">" Energia della radiazione "</string>
+<string name="Radiation_prompt">Radiazioni</string>
+<string name="read">letto</string>
+<string name="resonance_int">Integrale di risonanza</string>
+<string name="result_list">"Risultati"</string>
+
+<string name="see_the"> vedi </string>
+<string name="stable_prompt">Stabile</string>
+
+<string name="tentative">considerato incerto</string>
+<string name="ther_n_capt">Cattura di neutrone termico</string>
+
+<string name="uraniumTentative">"Isotopo individuato nei detriti a\ndi un test termonucleare del 1952 "</string>
+
+<string name="warn_no_input">Inserire almeno un parametro</string>
+<string name="warning">Attenzione</string>
+<string name="width">Larghezza</string>
+
+<string name="z_prompt">  Z</string>
+
+
+
+<!-- label in nuclide list -->
+<string name="abundance">Ab.</string>
+<string name="uncertain">Incerto</string>
+
+
+
+
+
+
+<!--  Preferences -->
+
+<string name="pref_nuclides_orderby">Ordinamento dei risultati</string>
+<string name="pref_value_orderbyzandn">Z e N</string>
+<string name="pref_value_orderbynandz">N e Z</string>
+<string name="pref_value_orderbyhalflife">Half-life</string>
+<string name="pref_decaychain">Catena di decadimento</string>
+<string name="pref_value_showparents">Mostra i genitori</string>
+
+<string name="pref_radiation_orderby">Ordinamento delle radiazioni</string>
+<string name="pref_value_orderbyenergy">Energia</string>
+<string name="pref_value_orderbyintensity">Intensita\'</string>
+
+<string name="pref_language">Lingue</string>
+
+
+
+<string name="preferences">Preferenze</string>
+
+
+</resources>
+
+

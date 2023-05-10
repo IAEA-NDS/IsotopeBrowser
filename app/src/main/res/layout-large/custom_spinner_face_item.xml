@@ -1,0 +1,8 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" 
+android:layout_width="match_parent"
+android:layout_height="wrap_content" 
+android:textColor="@color/spin_item_text_foreground"
+android:textSize="26sp"
+android:textStyle="bold"
+>
+</TextView>

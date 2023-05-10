@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--   <string name="table_title_rad">" <table style=>\<tr\>\<td colspan=2>Mittlere En. [keV]&nbsp;&nbsp;&nbsp;&nbsp;</td><td colspan=2>Intensität &percnt; </td><td colspan=2>Zerfallsen [keV] &percnt; </td></tr>"</string>
+<string name="table_title_rad_2">" <table><tr><td>&nbsp;</td><td colspan=2>Energie [keV]&nbsp;&nbsp;&nbsp;&nbsp;</td><td colspan=2>Intensität &percnt;</td></tr>"</string>
+-->
+
+<string name="table_title_rad">Avg. En. [keV] ANDInt. % AND Decay En. [keV]  AND Decay En. [keV] AND En. [keV]  </string>
+
+
+<string name="radiative_capture">Radiative capture</string>
+<string name="fission">"Fission"</string>
+<string name="absorption">"Absorption"</string>
+<string name="n_fission">"(n,fission)"</string>
+
+<string name="about_prefix">Developed at the IAEA Nuclear Data Section</string>
+<string name="abundance">Ab.</string>
+<string name="abundance_lbl">Abundance</string>
+<string name="and">" and "</string>
+<string name="app_name">Isotope Browser</string>
+<string name="a_prompt">  A</string>
+<string name="avg_en">"Avg En[keV]"</string>
+
+<string name="mass_excess">Mass excess</string>
+<string name="binding_energy">Binding energy</string>
+<string name="between">" between "</string>
+<string name="btn_search_label">Go</string>
+
+<string name="charge_rad">Charge radius</string>
+<string name="chart_decay_lbl_alpha" translatable="false">α</string>
+<string name="chart_decay_lbl_beta" translatable="false">β-</string>
+<string name="chart_decay_lbl_ec" translatable="false">EC</string>
+<string name="chart_decay_lbl_ecbp" translatable="false">EC,β+</string>
+<string name="chart_decay_lbl_p" translatable="false">p</string>
+<string name="chart_decay_lbl_n" translatable="false">n</string>
+<string name="chart_decay_lbl_sf" translatable="false">SF</string>
+<string name="chart_prompt">Chart</string>
+<string name="choose_dec">" Choose a decay type "</string>
+<string name="choose_rad">" Choose a radiation type "</string>
+<string name="cum_ther_fy">Cumulative thermal n FY</string>
+
+<string name="decay">decay</string>
+<string name="decays">Decays</string>
+<string name="decaychain">decay chain </string>
+<string name="decaychain_prompt"  translatable="false">search in decay chain </string>
+<string name="decay_constant"  translatable="false">Decay const. </string>
+<string name="decay_modes" translatable="false">"\u03B1,
+β+ / ec ,
+β- ,
+γ (isom. trans.),
+p,
+n,
+SF,
+β-  n,
+β- 2n,
+β- 3n,
+β- 4n,
+β+ /ec p,
+β+ /ec 2p"
+</string>
+
+<string name="decay_prompt">Decay mode</string>
+<string name="decay_rad">Decay radiations</string>
+
+<string name="electric_mom">Electric Moment</string>
+<string name="elements_alpha_prompt">Sort by name</string>
+<string name="elements_prompt">Element</string>
+
+
+<string name="elements_symbol" translatable="false">"n,H,He,Li,Be,B,C,N,O,
+F,Ne,Na,Mg,Al,Si,P,S,Cl,Ar,K,Ca,
+Sc,Ti,V,Cr,Mn,Fe,Co,Ni,Cu,Zn,Ga,
+Ge,As,Se,Br,Kr,Rb,Sr,Y,Zr,Nb,Mo,
+Tc,Ru,Rh,Pd,Ag,Cd,In,Sn,Sb,Te,I,
+Xe,Cs,Ba,La,Ce,Pr,Nd,Pm,Sm,Eu,Gd,
+Tb,Dy,Ho,Er,Tm,Yb,Lu,Hf,Ta,W,Re,
+Os,Ir,Pt,Au,Hg,Tl,Pb,Bi,Po,At,Rn,
+Fr,Ra,Ac,Th,Pa,U,Np,Pu,Am,Cm,Bk,Cf,
+Es,Fm,Md,No,Lr,Rf,Db,Sg,Bh,Hs,Mt,Ds,
+Rg,Cn,Nh,Fl,Mc,Lv,Ts,Og"</string>
+
+
+<string name="elements_names">"Neutron,
+Hydrogen,
+Helium,
+Lithium,
+Beryllium,
+Boron,
+Carbon,
+Nitrogen,
+Oxygen,
+Fluorine,
+Neon,
+Sodium,
+Magnesium,
+Aluminium,
+Silicon,
+Phosphorus,
+Sulfur,
+Chlorine,
+Argon,
+Potassium,
+Calcium,
+Scandium,
+Titanium,
+Vanadium,
+Chromium,
+Manganese,
+Iron,
+Cobalt,
+Nickel,
+Copper,
+Zinc,
+Gallium,
+Germanium,
+Arsenic,
+Selenium,
+Bromine,
+Krypton,
+Rubidium,
+Strontium,
+Yttrium,
+Zirconium,
+Niobium,
+Molybdenum,
+Technetium,
+Ruthenium,
+Rhodium,
+Palladium,
+Silver,
+Cadmium,
+Indium,
+Tin,
+Antimony,
+Tellurium,
+Iodine,
+Xenon,
+Caesium,
+Barium,
+Lanthanum,
+Cerium,
+Praseodymium,
+Neodymium,
+Promethium,
+Samarium,
+Europium,
+Gadolinium,
+Terbium,
+Dysprosium,
+Holmium,
+Erbium,
+Thulium,
+Ytterbium,
+Lutetium,
+Hafnium,
+Tantalum,
+Tungsten,
+Rhenium,
+Osmium,
+Iridium,
+Platinum,
+Gold,
+Mercury,
+Thallium,
+Lead,
+Bismuth,
+Polonium,
+Astatine,
+Radon,
+Francium,
+Radium,
+Actinium,
+Thorium,
+Protactinium,
+Uranium,
+Neptunium,
+Plutonium,
+Americium,
+Curium,
+Berkelium,
+Californium,
+Einsteinium,
+Fermium,
+Mendelevium,
+Nobelium,
+Lawrencium,
+Rutherfordium,
+Dubnium,
+Seaborgium,
+Bohrium,
+Hassium,
+Meitnerium,
+Darmstadtium,
+Roentgenium,
+Copernicium,
+Nihonium,
+Flerovium,
+Moscovium,
+Livermorium,
+Tennessine,
+Oganesson
+Ununennium,
+Unbinilium"</string>
+
+
+<string name="element_groups">"Alkaline Metals,Alkaline Earth Metals,Transition Metals,Post Transition Metals,Metalloid,Other non-Metals,Halogens,Noble Gases,Lanthanides,Actinides"</string>
+<string name="email_contact" translatable="false">nds.contact-point@iaea.org</string>
+<string name="email_subject" translatable="false">Isotope Browser</string>
+<string name="error_report_title" translatable="false"> Error report </string>
+<string name="error_report" translatable="false">There has been an error, sorry. \n A debug text has been put in the clipboard, please paste it in an email to nds.contact-point@iaea.org. It would be of great help </string>
+
+
+<string name="from">"From"</string>
+<string name="feedback">"Feedback"</string>
+
+<string name="half_life">"Half-life "</string>
+<string name="half_life_prompt" translatable="false">&lt;T&#189;&lt;</string>
+<string name="half_life_units">"ps,ns,µ s,ms,s,m,h,d,Y"</string>
+<string name="half_life_unit_prompt">Unit</string>
+<string name="hundred_prompt" translatable="false">100</string>
+
+<string name="iaeands">"IAEA Nuclear Data Section"</string>
+
+<string name="jplike">" J\u03C0 like "</string>
+
+<string name="jp_prompt" translatable="false">  J\u03C0</string>
+<string name="label_prefs">Settings</string>
+<string name="label_token" translatable="false">^</string>
+<string name="left_pad" translatable="false">    </string>
+<string name="lblAdvSearch">Expert</string>
+<string name="lblClear">Clear</string>
+<string name="lblHelp">Help</string>
+<string name="lbl_message_wait">Please Wait</string>
+<string name="lblSearchDecRad">Decay and Main Radiations</string>
+<string name="list_item_height" translatable="false">80dp</string>
+<string name="load_data_title">Loading</string>
+<string name="load_db_title"  translatable="false">One-off database loading</string>
+
+<string name="load_db"  translatable="false">LOAD DATABASE</string>
+
+
+<string name="link_ensdf" translatable="false">"<a href="http://www-nds.iaea.org/ensdf">Evaluated Nuclear Structure Data Files</a>"</string>
+<string name="link_ame" translatable="false">"<a href="http://amdc.impcas.ac.cn/evaluation/data2016/ame.html">Atomic Mass Evaluation 2016</a>"</string>
+<string name="link_abundance" translatable="false">"<a href="http://amdc.impcas.ac.cn/evaluation/data2012/nubase.html">Nubase 2012</a>"</string>
+<string name="link_thermal_cs" translatable="false">"<a href="http://www-nds.iaea.org//relnsd/NdsEnsdf/neutroncs.html">Livechart</a>"</string>
+<string name="link_westcott" translatable="false"><a href="http://www-nds.iaea.org/publications/indc/indc-nds-0440/">INDC-NDS-0440</a>"</string>
+<string name="link_radius" translatable="false">"<a href="http://dx.doi.org/10.1016/j.adt.2011.12.006">ADNDT 99 (2013)</a>"</string>
+
+<string name="magnetic_mom">Magnetic moment</string>
+<string name="main">Main</string>
+<string name="mass">Mass</string>
+<string name="mean_square">"mean square"</string>
+<string name="more_about">"&#149; More about this nuclide on &lt;a href=> NDS web &lt;/a>  &lt;br&gt;&#149; <b>Uncertainty</b> example: 12.3 (11) means 12.3 &#177;1.1 &lt;br>&#149; Refer to the <b>Guide</b> for the meaning of the data"</string>
+<string name="msg_nobranching">No established decay</string>
+
+<string name="n_prompt">  N</string>
+<string name="new_in_ib"> "New in the Isotope Browser"</string>
+<string name="nds_tag">"<b>Provided by the\nIAEA Nuclear Data Section</b>"</string>
+<string name="no_results">"&lt;b>No nuclides found&lt;/b> for " </string>
+<!-- string name="no_results_warning"  translatable="false">"&lt;br> &lt;br> ******* &lt;br>&lt;b> if there is an error, contact us at nds.contact-point@iea.org &lt;/b>&lt;br> ******* "</string -->
+<string name="no_results_warning"  translatable="false">"&lt;br> ****** &lt;br> If you see this message : Please close the app and start it again. We are sorry for the incovenience, we are investigating the problem "</string>
+
+<string name="no_radiations"  translatable="false">" No relevant  "</string>
+<string name="nuc_input_help" translatable="false">9C-C-6-*</string>
+<string name="nuclide">" Nuclide "</string>
+<!-- string name="nuclide_jsp" translatable="false">http://www-nds.iaea.org/relnsd/NdsEnsdf/nuclide.jsp?NUCID=</string -->
+<string name="nuclide_jsp" translatable="false">https://www-nds.iaea.org/relnsd/vcharthtml/VChartHTML.html#\&amp;showtype=2\&amp;lastnuc=</string>
+
+
+<string name="orderby">" order by "</string>
+<string name="ordering">ordering</string>
+<!--string name="other">nuclides for </string-->
+
+<string name="parents">Parents</string>
+<string name="perc_decay" translatable="false">&lt; % &lt;</string>
+<!--  Preferences -->
+<string name="preferences">Preferences</string>
+<string name="pref_nuclides_orderby">Nuclides list ordering</string>
+<string name="pref_value_orderbyzandn">Z and N</string>
+<string name="pref_value_orderbynandz">N and Z</string>
+<string name="pref_value_orderbyhalflife">Half-life</string>
+<string name="pref_radiation_orderby">Decay Radiation ordering</string>
+<string name="pref_radiation_display" translatable="false">Decay Radiation filter</string>
+<string name="pref_radiation_display_mode" translatable="false">show only selected type </string>
+<string name="pref_value_orderbyenergy">Energy</string>
+<string name="pref_value_orderbyintensity">Intensity</string>
+<string name="pref_language">Languages</string>
+<string name="pref_value_english" translatable="false">English</string>
+<string name="pref_value_arabic" translatable="false">العربية</string>
+<string name="pref_value_german" translatable="false">Deutsch</string>
+<string name="pref_value_spanish" translatable="false">Español</string>
+<string name="pref_value_italian" translatable="false">Italiano</string>
+<string name="pref_value_japanese" translatable="false">日本語</string>
+<string name="pref_value_russian" translatable="false">Русский</string>
+<string name="pref_value_slovenian" translatable="false">Slovenščina</string>
+<string name="pref_value_chinese" translatable="false">简体中文</string>
+<string name="pref_value_chineseTraditional" translatable="false">繁体中文</string>
+<string name="pref_value_french" translatable="false">Français</string>
+<string name="pref_value_dutch" translatable="false">Nederlands</string>
+
+
+<string name="pref_decaychain">Decay chain display</string>
+<string name="pref_value_showparents">Show all parents</string>
+
+<string name="radiations" translatable="false">"α,β+,β-,γ+X+Annhi.,γ,X,Annihi., Auger,Conv.El. "</string>
+<string name="radiation_energy" translatable="false">&lt;keV&lt;</string>
+<string name="radiation_energy_lbl">" Radiation energy "</string>
+<string name="radiationfiltered" translatable="false">"red: lines matching filter criteria "</string>
+<string name="Radiation_prompt">Decay Rad.</string>
+<string name="read">dismiss</string>
+<string name="resonance_int">Resonance integral</string>
+<string name="result_list">"Result list"</string>
+
+<plurals name="search_results">
+<item quantity="one">%1$d nuclide for \"%2$s\": </item>
+<item quantity="other">%1$d nuclides for \"%2$s\": </item>
+</plurals>
+<string name="see_the">see the</string>
+<string name="specific_activity">Specific act. </string>
+<string name="specific_activity_cig"  translatable="false">Ci/g</string>
+<string name="specific_activity_bqg"  translatable="false">Bq/g </string>
+<string name="stable_prompt">Stable</string>
+
+<string name="tentative">ENSDF evaluation marked as \"Tentative\"</string>
+<string name="ther_n_capt">Thermal neutron cross sections</string>
+
+<string name="unknown" translatable="false">"?"</string>
+<string name="uncertain">Uncertain</string>
+<string name="uraniumTentative">"Isotope indirectly found in the debris of a\nthermonuclear test made in 1952 "</string>
+
+<string name="warn_no_input">You need to input at least one parameter</string>
+<string name="warning">Warning</string>
+
+<string name="warning_load_db" translatable="false">"\n\n* WARNING *\nThere will be a few second delay whilst the new database is loading"</string>
+<!-- What's new in this version \u2022 -->
+<string name="whatsnew" translatable="false">"More options to filter the decay radiation type in the Expert panel"
+</string>
+<!-- if in the device this version code is not saved, show the message-->
+<string name="whatsnew_versioncode" translatable="false">148</string>
+<string name="width">Width</string>
+
+<string name="z_prompt">  Z</string>
+<string name="zero_prompt" translatable="false">0</string>
+
+<string name="news" translatable="false"><![CDATA[
+<br><img src=\'ib.png\'> <span style="color:#194CAF"><b>NEWS</b></span><br>
+<span><b>100k edition</span></b>: The Isotope Browser goes open source on
+<a href=https://github.com/IAEA-NDS/IsotopeBrowser><b>GitHub</b></a></span></br>
+]]></string>
+
+<string name="help"><![CDATA[\<br><br><img src=\'ib.png\'> <span style="color:#194CAF"><b>GUIDE</b></span>
+<br><span style="color:#194CAF"><b>Input</b></span>:<br><b>Element</b>: symbol or Z (c or 6)<br><b>Nuclide</b>: 12c, c12, 12 c, c 12, 12-c, c-12 <br><b>Entire database</b> : *
+<br><br><span style="color:#194CAF"><b>Change language</b></span> going to <b>Menu -> Preferences</b>
+<br><br><span style="color:#194CAF"><b>Element</b></span> shows the <b>Elements table</b>
+<br><br><span style="color:#194CAF"><b>Tap an item</b></span> in the result list to get detailed information
+<br><b>The Database includes ground states and isomers having half-life > 100 ns </b>
+<br><br><span style="color:#194CAF"><b>Chart</b></span>
+<br>Shows the selected nuclides on the Nuclides Chart. All nuclides are shown when no query is active
+<br><b>The color</b> represents the main decay mode
+<br><b>Zoom</b> to get nuclide names, more to get summary data
+<br><b>Tap</b> to go to the detail page
+<br><b>The Decay chain</b> is shown by a <b>long press</b> on a nuclide. It includes all ground state decay modes having a branching ratio value, and all the possible parents. Use the Preferences to show only the daughters
+<br>Spontaneous fission and branching ratios marked as "?" are not drawn
+<br>Long press on the same nuclide to <b>reset</b> the chart
+<br>Dashed lines represent secondary decay modes.
+<br><br><span style="color:#194CAF"><b>Expert Search</b></span>
+<br>When the Expert panel is visible, press <b>Go</b> to start searching.
+<br><b>When the panel is hidden its parameters do NOT affect the query</b>
+<br><br><b>Radiation filter :</b> when a decay radiation type is selected, the result list displays, instead of the decay mode, the most intense line within the selected energy range.
+<br>Buttons at the top allow switching between the two display modes. The nuclide detail page will show in red the radiations matching the filter.
+<br><br>When a nuclide symbol entered, a checkbox allows to extend the search of the emitted radiation to the entire decay chain
+<br><br><span style="color:#194CAF"><b>Result list</b></span>
+<br>Default sorting is by z, n. Use the <b>Preferences</b> to change it. Tap an item to go to the detail page. When a radiation type is selected, two buttons at the top of the list allow to switch the display between radiation intensity + energy and half-life + decay mode
+<br><br><span style="color:#194CAF"><b>Uncertainties</b></span>
+<br>Are between brackets, and refer to the last significant digit(s):<br> 12.34 (123) means 12.34 +- 1.23
+<br><br><span style="color:#194CAF"><b>Detail page</b></span>
+<br><b>Z, N</b><br>Number of protons and neutrons, respectively
+<br><br><b>J\u03C0</b><br>Total angular momentum and parity. The value is between brackets when the attribution is not certain
+<br><br><b>Abundance</b><br>Isotope abundance as mole-fraction : fractions of atoms of the isotope in its element
+<br><br><b>Half-life</b> or <b>Width</b><br>Expectation value of the time interval over which half of the atoms originally present in a sample of a given radionuclide would undergo radioactive decay.<br>For short-lived resonances, the <b>width \u0393</b> is given. The relationship between Half-life and width comes from the uncertainty principle:
+<br>T1/2(s) ≅ ℏ x ln2 / Γ = 4.562 10-22/Γ(MeV)
+<br><br><b>Parents</b><br>Possible parent nuclides. Click on the parent symbol to follow the decay chain upwards
+<br><br><b>Decay Modes</b><br>Tap on <b>decay chain</b> to see it on the chart
+<br>Tap on the parent or the daughter symbol to follow the decay chain upwards or downwards, respectively
+<br>Note on percentage normalization:
+<br>
+ec \u03b2+ 100\u0025
+\u03b2+ p 23\u0025
+<br>means that all decays are ec \u03b2+, and 23\u0025 decay by delayed p after \u03b2+
+<br><br><b>Decay Radiations</b><br>For each decay mode, radiation lines having intensity > 1\u0025 of the most intense line - for each radiation type - are listed.
+<br>Exception for the above rule, Auger and Conversion electron are included when having an absolute intensity of > 1\u0025.
+<br><br>For beta radiation the mean energy is reported, as well as the decay energy. The decay energy is displayed between brackets when it is calculated. Horizontal scrolling is enabled when the table is large.
+<br><br>Photons emitted by the daughter are included. The intensity of the 511 keV annihilation radiation is listed separately;
+<br><br>Use the <b>Preferences</b> to change the sorting from intensity to energy. See the  <b>Expert Search</b> section above on how to set the <b>Radiation Filter mode</b>
+<br><br><b>Q values</b><br>Energy available for the decay of the ground state
+<br><br><b>Sn and Sp</b><br>Neutron and proton separation energy
+<br><br><b>Magnetic moment</b><br>Magnetic dipole moment, expressed in nuclear magnetons
+<br><br><b>Electric moment</b><br>Electric quadrupole moment, expressed in barns
+<br><br><b>Binding/A </b><br>Binding energy per nucleon, in keV
+<br><br><b>Thermal neutron cross section</b><br>Cross section for capturing a neutron with kinetic energy of ~0.025 eV
+<br><br><b>Resonance Integral</b><br>Integral of the neutron absorption reaction rate over the resonance energy region (0.5 eV - \u221E), in barn
+<br><br><b>Westcott g-factor</b><br>The ratio of √π/2 \u00D7 Maxwellian-averaged neutron cross section to the 2200 m/s (thermal 0.0253 eV) cross section
+<br><br>As a side note, C.H. Westcott joined the IAEA in 1963 and established the Nuclear Data Section
+<br><br><b>Charge radius</b><br>Root mean square of the charge radius, expressed in fm.
+<br>For the Neutron the mean square value is given, expressed in fm<sup>2</sup>
+<br><br><b>Cumulative thermal neutron fission yields</b><br>Total number of atoms of each fission product produced over all time after one fission caused by a thermal-energy neutron
+<br><br><span style="color:#194CAF"><b>Visit us</b></span>   <a href="http://www-nds.iaea.org">IAEA Nuclear Data Section</a><br>
+<br><br><span style="color:#194CAF"><b>Data Sources</b></span>
+<br><b>Main</b><br><a href="http://www-nds.iaea.org/ensdf">Evaluated Nuclear Structure Data Files</a>. The ENSDF is maintained by the International Nuclear Structure and Decay Data network under the auspices of the IAEA.
+<br><b>Q-values, Atomic Masses, and Separation Energies</b><br><a href="https://www.anl.gov/phy/atomic-mass-data-resources">Atomic Mass Evaluation 2020</a>
+<br><b>Abundances</b><br><a href="https://www.anl.gov/phy/atomic-mass-data-resources">Nubase 2020</a>
+<br><b>Thermal Neutron Cross Sections</b><br>S.F. Mughabghab, Atlas of Neutron Resonances Elsevier Science, 6th Edition, Februay 15 2018, as presented in the <a href="http://www-nds.iaea.org//relnsd/NdsEnsdf/neutroncs.html">Livechart</a>
+<br>N.E. Holden in Handbook of Chemistry and Physics 99Th Edition; <br>I. Dillmann, R. Plag, F. Käppeler and T. Rauscher in KADoNiS v0.3; <br>J. Kopecky in UKAEA-R(15)30.
+<br><b>Westcott g-factor</b><br>Mughabgahb  <a href="http://www-nds.iaea.org/publications/indc/indc-nds-0440/">INDC-NDS-0440</a>
+<br><b>Charge Radii</b><br>I. Angeli, K. Marinova   <a href="http://dx.doi.org/10.1016/j.adt.2011.12.006">ADNDT 99 (2013)</a>
+<br><b>Thermal neutron FY</b>
+<br>Joint Evaluated Fission and Fusion File JEFF 3.1.1
+<br>
+]]></string>
+
+
+
+<!-- Test for layouts -->
+<string name="small" translatable="false">small</string>
+<string name="normal" translatable="false">normal</string>
+<string name="large" translatable="false">large</string>
+<string name="dflt" translatable="false">default</string>
+>
+
+<!--string name="help" translatable="false">  &lt;br&gt;&lt;span style="color:#194CAF"&gt;&lt;b&gt;Isotope Browser Guide&lt;/b&gt;  &lt;/span&gt;
+&lt;br&gt;&lt;br&gt;&lt;span style="color:#194CAF"&gt;&lt;b&gt;Input&lt;/b&gt;  &lt;/span&gt;:&lt;br&gt;&lt;b&gt;Element&lt;/b&gt;: symbol or Z (c or 6)&lt;br&gt;&lt;b&gt;Nuclide&lt;/b&gt;: 12c, c12, 12 c, c 12, 12-c, c-12 &lt;br&gt;&lt;b&gt;Entire database&lt;/b&gt; : *
+&lt;br&gt;&lt;br&gt;&lt;span style="color:#194CAF"&gt;&lt;b&gt;Change language&lt;/b&gt;  &lt;/span&gt; going to &lt;b&gt;Menu -&gt; Preferences&lt;/b&gt;
+&lt;br&gt;&lt;br&gt;&lt;span style="color:#194CAF"&gt;&lt;b&gt;Element&lt;/b&gt;  &lt;/span&gt; shows the &lt;b&gt;Elements table&lt;/b&gt;
+&lt;br&gt;&lt;br&gt;&lt;span style="color:#194CAF"&gt;&lt;b&gt;Tap an item&lt;/b&gt;  &lt;/span&gt; in the result list to get detailed information
+&lt;br&gt;&lt;br&gt;&lt;b&gt;The Database includes ground states and isomers having half-life &gt; 100 ns &lt;/b&gt;
+&lt;br&gt;&lt;br&gt;&lt;span style="color:#194CAF"&gt;&lt;b&gt;Chart&lt;/b&gt;  &lt;/span&gt;
+&lt;br&gt;Shows the selected nuclides on the Nuclides Chart. All nuclides are shown when no query is active
+&lt;br&gt;&lt;br&gt;&lt;b&gt;The color&lt;/b&gt; represents the main decay mode
+&lt;br&gt;&lt;br&gt;&lt;b&gt;Zoom&lt;/b&gt; to get nuclide names, more to get summary data
+&lt;br&gt;&lt;br&gt;&lt;b&gt;Tap&lt;/b&gt; to go to the detail page
+&lt;br&gt;&lt;br&gt;&lt;b&gt;The Decay chain&lt;/b&gt; is shown by a &lt;b&gt;long press&lt;/b&gt; on a nuclide. It includes all ground state decay modes having a branching ratio value, and all the possible parents. Use the Preferences to show only the daughters
+&lt;br&gt;&lt;br&gt;Spontaneous fission and branching ratios marked as "?" are not drawn
+&lt;br&gt;&lt;br&gt;Long press on the same nuclide to &lt;b&gt;reset&lt;/b&gt; the chart
+&lt;br&gt;&lt;br&gt;Dashed lines represent secondary decay modes.
+&lt;br&gt;&lt;br&gt;&lt;span style="color:#194CAF"&gt;&lt;b&gt;Expert Search&lt;/b&gt;  &lt;/span&gt;
+&lt;br&gt;&lt;br&gt;When the Expert panel is visible, press &lt;b&gt;Go&lt;/b&gt; to start searching. &lt;b&gt;When the panel is hidden its parameters do NOT affect the query&lt;/b&gt;
+&lt;br&gt;&lt;br&gt;&lt;b&gt;Radiation filter :&lt;/b&gt; when a decay radiation type is selected, the result list displays, instead of the decay mode, the most intense line within the selected energy range. Buttons at the top allow switching between the two display modes. The nuclide detail page will show in red the radiations matching the filter.
+&lt;br&gt;&lt;br&gt;When a nuclide symbol entered, a checkbox allows to extend the search of the emitted radiation to the entire decay chain
+&lt;br&gt;&lt;br&gt;&lt;span style="color:#194CAF"&gt;&lt;b&gt;Result list&lt;/b&gt;  &lt;/span&gt;
+&lt;br&gt;&lt;br&gt;Default sorting is by z, n. Use the &lt;b&gt;Preferences&lt;/b&gt; to change it. Tap an item to go to the detail page. When a radiation type is selected, two buttons at the top of the list allow to switch the display between radiation intensity + energy and half-life + decay mode
+&lt;br&gt;&lt;br&gt;&lt;span style="color:#194CAF"&gt;&lt;b&gt;Uncertainties&lt;/b&gt;  &lt;/span&gt;
+&lt;br&gt;&lt;br&gt;Are between brackets, and refer to the last significant digit(s). 12.34 (123) means 12.34 +- 1.23
+&lt;br&gt;&lt;br&gt;&lt;span style="color:#194CAF"&gt;&lt;b&gt;Detail page&lt;/b&gt;  &lt;/span&gt;
+&lt;br&gt;&lt;br&gt;&lt;b&gt;Z, N&lt;/b&gt;&lt;br&gt;Number of protons and neutrons, respectively
+&lt;br&gt;&lt;br&gt;&lt;b&gt;J\u03C0&lt;/b&gt;&lt;br&gt;Total angular momentum and parity. The value is between brackets when the attribution is not certain
+&lt;br&gt;&lt;br&gt;&lt;b&gt;Abundance&lt;/b&gt;&lt;br&gt;Isotope abundance as mole-fraction : fractions of atoms of the isotope in its element
+&lt;br&gt;&lt;br&gt;&lt;b&gt;Half-life&lt;/b&gt; or &lt;b&gt;Width&lt;/b&gt;&lt;br&gt;Expectation value of the time interval over which half of the atoms originally present in a sample of a given radionuclide would undergo radioactive decay.&lt;br&gt;For short-lived resonances, the &lt;b&gt;width \u0393&lt;/b&gt; is given. The relationship between Half-life and width comes from the uncertainty principle: T1/2(s) ≅ ℏ x ln2 / Γ = 4.562 10-22/Γ(MeV)
+&lt;br&gt;&lt;br&gt;&lt;b&gt;Parents&lt;/b&gt;&lt;br&gt;Possible parent nuclides. Click on the parent symbol to follow the decay chain upwards
+&lt;br&gt; &lt;br&gt;&lt;b&gt;Decay Modes&lt;/b&gt;&lt;br&gt;Tap on &lt;b&gt;decay chain&lt;/b&gt; to see it on the chart
+&lt;br&gt; &lt;br&gt;Tap on the parent or the daughter symbol to follow the decay chain upwards or downwards, respectively
+&lt;br&gt; &lt;br&gt;Note on percentage normalization:
+&lt;br&gt; ec \u03b2+ 100\u0025
+&lt;br&gt; \u03b2+ p 23\u0025
+&lt;br&gt;means that all decays are ec \u03b2+, and 23\u0025 decay by delayed p after \u03b2+
+&lt;br&gt; &lt;br&gt;&lt;b&gt;Decay Radiations&lt;/b&gt;&lt;br&gt;For each decay mode, radiation lines having intensity &gt; 1\u0025 of the most intense line - for each radiation type - are listed.
+&lt;br&gt; &lt;br&gt;Exception for the above rule, Auger and Conversion electron are included when having an absolute intensity of &gt; 1\u0025.
+&lt;br&gt; &lt;br&gt;For beta radiation the mean energy is reported, as well as the decay energy. The decay energy is displayed between brackets when it is calculated. Horizontal scrolling is enabled when the table is large.
+&lt;br&gt;&lt;br&gt;Photons emitted by the daughter are included.
+&lt;br&gt;   &lt;br&gt;Use the &lt;b&gt;Preferences&lt;/b&gt; to change the sorting from intensity to energy. See the  &lt;b&gt;Expert Search&lt;/b&gt; section above on how to set the &lt;b&gt;Radiation Filter mode&lt;/b&gt;
+&lt;br&gt; &lt;br&gt;&lt;b&gt;Q values&lt;/b&gt;&lt;br&gt;Energy available for the decay of the ground state
+&lt;br&gt;  &lt;br&gt;&lt;b&gt;Sn and Sp&lt;/b&gt;&lt;br&gt;Neutron and proton separation energy
+&lt;br&gt; &lt;br&gt;&lt;b&gt;Magnetic moment&lt;/b&gt;&lt;br&gt;Magnetic dipole moment, expressed in nuclear magnetons
+&lt;br&gt;  &lt;br&gt;&lt;b&gt;Electric moment&lt;/b&gt;&lt;br&gt;Electric quadrupole moment, expressed in barns
+&lt;br&gt; &lt;br&gt;&lt;b&gt;Binding/A &lt;/b&gt;&lt;br&gt;Binding energy per nucleon, in keV
+&lt;br&gt; &lt;br&gt;&lt;b&gt;Thermal neutron cross section&lt;/b&gt;&lt;br&gt;Cross section for capturing a neutron with kinetic energy of ~0.025 eV
+&lt;br&gt;  &lt;br&gt;&lt;b&gt;Resonance Integral&lt;/b&gt;&lt;br&gt;Integral of the neutron absorption reaction rate over the resonance energy region (0.5 eV - \u221E), in barn
+&lt;br&gt;  &lt;br&gt;&lt;b&gt;Westcott g-factor&lt;/b&gt;&lt;br&gt;The ratio of √π/2 \u00D7 Maxwellian-averaged neutron cross section to the 2200 m/s (thermal 0.0253 eV) cross section
+&lt;br&gt;  &lt;br&gt;As a side note, C.H. Westcott joined the IAEA in 1963 and established the Nuclear Data Section
+&lt;br&gt;  &lt;br&gt;&lt;b&gt;Charge radius&lt;/b&gt;&lt;br&gt;Root mean square of the charge radius, expressed in fm.
+&lt;br&gt;  &lt;br&gt;For the Neutron the mean square value is given, expressed in fm&lt;sup&gt;2&lt;/sup&gt;
+&lt;br&gt;  &lt;br&gt;&lt;b&gt;Cumulative thermal neutron fission yields&lt;/b&gt;&lt;br&gt;Total number of atoms of each fission product produced over all time after one fission caused by a thermal-energy neutron
+&lt;br&gt;  &lt;br&gt;&lt;span style="color:#194CAF"&gt;&lt;b&gt;Visit us at &lt;/b&gt;  &lt;/span&gt;   &lt;a href="http://www-nds.iaea.org"&gt;IAEA Nuclear Data Section&lt;/a&gt;&lt;br&gt;
+&lt;br&gt;  &lt;br&gt;&lt;span style="color:#194CAF"&gt;&lt;b&gt;Data Sources&lt;/b&gt;  &lt;/span&gt;
+&lt;br&gt;  &lt;br&gt;&lt;b&gt;Main&lt;/b&gt;&lt;br&gt;&lt;a href="http://www-nds.iaea.org/ensdf"&gt;Evaluated Nuclear Structure Data Files&lt;/a&gt;. The ENSDF is maintained by the International Nuclear Structure and Decay Data network under the auspices of the IAEA.
+&lt;br&gt; &lt;br&gt;&lt;b&gt;Q-values, Atomic Masses, and Separation Energies&lt;/b&gt;&lt;br&gt;&lt;a href="https://www.anl.gov/phy/atomic-mass-data-resources"&gt;Atomic Mass Evaluation 2020&lt;/a&gt;
+&lt;br&gt;  &lt;br&gt;&lt;b&gt;Abundances&lt;/b&gt;&lt;br&gt;&lt;a href="https://www.anl.gov/phy/atomic-mass-data-resources"&gt;Nubase 2020&lt;/a&gt;
+&lt;br&gt;    &lt;br&gt;&lt;b&gt;Thermal Neutron Cross Sections&lt;/b&gt;&lt;br&gt;S.F. Mughabghab, Atlas of Neutron Resonances Elsevier Science, 6th Edition, Februay 15 2018, as presented in the &lt;a href="http://www-nds.iaea.org//relnsd/NdsEnsdf/neutroncs.html"&gt;Livechart&lt;/a&gt;
+&lt;br&gt;  &lt;br&gt;N.E. Holden in Handbook of Chemistry and Physics 99Th Edition; &lt;br&gt;I. Dillmann, R. Plag, F. Käppeler and T. Rauscher in KADoNiS v0.3; &lt;br&gt;J. Kopecky in UKAEA-R(15)30.
+&lt;br&gt; &lt;br&gt;&lt;b&gt;Westcott g-factor&lt;/b&gt;&lt;br&gt;Mughabgahb  &lt;a href="http://www-nds.iaea.org/publications/indc/indc-nds-0440/"&gt;INDC-NDS-0440&lt;/a&gt;
+&lt;br&gt; &lt;br&gt;&lt;b&gt;Charge Radii&lt;/b&gt;&lt;br&gt;I. Angeli, K. Marinova   &lt;a href="http://dx.doi.org/10.1016/j.adt.2011.12.006"&gt;ADNDT 99 (2013)&lt;/a&gt;
+&lt;br&gt;  &lt;br&gt;&lt;b&gt;Thermal neutron FY&lt;/b&gt;
+&lt;br&gt;  &lt;br&gt;Joint Evaluated Fission and Fusion File JEFF 3.1.1
+&lt;br&gt;
+
+</string-->
+
+</resources>
+

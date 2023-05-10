@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="a_prompt">A</string>
+<string name="about_prefix">تم تطويره في قسم البيانات النووية في الوكالة الدولية للطاقة الذرية</string>
+<string name="abundance">Ab.</string>
+<string name="abundance_lbl">وفرة</string>
+<string name="and">و</string>
+<string name="app_name">متصفح النظائر</string>
+<string name="avg_en">"Avg En[keV]"</string>
+<string name="table_title_rad">Avg. En. [keV]ANDInt. % AND En. max. [keV]  AND En. EC [keV] AND En. [keV]  </string>
+
+<string name="mass_excess">Mass excess</string>
+<string name="specific_activity" >Specific act.y</string>
+<string name="decay_constant">Decay const.</string>
+<string name="radiative_capture">Radiative capture</string>
+<string name="fission">"Fission"</string>
+<string name="absorption">"Absorption"</string>
+<string name="n_fission">"(n,fission)"</string>
+
+<string name="between">بين</string>
+<string name="binding_energy">قوى الربط</string>
+<string name="btn_search_label">بحث</string>
+<string name="charge_rad">نصف قطر الشحنة</string>
+<string name="chart_prompt">جدول</string>
+<string name="choose_dec">اختر نوع الإضمحلال</string>
+<string name="choose_rad">اختر نوع الإشعاع</string>
+<string name="cum_ther_fy">نواتج الانشطار النيوتروني الحراري التراكمية</string>
+<string name="decay">إضمحلال</string>
+<string name="decay_prompt">طريقة إضمحلال</string>
+<string name="decay_rad">إشعاعات الإضمحلال</string>
+<string name="decaychain">سلسلة الإضمحلال</string>
+<string name="decays">الإضمحلالات</string>
+<string name="electric_mom">العزم الكهربائي</string>
+<string name="element_groups">الفلزات القلوية ,الفلزات القلوية الأرضية, الفلزات الإنتقالية, فلزات بعد إنتقالية ,لا فلز ,لا فلزات أخرى ,الهالوجينات ,الغازات النبيلة, اللانثينيدات, أكتينيدات</string>
+<string name="elements_alpha_prompt">الترتيب حسب الاسم</string>
+<string name="elements_prompt">عنصر</string>
+<string name="elements_names">"نيوترون
+,هيدروجين,
+هيليوم
+ليثيوم,
+بيريليوم,
+بورون,
+كربون,
+نيتروجين,
+أكسجين,
+فلور,
+نيون,
+صوديوم,
+مغنيسيوم,
+الومينيوم,
+سيلكون,
+فوسفور,
+كبريت,
+كلور,
+أرجون,
+بوتاسيوم,
+كلسيوم,
+سكانديوم,
+تيتانيوم,
+فناديوم,
+كروم,
+منجنيز,
+حديد,
+كوبلت,
+نيكل,
+نحاس,
+خارصين,
+جاليوم,
+جرمانيوم,
+زرنيخ,
+سيلينيوم,
+بروم,
+كربتون,
+روبيديوم,
+سترانشيوم,
+يتريوم,
+زيركونيوم,
+نيوبيوم,
+مولبيدنيوم,
+تكنيتيوم,
+روتينيوم,
+روديوم,
+بلاديوم,
+فضة,
+كادميوم,
+انديوم,
+قصدير,
+انتيمون,
+تيلوريوم,
+يود,
+زينون,
+سيزيوم,
+باريوم,
+لنثانوم,
+سيزيوم,
+براسوديميوم,
+نيودميوم,
+بروميثيوم,
+ساماريوم,
+يروبيوم,
+غادولينيوم,
+تربيوم,
+ديسبروسيوم,
+هلميوم,
+إربيوم,
+ثوليوم,
+يتربيوم,
+لوتيشيوم,
+هافنيوم,
+تانتالم,
+تنجستين,
+رينيوم,
+اوزميوم,
+إيريديوم,
+بلاتين,
+ذهب,
+زئبق,
+ثاليوم,
+رصاص,
+بزموث,
+بولونيوم,
+استاتين,
+رادون,
+فرنسيوم,
+راديوم,
+اكتينيوم,
+ثوريوم,
+بروتاكتنيوم,
+يورانيوم,
+نبتونيوم,
+بلوتونيوم,
+أمريشيوم,
+كوريوم,
+بركيليوم,
+كاليفورنيوم,
+اينشتنيوم,
+فيرميوم,
+منداليفيوم,
+نوبليوم,
+لورنسيوم,
+رذرفورديوم,
+دوبنيوم,
+سيبورجيوم,
+بوريوم,
+هاسيوم,
+مايتنريوم,
+دارمشتادتيوم,
+رونتجينيوم,
+كوبيرنيكيوم,
+اووت,
+فليروفيوم,
+ٲنون بينتيوم,
+ليفرموريوم,
+ٲنون سيبتيوم,
+ٲنون ٲوكتيوم,Ununennium,
+Unbinilium"</string>
+<string name="feedback">التغذية الراجعة</string>
+<string name="from">من</string>
+<string name="half_life">عمر النصف</string>
+<string name="half_life_unit_prompt">وحدة</string>
+<string name="half_life_units">بيكو ثانية,نانو ثانية,مايكرو ثانية,ميلي ثانية,ثانية,دقيقة,ساعة,يوم,سنة</string>
+<string name="iaeands">قسم البيانات النووية في الوكالة الدولية للطاقة الذرية</string>
+<string name="jplike">مثل J\u03C0</string>
+<string name="label_prefs">الإعدادات</string>
+<string name="lbl_message_wait">الرجاء الإنتظار</string>
+<string name="lblAdvSearch">خبير</string>
+<string name="lblClear">مسح</string>
+<string name="lblHelp">المساعدة</string>
+<string name="lblSearchDecRad">الإشعاعات الرئيسية والإضمحلال</string>
+<string name="load_data_title">جار التحميل</string>
+<string name="magnetic_mom">العزم المغناطيسي</string>
+<string name="main">الرئيسية</string>
+<string name="mass">الكتلة</string>
+<string name="mean_square">متوسط الانحرافات (التربيع)</string>
+<string name="more_about">"&lt;a href=> NDS web &lt;/a> المزيد عن"</string>
+<string name="msg_nobranching">لايوجد إضمحلال</string>
+<string name="n_prompt">N</string>
+<string name="nds_tag">مزود من قسم البيانات النووية في الوكالة الدولية للطاقة الذرية</string>
+<string name="new_in_ib">"جديد في متصفح النظائر"</string>
+<string name="no_results">لم يتم العثور على نيوكليدات لـ</string>
+
+<string name="nuclide">نيوكليد</string>
+<!--string name="one">نيوكليد لـ:</string-->
+<!--string name="other">نيوكليدات لـ:</string-->
+<string name="orderby">رتب حسب</string>
+<string name="ordering">ترتيب</string>
+
+<string name="parents">الآباء</string>
+<string name="pref_language">اللغات</string>
+<string name="pref_nuclides_orderby">ترتيب لائحة النيوكليدات</string>
+<string name="pref_radiation_orderby">ترتيب إشعاع الإضمحلال</string>
+<string name="pref_value_orderbyenergy">الطاقة</string>
+<string name="pref_value_orderbyhalflife">عمر النصف</string>
+<string name="pref_value_orderbyintensity">الشدة</string>
+<string name="pref_value_orderbynandz">N و Z</string>
+<string name="pref_value_orderbyzandn">Z و N</string>
+<string name="pref_decaychain">عرض سلسلة الإضمحلال</string>
+<string name="pref_value_showparents">عرض جميع الآباء</string>
+<string name="preferences">التفضيلات</string>
+<string name="radiation_energy_lbl">طاقة الإشعاع</string>
+<string name="Radiation_prompt">إشعاع الإضمحلال</string>
+<string name="read">إغلاق</string>
+<string name="resonance_int">تكامل التردد</string>
+<string name="result_list">لائحة النتائج</string>
+
+<string name="see_the">انظر لـ</string>
+
+
+<plurals name="search_results">
+<item quantity="one">%1$d
+نيوكليد لـ:
+\"%2$s\": </item>
+<item quantity="many">%1$d
+نيوكليد لـ:
+\"%2$s\": </item>
+<item quantity="few">%1$d
+نيوكليد لـ:
+\"%2$s\": </item>
+<item quantity="zero">%1$d
+نيوكليد لـ:
+\"%2$s\": </item>
+
+<item quantity="two">%1$d nuclides for \"%2$s\": </item>
+</plurals>
+
+<string name="stable_prompt">مستقر</string>
+<string name="tentative">تقييم ENSDF مُعلم كـ"مؤقت"</string>
+<string name="ther_n_capt">حبس/أسر النيوترونات الحرارية</string>
+<string name="uncertain">غير مؤكد</string>
+<string name="uraniumTentative">نظير تم العثور عليه بطريقة غير مباشرة في انقاض تجربة نووية حرارية في ۱۹٥۲</string>
+<string name="warn_no_input">عليك إدخال قيمة واحدة على الأقل</string>
+<string name="warning">تحذير</string>
+<string name="width">عرض</string>
+<string name="z_prompt">Z</string>
+
+
+<string name="help"><![CDATA["
+<b><br><span style="color:#194CAF">الدليل</span></b>
+<br><br>
+تغيير اللغة باستخدام لوحة التفضيلات
+<br><br>
+اختر عنصر (أو أدخل الرمز، مثال: xe، أو الرقم الذري، مثال 54 ، أو النيوكليد، مثال: 135xe)، و من ثم يبدأ البحث تلقائيا.
+أنقر على موضوع في قائمة النتائج للحصول على معلومات مفصلة.
+تحتوي قاعدة البيانات على الحالات المستقرة و الأيزومرات ذات عمر نصف أكبر من 100 ثواني نانو
+<br><br>
+<b><br><span style="color:#194CAF">الجدول</span></b>
+<br>
+تظهر النيوكليدات المختارة على جدول النيوكليدات. تظهر جميع النيوكليدات عندما لا تكون هناك أي إستعلامات فعالة.
+يمثل اللون نوع الإضمحلال الرئيسي.
+التكبير يسمح لك بإظهار الإسم و المزيد من المعلومات الملخصة.
+
+
+انقر للوصول لصفحة التفاصيل.
+تظهر سلسلة الإضمحلال عن طريق الضغط المستمر على النيوكليد. تحتوي هذه السلسلة على جميع الحالات المستقرة لطريقة الاضمحلال مع قيم نسب التفرع.
+يمكن إظهار/إخفاء النيوكليدات الآباء في قمة السلسلة باستخدام التفضيلات.
+ويكون كل من الانشطار التلقائي ونسب التفرع معلمة بعلامة "؟" وغير ظاهرين على الرسم.
+بالضغط المستمر على نفس النيوكليد يتم إعادة الرسم للوضع السابق.
+<br><br>
+<b><br><span style="color:#194CAF">البحث الخبير/المتخصص </span></b>
+<br>
+عندما تكون لوحة "الخبير/المتخصص" ظاهرة، اضغط بحث لبدء البحث. لا تؤثر معاملات اللوحة على البحث عندما تختفي اللوحة.
+<br><br>
+<b><br><span style="color:#194CAF">قائمة النتائج </span></b>
+<br>
+التصنيف الافتراضي يكون حسب z و n. يمكن استخدام التفضيلات لتغيير طريقة التصنيف. انقر على موضوع للوصول لصفحة التفاصيل.
+<br><br>
+<b><br><span style="color:#194CAF">هامش الخطأ</span></b>
+<br>
+يكون بين قوسين ويمكن الرجوع على اخر أرقام للحصول عليه، حيث (123) 12.34 تعني 123±12.34
+<br><br>
+<b><br><span style="color:#194CAF">صفحة التفاصيل </span></b>
+<br>
+<b>Z, N</b>
+<br>
+عدد البروتونات و النيوترونات بالترتيب.
+<br><br>
+<b>J\u03C0</b>
+<br>
+مجموع الزخم والتكافؤ الزاوي. تكون القيمة بين قوسين عندما تكون الخاصية غير أكيدة.
+<br><br>
+<b>الوفرة</b>
+<br>
+وفرة النظائر كنسب مولية.
+<br><br>
+<b>عمر النصف</b>
+<br>
+الزمن اللازم لإضمحلال نصف النظائر في عينة معينة.
+<br><br>
+<b>النيوكليدات الآباء</b>
+<br>
+النيوكليدات الآباء المحتملة. انقر على رمز النيوكليد الأب لتتبع سلسلة الإضمحلال للأعلى.
+
+
+<br><br>
+<b>طريقة الإضمحلال</b>
+<br>
+انقر على سلسلة الاضمحلال لتظهر على الرسمة.
+انقر على رمز النيوكليد الأب لتتبع سلسلة الإضمحلال للأعلى أو على رمز النيوكليد الوليد لتتبعها للأسفل.
+<br>
+ملحوظة على توحيد النسب:<br>
+ec β+  100\u0025<br>
+β+  p 23\u0025 <br>
+تعني أن كل الإضمحلالات هي  β+ ec ومنها ما نسبته23\u0025 من نوع β+  p .
+<br><br>
+<b>إشعاعات الإضمحلالات</b><br>
+لكل وضع من أوضاع الاضمحلال ، يتم سرد خطوط الإشعاع ذات الشدة> 1٪ من الخط الأكثر كثافة - لكل نوع -.
+<br>
+يتم عرض معدل الطاقة لإشعاع بيتا مع الطاقة القصوى (end-point energy).
+<br>
+يتم تفعيل التصفح الأفقي في حال كان حجم الجدول كبير.
+يتم تضمين الفوتونات المنبثقة من النيوكليدات الوليدة.
+استخدم التفضيلات لتغير طريقة التصنيف حسب الشدة أو الطاقة.
+<br><br>
+<b> طاقة التفاعل (Q values)</b><br>
+الطاقة الناتجة من إضمحلال للوضع المستقر.
+<br><br>
+<b>Sn and Sp</b><br>
+الطاقة اللازمة لفصل نيوترون (Sn) و بروتون (Sp).
+<br><br>
+<b>العزم المغناطيسي</b><br>
+عزم الأقطاب الثنائية المغناطيسية والذي يتم التعبير عنه بالمغنطيون النووي (magnetons).
+<br><br>
+<b>العزم الكهربائي</b><br>
+عزم الأقطاب الرباعية الكهربائية ويتم التعبير عنه بالبارن (barns).
+<br><br>
+<b>طاقة الربط/ A</b><br>
+طاقة الربط لكل جزيء ذري ويقاس بالكيلو الكترون فولت (keV).
+<br><br>
+<b>المقطع العرضي لأسر النيوترونات الحرارية</b><br>
+المقطع العرضي لأسر النيوترونات التي لديها طاقة حركية بما يقارب 0.025 الكترون فولت (eV).
+<br><br>
+<b>تكامل التردد</b><br>
+تكامل المقطع العرضي لإمتصاص النيوترونات فوق منطقة طاقة التردد بوحدة البارن (barn).
+<br><br>
+<b>معامل-جي ويستكوت</b>
+وهو نسبة المقطع العرضي للنيوترونات عبر المتوسط الماكسويلي إلى المقطع العرضي على سرعة 2200 م/ث (الحراري).
+كملاحظة جانبية، انضم سي.اتش. ويستكوت للوكالة الدولية للطاقة الذرية في عام 1963، وأنشأ قسم البيانات النووية.
+<br><br>
+<b>نصف قطر الشحنة</b><br>
+وهو جذر متوسط المربع لنصف قطر الشحنة، ويعبر عنها بوحدة فيمتومتر (fm).
+يتم استخدام متوسط المربع في حالة النيوترونات، ويعبر عنها بوحدة فيمتومتر مربع  (fm2).
+<br><br>
+<b>نواتج الانشطار النيوتروني الحراري التراكمية </b><br>
+وهو العدد الكلي للذرات الناتجة بعد الانشطار الأول الذي سببه نيوترون حراري.
+
+<br><br>
+زورونا على IAEA Nuclear Data Section
+<br><br>
+<b><br><span style="color:#194CAF">مصادر المعلومات</span></b><br><br>
+
+<b>الرئيسية</b><br>
+ملفات بيانات البنية النووية المقيمة  <br>( Evaluated Nuclear Structure Data Files).<br>  يتم المحافظة على ملفات ENSDF من قبل الشبكة الدولية لبيانات البنية والإضمحلال النووية في الوكالة الدولية للطاقة الذرية وتحت رعايتها.
+<br><br>
+<b>قيم طاقة التفاعل (Q values) و الكتل الذرية وطاقات الفصل</b>
+تقييم الكتل الذرية 2016 (Atomic Mass Evaluation 2016)
+<br><br>
+<b>قيم الوفرة</b><br>
+Nubase 2012
+<br><br>
+<b>المقاطع العرضية للنيوترونات الحرارية</b><br>
+S.F. Mughabghab, Atlas of Neutron Resonances Elsevier Science, 6th Edition, Februay 15 2018, as presented in the <a href="http://www-nds.iaea.org//relnsd/NdsEnsdf/neutroncs.html">Livechart</a>
+<br>N.E. Holden in Handbook of Chemistry and Physics 99Th Edition; <br>I. Dillmann, R. Plag, F. Käppeler and T. Rauscher in KADoNiS v0.3; <br>J. Kopecky in UKAEA-R(15)30.
+<br><br>
+<b>معامل-جي ويستكوت</b><br>
+Mughabgahb INDC-NDS-0440
+<br><br>
+<b>نصف قطر الشحنة</b><br>
+I. Angeli, K. Marinova ADNDT 99 (2013)
+<br><br>
+<b>نواتج الانشطار النيوتروني الحراري</b><br>
+Joint Evaluated Fission and Fusion File JEFF 3.1.1
+
+]]></string>
+
+</resources>

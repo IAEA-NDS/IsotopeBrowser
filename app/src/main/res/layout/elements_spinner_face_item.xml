@@ -1,0 +1,6 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/spin_elements_face"
+    style="@style/spinner_face"
+	android:textSize="20sp"
+>
+</TextView>

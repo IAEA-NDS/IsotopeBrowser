@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/text_background"
+    android:orientation="vertical" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/app_title_bkg"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                style="@style/button_drawer_wide"
+                android:id="@+id/imgbuttonopendrawer"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="6dip"
+                android:layout_marginLeft="20dip"
+                android:src="@drawable/nuclide" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dip"
+                android:text="@string/label_prefs"
+                android:textColor="@color/app_title"
+                android:textSize="32sp" />
+        </LinearLayout>
+    <ScrollView
+        android:id="@+id/prefs_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@color/default_background"
+        android:isScrollContainer="true" >
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/pref_ord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dip"
+            android:paddingRight="20dip"
+            android:text="@string/pref_nuclides_orderby"
+            android:textColor="@color/labels"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupNucsOrderBy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="26dip"
+            android:paddingLeft="26dip" >
+
+            <RadioButton
+                android:id="@+id/radioZandN"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pref_value_orderbyzandn"
+                android:textColor="@color/text_foreground"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radioNandZ"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pref_value_orderbynandz"
+                android:textColor="@color/text_foreground"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radioHalfLife"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pref_value_orderbyhalflife"
+                android:textColor="@color/text_foreground"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/pref_rad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dip"
+            android:paddingRight="20dip"
+            android:text="@string/pref_radiation_orderby"
+            android:textColor="@color/labels"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupRadOrderBy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="20dip"
+            android:paddingLeft="20dip" >
+
+            <RadioButton
+                android:id="@+id/radioIntensity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pref_value_orderbyintensity"
+                android:textColor="@color/text_foreground"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radioEnergy"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pref_value_orderbyenergy"
+                android:textColor="@color/text_foreground"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+        </RadioGroup>
+<!--
+            <TextView
+                android:id="@+id/pref_rad_display"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:text="@string/pref_radiation_display"
+                android:textColor="@color/labels"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+            <CheckBox
+                android:id="@+id/chkDecRadDisplay"
+                style="@style/label_small"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:state_checked="true"
+                android:text="@string/pref_radiation_display_mode" />
+-->
+    <TextView
+        android:id="@+id/pref_chain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip"
+        android:text="@string/pref_decaychain"
+        android:textColor="@color/labels"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/chkAncestors"
+        style="@style/label_small"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:state_checked="true"
+        android:text="@string/pref_value_showparents" />
+
+            <TextView
+                android:id="@+id/specific_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:text="@string/specific_activity"
+                android:textColor="@color/labels"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupSpAct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dip"
+                android:paddingLeft="20dip" >
+
+                <!--RadioButton
+                    android:id="@+id/radio_mbqkgq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/specific_activity_mbqkg"
+                    android:textColor="@color/text_foreground"
+                    android:textStyle="bold"
+                    /-->
+
+                <RadioButton
+                    android:id="@+id/radio_bqg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/specific_activity_bqg"
+                    android:textColor="@color/text_foreground"
+                    android:textStyle="bold"
+                    />
+
+                <RadioButton
+                    android:id="@+id/radio_cu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/specific_activity_cig"
+                    android:textColor="@color/text_foreground"
+                    android:textStyle="bold"
+                    style="@android:style/Widget.Holo.CompoundButton.RadioButton"/>
+            </RadioGroup>
+
+
+
+            <TextView
+        android:id="@+id/pref_lang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip"
+        android:text="@string/pref_language"
+        android:textColor="@color/labels"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+            <include layout="@layout/lang_options"/>
+
+        <TextView
+            android:id="@+id/app_info"
+            android:textColor="@color/app_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:paddingLeft="20dip"
+            android:paddingRight="20dip"
+            android:paddingTop="10dp"
+
+            android:textSize="16sp" />
+
+
+
+        <include layout="@layout/iaea_banner" android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+            </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+

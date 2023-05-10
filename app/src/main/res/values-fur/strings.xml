@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="a_prompt">質量數</string>
+<string name="about_prefix">國際原子能機構核數據科開發</string>
+<string name="abundance">同位素豐度</string>
+<string name="abundance_lbl">同位素豐度</string>
+<string name="and">和</string>
+<string name="app_name">核素導覽</string>
+<string name="avg_en">"Avg En[keV]"</string>
+
+<string name="mass_excess">Mass excess</string>
+<string name="specific_activity" >Specific act.y</string>
+<string name="decay_constant">Decay const.</string>
+<string name="radiative_capture">Radiative capture</string>
+<string name="fission">"Fission"</string>
+<string name="absorption">"Absorption"</string>
+<string name="n_fission">"(n,fission)"</string>
+<string name="table_title_rad">Avg. En. [keV]ANDInt. % AND En. max. [keV]  AND En. EC [keV] AND En. [keV]  </string>
+
+<string name="between">之間</string>
+<string name="binding_energy">結合能</string>
+<string name="btn_search_label">開始</string>
+<string name="charge_rad">電荷半徑</string>
+<string name="chart_prompt">核素圖</string>
+<string name="choose_dec">選擇衰變方式</string>
+<string name="choose_rad">選擇輻射方式</string>
+<string name="cum_ther_fy">累積熱中子裂變產額</string>
+<string name="decay">衰變</string>
+<string name="decay_prompt">衰變方式</string>
+<string name="decay_rad">衰變輻射</string>
+<string name="decaychain">衰變鏈</string>
+<string name="decays">衰變</string>
+<string name="electric_mom">電矩</string>
+<string name="element_groups">鹼金屬,鹼土金屬,過渡金屬,其他金屬,類金屬,其他非金屬,鹵素,惰性氣體,鑭系,錒系</string>
+<string name="elements_alpha_prompt">按名字排序</string>
+<string name="elements_prompt">元素</string>
+<string name="feedback">反饋</string>
+<string name="from">源自</string>
+<string name="half_life">半衰期</string>
+<string name="half_life_unit_prompt">單位</string>
+<string name="half_life_units">ps,ns,μ s,ms,s,m,h,d,Y</string>
+<string name="iaeands">國際原子能機構核數據科</string>
+<!--string name="jp_prompt">角動量和宇稱</string-->
+<string name="jplike">Jp為</string>
+<string name="label_prefs">設置</string>
+<string name="lbl_message_wait">請稍等</string>
+<string name="lblAdvSearch">高級檢索</string>
+<string name="lblClear">清除</string>
+<string name="lblHelp">幫助</string>
+<string name="lblSearchDecRad">衰變和主要輻射</string>
+<string name="load_data_title">加載</string>
+<string name="magnetic_mom">磁矩</string>
+<string name="main">首頁</string>
+<string name="mass">質量數</string>
+<string name="mean_square">均方</string>
+<string name="more_about">"更多內容請參考 &lt;a href=> NDS網頁 &lt;/a></string>
+<string name="msg_nobranching">此衰變不存在</string>
+<string name="n_prompt">中子數</string>
+<string name="nds_tag">由國際原子能機構核數據科提供</string>
+<string name="new_in_ib">核素導覽更新內容</string>
+<string name="no_results">沒有找到相關核素</string>
+<!-- string name="nuc_input_help">9C或C或6</string-->
+<string name="nuclide">核素</string>
+<!--string name="one">核素：</string-->
+<string name="orderby">按.. 排序</string>
+<string name="ordering">排序</string>
+<!--string name="other">核素：</string-->
+<string name="parents">母核</string>
+<string name="pref_language">語言</string>
+<string name="pref_nuclides_orderby">核素列表按..排序</string>
+<string name="pref_radiation_orderby">按衰變方式排序</string>
+<string name="pref_value_orderbyenergy">能量</string>
+<string name="pref_value_orderbyhalflife">半衰期</string>
+<string name="pref_value_orderbyintensity">強度</string>
+<string name="pref_value_orderbynandz">N和Z</string>
+<string name="pref_value_orderbyzandn">Z和N</string>
+<string name="pref_decaychain">顯示衰變鏈</string>
+<string name="pref_value_showparents">顯示所有母核</string>
+<string name="preferences">設置</string>
+<string name="radiation_energy_lbl">輻射能</string>
+<string name="Radiation_prompt">衰變輻射</string>
+<string name="read">關閉</string>
+<string name="resonance_int">共振積分</string>
+<string name="result_list">結果列表</string>
+<!--string name="search_results">檢索結果</string-->
+<plurals name="search_results">
+<item quantity="one">%1$d  檢索結果 \"%2$s\": </item>
+<item quantity="other">%1$d  檢索結果 \"%2$s\": </item>
+</plurals>
+<string name="see_the">查看</string>
+<string name="stable_prompt">穩定</string>
+<string name="tentative">ENSDF評價中標注的如強度</string>
+<string name="ther_n_capt">熱中子俘獲截面</string>
+<string name="uncertain">不確定度</string>
+<string name="uraniumTentative">在1952年熱核實驗中首次發現的同位素。</string>
+<string name="warn_no_input">至少需要輸入一個參數</string>
+<string name="warning">警告</string>
+<string name="width">寬度</string>
+<string name="z_prompt">原子數</string>
+
+
+<string name="elements_names">"中子
+氫
+氦
+鋰
+鈹
+硼
+碳
+氮
+氧
+氟
+氖
+鈉
+鎂
+鋁
+硅
+磷
+硫
+氯
+氬
+鉀
+鈣
+鈧
+鈦
+釩
+鉻
+錳
+鐵
+鈷
+鎳
+銅
+鋅
+鎵
+鍺
+砷
+硒
+溴
+氪
+銣
+鍶
+釔
+鋯
+鈮
+鉬
+鎝
+釕
+銠
+鈀
+銀
+鎘
+銦
+錫
+銻
+碲
+碘
+氙
+銫
+鋇
+鑭
+鈰
+鐠
+釹
+鉕
+釤
+銪
+釓
+鋱
+鏑
+鈥
+鉺
+銩
+鐿
+鎦
+鉿
+鉭
+鎢
+錸
+鋨
+銥
+鉑
+金
+汞
+鉈
+鉛
+鉍
+釙
+砈
+氡
+鍅
+鐳
+錒
+釷
+鏷
+鈾
+錼
+鈽
+鋂
+鋦
+鉳
+鉲
+鑀
+鐨
+鍆
+鍩
+鐒
+鑪
+𨧀
+𨭎
+𨨏
+𨭆
+䥑
+鐽
+錀
+鎶
+113
+鈇
+115
+鉝
+117
+118
+119
+120"</string>
+<string name="help"><![CDATA["<br><b><br><span style="color:#194CAF">使用說明</span></b>
+<br>利用“設置”可選擇不同介面語言。
+<br>選擇一個元素（或輸入元素符號，如xe，或原子量，如54，或一個核素，如135xe）後，回車或按“檢索”後自動開始查找。
+<br>點擊檢索結果條目即可顯示詳細資訊。
+<br>在資料庫中包括基態和半衰期大於100E-9秒的同質異能態。
+<br><b><br><span style="color:#194CAF">圖表</span></b>
+<br>在核素圖中顯示所選擇的核素。若未進行查詢時，顯示整個核素圖。
+<br>主要衰變方式用不同的顏色表示。
+<br>利用縮放功能可獲得核素名稱，進一步可獲得簡要的數據結果。
+<br>點擊連接到詳細頁面。
+<br>長按一個核素以顯示衰變鏈。包括所有基態衰變方式和分支比。虛線表示次級衰變方式。
+<br>通過“設置”來顯示/隱藏衰變鏈母核資訊。
+<br>標成“?”的自發裂變和分支比數據將不畫出來。
+<br>在一個核素上長按可以重置核素圖。
+<br><b><br><span style="color:#194CAF">高級檢索</span></b>
+<br>點擊“高級檢索”，填寫完成相關資訊後，按“開始”就進行查找。當高級檢索資訊輸入欄收起後，所填資訊不再起作用。
+<br><b><br><span style="color:#194CAF">結果列表</span></b>
+<br>默認按照z,n排序。可以在“設置”中改變排序方式。在列表中點擊任一條目即可鏈接到相應的詳細資訊頁面。
+<br><b><br><span style="color:#194CAF">不確定度</span></b>
+<br>不確定度列在括弧裏，與括弧前數據最後一位有效位對齊。12.34(123)表示12.34+-1.23。
+<br><b><br><span style="color:#194CAF">詳細頁面</span></b>
+<br><b>Z,N</b>
+<br>分別代表質子和中子數。
+<br><b>Jp</b>
+<br>總角動量和宇稱。在括弧裏的數值表示為其不確定度。
+<br><b>豐度</b>
+<br>用摩爾分數表示同位素豐度：在一元素中一種同位素原子所占的比例。
+<br><b>半衰期</b>
+<br>樣品中某一核素衰變一半所需的時間。
+<br><b>母核</b>
+<br>可能的母核。點擊母核符號跳轉到上一層的衰變鏈。
+<br><b>衰變方式</b>
+<br>在核素圖中點擊衰變鏈可查看相關資訊。
+<br>點擊母核或子核符號可以跳轉到上一層或下一層衰變鏈。
+<br>注意歸一化的百分數：
+<br>ec β+  100\u0025<br>β+  p 23\u0025 
+<br>表示全部都是ec β+衰變，其中β+ p衰變占23\u0025。
+<br><b>衰變輻射</b>
+<br>對於每一種衰變方式，列出11個最強的輻射。
+<br>輻射的平均能量和末態能量均列出。若表格太大時，可拖動水準拖拉條以顯示其餘內容。
+<br>考慮了子核光子出射。
+<br>利用“<b>設置</b>”可選擇從強度到能量的不同排序方式。
+<br><b>Q值</b>
+<br>基態衰變所產生的能量。
+<br><b>Sn和Sp </b>
+<br>中子和質子分離能。
+<br><b>磁矩</b>
+<br>磁偶極矩，用核磁子來表示。
+<br><b>電矩</b>
+<br>電四極矩，用靶來表示。
+<br><b>結合能/A</b>
+<br>每核子結合能，單位為keV。
+<br><b>熱中子俘獲截面</b>
+<br>俘獲一個動能約為0.0253 eV中子的截面。
+<br><b>共振積分</b>
+<br>對整個共振能區（0.5 eV-無窮大）按1/E譜的形式對中子吸收反應率進行積分，單位靶。
+<br><b>Westcott g-因數</b>
+<br>√π/2 ˣMaxwellian熱中子譜平均中子截面與2200 m/s（熱中子0.0253 eV）截面的比值。
+<br>注：C.H. Westcott在1963年加入IAEA，並建立了核數據科。
+<br><b>電荷半徑</b>
+<br>電荷半徑的均方根，單位fm。
+<br>對於中子給出均方值，單位fm2。
+<br><b>熱中子裂變累積產額</b>
+<br>由熱中子引起每次裂變產生的所有裂變產物核素數目之和。
+<br>請訪問我們國際原子能機構核數據科
+<br><b><br><span style="color:#194CAF">數據來源</span></b>
+<br><b>主要來源</b>
+<br>核結構評價資料庫（ENSDF）是在IAEA的主持下，由國際核結構與衰變協作網共同維護的資料庫。
+<br><b>Q值，原子品質和分離能</b>
+<br>Atomic Mass Evaluation 2016
+<br><b>豐度</b>
+<br>Nubase 2012
+<br><b>熱中子截面</b>
+<br>S.F. Mughabghab, Atlas of Neutron Resonances Elsevier Science, 6th Edition, Februay 15 2018, as presented in the <a href="http://www-nds.iaea.org//relnsd/NdsEnsdf/neutroncs.html">Livechart</a>
+<br>N.E. Holden in Handbook of Chemistry and Physics 99Th Edition; <br>I. Dillmann, R. Plag, F. Käppeler and T. Rauscher in KADoNiS v0.3; <br>J. Kopecky in UKAEA-R(15)30.
+<br><b>Westcott g-因數</b>
+<br>Mughabgahb INDC-NDS-0440
+<br><b>電荷半徑</b>
+<br>I. Angeli, K. Marinova ADNDT 99 (2013)
+<br><b>熱中子裂變累積產額</b>
+<br>Joint Evaluated Fission and Fusion File JEFF 3.1.1
+
+"
+]]></string>
+
+</resources>

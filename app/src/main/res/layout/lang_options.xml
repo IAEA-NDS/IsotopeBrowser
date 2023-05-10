@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_languages"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:id="@+id/radioGroupLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip" >
+
+        <RadioButton
+            android:id="@+id/radioEnglish"
+            style="@style/pref_checkbox"
+            android:text="@string/pref_value_english" />
+        <RadioButton
+            android:id="@+id/radioArabic"
+            android:text="@string/pref_value_arabic"
+            style="@style/pref_checkbox" />
+        <RadioButton
+            android:id="@+id/radioGerman"
+            android:text="@string/pref_value_german"
+            style="@style/pref_checkbox" />
+        <RadioButton
+            android:id="@+id/radioSpanish"
+            android:text="@string/pref_value_spanish"
+            style="@style/pref_checkbox" />
+        <RadioButton
+            android:id="@+id/radioFrench"
+            android:text="@string/pref_value_french"
+            style="@style/pref_checkbox"/>
+
+        <RadioButton
+            android:id="@+id/radioItalian"
+            android:text="@string/pref_value_italian"
+            style="@style/pref_checkbox" />
+
+        <RadioButton
+            android:id="@+id/radioJapanese"
+            android:text="@string/pref_value_japanese"
+            style="@style/pref_checkbox"/>
+        <RadioButton
+            android:id="@+id/radioRussian"
+            android:text="@string/pref_value_russian"
+            style="@style/pref_checkbox" />
+        <RadioButton
+            android:id="@+id/radioSlovenian"
+            android:text="@string/pref_value_slovenian"
+            style="@style/pref_checkbox" />
+
+        <RadioButton
+            android:id="@+id/radioChinese"
+            android:text="@string/pref_value_chinese"
+            style="@style/pref_checkbox" />
+        <RadioButton
+            android:id="@+id/radioChineseTraditional"
+            android:text="@string/pref_value_chineseTraditional"
+            style="@style/pref_checkbox" />
+
+        <RadioButton
+            android:visibility="gone"
+            android:id="@+id/radioDutch"
+            android:text="@string/pref_value_dutch"
+            style="@style/pref_checkbox" />
+
+
+
+    </RadioGroup>
+
+</LinearLayout>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.Nuclides" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:itemTextAppearance">@style/myCustomMenuTextApearance</item>
+        <item name="colorAccent">@color/green</item>
+        <item name="android:textColorSecondary">@color/text_drawer_dark</item>
+        <item name="android:dropDownListViewStyle">@style/MySpinnerStyle</item>
+
+
+    </style>
+
+    <style name="AppTheme">
+        <item name="android:textColorPrimary">@color/app_title_old</item>
+
+    </style>
+
+    <style name="MySpinnerStyle" parent="android:style/Widget.ListView.DropDown">
+        <item name="android:divider">#FF555555</item>
+        <item name="android:dividerHeight">1dp</item>
+        <item name="android:layout_width">match_parent</item>
+
+    </style>
+
+    <style name="app_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/app_title</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/app_name</item>
+        <item name="android:background">@color/app_title_bkg</item>
+    </style>
+
+    <style name="label_small">
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_width">@dimen/zero_size</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_foreground</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="edit_text">
+        <item name="android:layout_width">@dimen/zero_size</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_foreground</item>
+        <item name="android:background">@drawable/edit_text_bkg</item>
+        <item name="android:layout_marginLeft">4dip</item>
+        <item name="android:layout_marginRight">4dip</item>
+        <item name="android:layout_marginBottom">4dip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColorHint">@color/text_drawer_dark</item>
+        <item name="android:ellipsize">end</item>
+
+        <!-- item name="android:maxWidth">10dip</item -->
+
+    </style>
+
+    <style name="edit_text_square">
+        <item name="android:layout_width">@dimen/zero_size</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_foreground</item>
+        <item name="android:background">@drawable/edit_text_bkg</item>
+        <item name="android:layout_marginLeft">4dip</item>
+        <item name="android:layout_marginRight">4dip</item>
+        <item name="android:layout_marginBottom">4dip</item>
+        <item name="android:textColorHint">@color/text_drawer_dark</item>
+        <item name="android:ellipsize">start</item>
+
+        <!-- item name="android:maxWidth">10dip</item -->
+
+    </style>
+
+    <style name="slim_spinner">
+        <item name="android:layout_marginTop">4dip</item>
+        <item name="android:background">@drawable/selector_spinner</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/slim_spinner_height</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingRight">30dip</item>
+        <item name="android:popupBackground">@color/app_title_bkg</item>
+
+
+    </style>
+
+    <style name="wide_spinner">
+        <item name="android:layout_marginTop">4dip</item>
+        <item name="android:background">@drawable/selector_spinner</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/wide_spinner_height</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingRight">30dip</item>
+        <item name="android:popupBackground">@color/app_title_bkg</item>
+
+
+    </style>
+
+    <style name="fat_spinner">
+        <item name="android:textSize">60sp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@drawable/selector_spinner</item>
+        <item name="android:layout_marginTop">4dip</item>
+        <item name="android:layout_marginBottom">4dip</item>
+    </style>
+
+    <style name="btn_advanced">
+        <item name="android:layout_width">@dimen/zero_size</item>
+        <item name="android:textColor">@color/clickable</item>
+        <item name="android:layout_height">@dimen/textview_height</item>
+        <item name="android:text">@string/lblAdvSearch</item>
+        <item name="android:background">@drawable/pressed</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:drawableLeft">@drawable/ic_expand_more_white_36dp</item>
+    </style>
+
+    <style name="btn_chart">
+        <item name="android:layout_width">@dimen/zero_size</item>
+        <item name="android:textColor">@color/clickable</item>
+        <item name="android:layout_height">@dimen/textview_height</item>
+        <item name="android:text">@string/chart_prompt</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/pressed</item>
+        <item name="android:drawableLeft">@drawable/chart</item>
+        <item name="android:paddingLeft">4dip</item>
+    </style>
+
+    <style name="btn_clear">
+        <item name="android:layout_width">@dimen/zero_size</item>
+        <item name="android:textColor">@color/clickable</item>
+        <item name="android:layout_height">@dimen/textview_height</item>
+        <item name="android:text">@string/lblClear</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/pressed</item>
+        <item name="android:drawableLeft">@drawable/ic_refresh_white_36dp</item>
+    </style>
+
+    <style name="btn_elements">
+        <item name="android:layout_width">@dimen/zero_size</item>
+        <item name="android:textColor">@color/clickable</item>
+        <item name="android:layout_height">@dimen/textview_height</item>
+        <item name="android:text">@string/elements_prompt</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/pressed</item>
+        <item name="android:drawableLeft">@drawable/mendeleev</item>
+        <item name="android:paddingLeft">4dip</item>
+    </style>
+
+    <style name="btn_search">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/textview_height</item>
+        <item name="android:textColor">@color/clickable</item>
+        <item name="android:text">@string/btn_search_label</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:drawableLeft">@drawable/nuclide</item>
+        <item name="android:background">@drawable/pressed</item>
+    </style>
+
+    <style name="result_item_mass">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/text_background</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="result_item_element">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_background</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingLeft">4dp</item>
+    </style>
+
+    <style name="result_item_enne">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:textColor">@color/text_background</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:gravity">bottom</item>
+    </style>
+
+    <style name="result_item_element_2">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_background</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:padding">3dp</item>
+        <!-- item name="android:background">@color/button_disabled</item -->
+    </style>
+
+    <style name="spinner_face">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/spin_item_text_foreground</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:drawableLeft">@drawable/mendeleev</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="label_results">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/nuclide_labels</item>
+    </style>
+
+    <style name="button_drawer">
+        <item name="android:layout_marginLeft">@dimen/wide_margin</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/ic_menu_white_24dp</item>
+        <item name="android:background">@color/app_title_bkg</item>
+        <item name="android:layout_marginTop">@dimen/margin_wide</item>
+    </style>
+    <style name="button_drawer_wide">
+        <item name="android:layout_marginLeft">@dimen/wide_margin</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/ic_menu_white_48dp</item>
+        <item name="android:background">@color/app_title_bkg</item>
+        <item name="android:layout_marginTop">@dimen/margin_wide</item>
+    </style>
+
+    <style name="myCustomMenuTextApearance" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="android:textSize">@dimen/menu_item_textsize</item>
+        <item name="android:textColor">@color/button_disabled</item>
+    </style>
+
+    <style name="pref_checkbox">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_foreground</item>
+        <item name="android:textSize">@dimen/pref_checkbox_txtsize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+
+</resources>

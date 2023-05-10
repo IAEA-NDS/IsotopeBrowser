@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="labels">#194CAF</color>
+<color name="labels_gold">#FFFFD755</color>
+<color name="logo">#598CEF</color>
+<color name="clickable">#FFFFFF</color>
+<color name="clickable_old">#009900</color>
+<color name="nuclide_labelsOLD">#FF74c2e1</color>
+<color name="nuclide_labels">#C9C9C9</color>
+<color name="default_background">#FFFFFF</color>
+<color name="text_background">#FFFFFF</color>
+<color name="text_foreground_label_detail">#101010</color>
+<color name="text_foreground">#222222</color>
+    <color name="text_drawer_dark">#888888</color>
+    <color name="text_drawer_dark_dark">#666666</color>
+<color name="spin_item_text_foreground">#111111</color>
+<color name="app_title">#CCCCCC</color>
+<color name="app_title_old">#194CAF</color>
+<color name="app_title_bkg">#333333</color>
+<color name="iaea_img_bkg">#00DDDDDD</color>
+<color name="button">#396CCF</color>
+<color name="button_old">#2CACDA</color>
+<color name="button_pressed">#FFB200</color>
+<color name="button_disabled">#BBBBBB</color>
+<color name="help_text">#555555</color>
+<color name="result_nucid">#FFFFFF</color>
+<color name="spin_background">#DDDDDD</color>
+    <color name="iaea_flag">#066FCC</color>
+    <color name="green">#33AA33</color>
+    <color name="rad_selected">#EE4444</color>
+
+
+</resources>

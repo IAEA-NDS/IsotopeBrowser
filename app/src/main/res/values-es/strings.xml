@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="a_prompt">A</string>
+<string name="about_prefix">Desarrollado en la Sección de datos nucleares del OIEA</string>
+<string name="abundance">Ab.</string>
+<string name="abundance_lbl">Abundancia</string>
+<string name="and">y</string>
+<string name="app_name">Navegador de Isótopos</string>
+<string name="avg_en">"Avg En[keV]"</string>
+<string name="table_title_rad">Avg. En. [keV]ANDInt. % AND En. max. [keV]  AND En. EC [keV] AND En. [keV]  </string>
+
+<string name="mass_excess">Mass excess</string>
+<string name="specific_activity" >Specific act.y</string>
+<string name="decay_constant">Decay const.</string>
+<string name="radiative_capture">Radiative capture</string>
+<string name="fission">"Fission"</string>
+<string name="absorption">"Absorption"</string>
+<string name="n_fission">"(n,fission)"</string>
+
+<string name="between">entre</string>
+<string name="binding_energy">Energía de enlace</string>
+<string name="btn_search_label">Buscar</string>
+<string name="charge_rad">Radio de carga</string>
+<string name="chart_prompt">Mapa</string>
+<string name="choose_dec">Elija el tipo de desintegración</string>
+<string name="choose_rad">Elija el tipo de radiación</string>
+<string name="cum_ther_fy">Productos acumuladivos de fisión por neutrones térmicos </string>
+<string name="decay">desintegración</string>
+<!--string name="decay_prompt">Modo de desintegración</string>
+-->
+<string name="decay_prompt">Modo</string>
+<string name="decay_rad">Radiación de desintegración</string>
+<string name="decaychain">cadena de desintegración</string>
+<string name="decays">Desintegraciones</string>
+<string name="electric_mom">Momento eléctrico</string>
+<string name="element_groups">Metales alcalinos, Metales alcalinotérreos, Metales de transición, Metales de post-transición, Metaloides, Otros no-metales, Halógenos, Gases nobles, Lantánidos, Actínidos</string>
+<string name="elements_names">"Neutrón
+Hidrógeno
+Helio
+Litio
+Berilio
+Boro
+Carbono
+Nitrógeno
+Oxígeno
+Flúor
+Neón
+Sodio
+Magnesio
+Aluminio
+Silicio
+Fósforo
+Azufre
+Cloro
+Argón
+Potasio
+Calcio
+Escandio
+Titanio
+Vanadio
+Cromo
+Manganeso
+Hierro
+Cobalto
+Níquel
+Cobre
+Zinc
+Galio
+Germanio
+Arsénico
+Selenio
+Bromo
+Kriptón
+Rubidio
+Estroncio
+Itrio
+Circonio
+Niobio
+Molibdeno
+Tecnecio
+Rutenio
+Rodio
+Paladio
+Plata
+Cadmio
+Indio
+Estaño
+Antimonio
+Teluro
+Yodo
+Xenón
+Cesio
+Bario
+Lantano
+Cerio
+Praseodimio
+Neodimio
+Prometio
+Samario
+Europio
+Gadolinio
+Terbio
+Disprosio
+Holmio
+Erbio
+Tulio
+Iterbio
+Lutecio
+Hafnio
+Tantalio
+Wolframio
+Renio
+Osmio
+Iridio
+Platino
+Oro
+Mercurio
+Talio
+Plomo
+Bismuto
+Polonio
+Astato
+Radón
+Francio
+Radio
+Actinio
+Torio
+Protactinio
+Uranio
+Neptunio
+Plutonio
+Americio
+Curio
+Berkelio
+Californio
+Einstenio
+Fermio
+Mendelevio
+Nobelio
+Laurencio
+Rutherfordio
+Dubnio
+Seaborgio
+Bohrio
+Hassio
+Meitnerio
+Darmstadtio
+Roentgenio
+Copernicio
+Nihonio
+Flerovio
+Moscovio
+Livermorio
+Tenesino
+Oganesón
+Ununennium
+Unbinilium"</string>
+<string name="elements_alpha_prompt">Ordenar por nombre</string>
+<string name="elements_prompt">Elemento</string>
+<string name="feedback">Comentario</string>
+<string name="from">De</string>
+<string name="half_life">Semivida</string>
+<string name="half_life_unit_prompt">Unidad</string>
+<string name="half_life_units">ps, ns, μ, s, ms, m, h, d, A</string>
+<string name="iaeands">Sección de Datos Nucleares del OIEA</string>
+<string name="jplike">Como Jp</string>
+<string name="label_prefs">Ajustes</string>
+<string name="lbl_message_wait">Aguarde por favor</string>
+<string name="lblAdvSearch">Experto</string>
+<string name="lblClear">Borrar</string>
+<string name="lblHelp">Ayuda</string>
+<string name="lblSearchDecRad">Desintegración y principales radiaciones</string>
+<string name="load_data_title">Cargando</string>
+<string name="magnetic_mom">Momento magnético</string>
+<string name="main">Principal</string>
+<string name="mass">Masa</string>
+<string name="mean_square">media cuadrática</string>
+<string name="more_about">Información adicional en la  web del  &lt;a href=> NDS &lt;/a></string>
+<string name="msg_nobranching">Sin desintegración conocida</string>
+<string name="n_prompt">N</string>
+<string name="nds_tag">Desarrollado por la Sección de Datos Nucleares del OIEA</string>
+<string name="new_in_ib">“Nuevo en el Navegador de Isótopos”</string>
+<string name="no_results">No se han encontrado núclidos para</string>
+<string name="nuclide">Nucleide</string>
+
+<string name="orderby">ordenar por</string>
+<string name="ordering">ordenamiento</string>
+<string name="parents">Precursores</string>
+<string name="pref_language">Lenguajes</string>
+<string name="pref_nuclides_orderby">Ordenamiento de la lista de nucleidos</string>
+<string name="pref_radiation_orderby">Ordenamiento de la radiación de desintegración</string>
+<string name="pref_value_orderbyenergy">Energía</string>
+<string name="pref_value_orderbyhalflife">Semivida</string>
+<string name="pref_value_orderbyintensity">Intensidad</string>
+<string name="pref_value_orderbynandz">N y Z</string>
+<string name="pref_value_orderbyzandn">Z y N</string>
+<string name="pref_decaychain">Visualización de la cadena de desintegración</string>
+<string name="pref_value_showparents">Mostrar todos los precursores</string>
+<string name="preferences">Preferencias</string>
+<string name="radiation_energy_lbl">Energía de la radiación</string>
+<string name="Radiation_prompt">Radiación</string>
+<string name="read">Cerrar</string>
+<string name="resonance_int">Integral de resonancias</string>
+<string name="result_list">Lista de resultados</string>
+<string name="see_the">ver el</string>
+<string name="stable_prompt">Estable</string>
+<plurals name="search_results">
+<item quantity="one">%1$d Nucleido para: \"%2$s\": </item>
+<item quantity="other">%1$d Nucleidos para: \"%2$s\": </item>
+</plurals>
+<string name="tentative">Evaluación  ENDSF descrita como  “preliminar”</string>
+<string name="ther_n_capt">Captura de neutrones térmicos</string>
+<string name="uncertain">Impreciso</string>
+<string name="uraniumTentative">Isótopo detectado de forma indirecta en los residuos de una  prueba  termo-nuclear en 1952</string>
+<string name="warn_no_input">Necesita introducir al menos un parámetro</string>
+<string name="warning">Advertencia</string>
+<string name="width">Anchura</string>
+<string name="z_prompt">  Z</string>
+
+<string name="help"><![CDATA[
+"
+<b><br><span style="color:#194CAF">Guía</span></b>
+<br><br><b>Cambio de idioma</b> utilizando el panel de preferencias
+<br><br><b>Seleccione un elemento</b> (o introduzca un <b>Símbolo</b>, por ejemplo Xe, o un <b>Número Atómico</b>, por ejemplo 54, o un <b>Nucleido</b>, por ejemplo 135Xe),   y la búsqueda comienza automáticamente.
+<br><b>Toque uno de los items</b> de la lista de resultados para obtener información detallada.<br><b>La Base de Datos incluye los estados fundamentales e isómeros con semivida > 100 ns</b>
+<br><br><b><br><span style="color:#194CAF">Tabla de Nucleidos</span></b>
+<br>Muestra los nucleidos selecionados en el Mapa de Nucleidos. Se muestran todos los nucleidos cuando no hay consulta activa<br><b>El color</b> representa el modo principal de desintegración<br><b>Hacer zoom</b> para obtener los nombres de los nucleidos, más para obtener el resumen de datos<br><b>La cadena de desintegración</b> se muestra tras presionar prolongadamente sobre un nucleido.  Esta incluye todos los modos de desintegración desde el estado fundamental que tienen asignado
+un valor de la razón de bifurcación. Las líneas a trazos representan modos de desintegración secundarios.<br><b>Los precursores</b> situados arriba de la cadena pueden mostrarse/ocultarse usando las preferencias.  <br>La fisión espontánea y las razones de bifurcación marcadas como “?” no se representan gráficamente.<br>Presione prolongadamente sobre el mismo nucleido para reiniciar el mapa.
+<br><br><b><br><span style="color:#194CAF">Búsqueda avanzada</span></b>
+<br>Cuando el panel Experto esté visible, pulsar <b>Buscar</b> para comenzar la búsqueda. <b>Cuando el panel está oculto sus parámetros no afectan la consulta.</b>
+<br><br><b><br><span style="color:#194CAF">Lista de resultados</span></b>
+<br>El ordenamiento por defecto es por z, n. Use las <b>Preferencias</b> para cambiarlo. Toque un item  para ir a la página detallada.
+<br><br><b><br><span style="color:#194CAF">Indeterminaciones</span></b>
+<br>Están entre paréntesis, y se refieren al(os) último(s) dígito(s) significativo(s). 12.34 (123) significa 12.34 +- 1.23
+<br><br><b><br><span style="color:#194CAF">Página detallada</span></b>
+<br><b>Z, N</b><br>Número de protones y neutrones, respectivamente<br><br><b>Jp</b><br>Momento angular total y paridad. El valor está entre paréntesis cuando el asignamiento es incierto.  <br><br><b>Abundancia</b><br>Abundancia isotópica como fracción molar.
+<br><br><b>Semivida</b><br>Tiempo necesari para que la mitad de los isótopos en una muestra sufran desintegración radiactiva.
+<br><br><b>Progenitores</b><br>Posibles nucleidos progenitores. Tocar en el símbolo progenitor para avanzar hacia arriba en la cadena de desintegración.
+<br><br><b>Modos de desintegración</b><br>Toque en una cadena de desintegración para verla en el mapa. Toque en el símbolo progenitor o en el hijo para seguir la cadena  de desintegración hacia arriba o hacia abajo, respectivamente.
+<br>Nota sobre el porcentaje en la normalización:
+<br>ec β+  100\u0025
+<br>β+  p 23\u0025
+<br>significa que todas las desintegraciones son  ec β +, de las cuales 23\u0025 es β+  p
+<br><br><b>Radiaciones de desintegración</b><br>Para cada tipo de desintegración sólo se muestran las emisiones cuya intensidad es mayor que el 1% de la línea más intensa de ese tipo de radiación..<br>En el caso de radiación beta se indica la energía media, así como la energía máxima. Se permite el desplazamiento horizontal cuando la tabla es larga. <br>Los fotones emitidos por el hijo están incluidos.
+<br>Usar las <b>Preferencias</b> para cambiar el criterio de ordenamiento de intensidad a energía.
+<br><br><b>Valores de Q</b><br>Energía disponible para la desintegración del estado fundamental.<br><br><b>Sn y Sp</b><br>Energía de separación de un neutrón y de un protón.<br><br><b>Momento Magnético</b><br>Momento dipolar magnético, expresado en magnetones nucleares. <br><br><b>Momento Eléctrico</b><br>Momento cuadrupolar eléctrico expresado en barns.<br><br><b>Ligadura/A</b><br>Energía de ligadura por nucleón, en keV<br><br><b>Sección eficaz de captura de neutrones térmicos</b>
+<br>Sección eficaz para capturar de un neutrón con energía cinética de ~0.025 eV<br><br><b>Integral de resonancias</b><br>Integral de la sección eficaz de absorción sobre la región de las resonancias, en barn.
+<br><br><b>Factor-g de Westcott</b><br>La razón de la sección eficaz promediada con espectro maxweliano respecto a la sección eficaz a 2200 m/s (térmica)
+<br>Como nota al margen, C. H. Westcott comenzó a trabajar en el OIEA en 1963 y puso en marcha la Sección de Datos Nucleares.
+<br><br><b>Radio de carga</b><br>Media  cuadrática  del radio de carga, expresado en fm. En el caso  del Neutrón se da su cuadrado, expresado en fm2<br><br><b>Productos de fisión acumulativos de neutrones térmicos</b><br>Número total de átomos producidos a lo largo del tiempo después de una fisión causada por un neutrón de energía térmica.
+<br><br><b><br><span style="color:#194CAF">Visítenos</span></b> IAEA <a href="https://www-nds.iaea.org">Nuclear Data Section</a><br><br><b><br><span style="color:#194CAF">Fuentes de Datos</span></b><br><b>Principal</b><br>Evaluated Nuclear Structure Data Files. La base de datos ENSDF es mantenida por la red de Estructura Nuclear y Datos de Desintegración, bajo los auspicios del OIEA.<br><br><b>Valores-Q, Masas Atómicas y Energías de Separación</b><br>Atomic Mass Evaluation 2016<br><br><b>Abundancias</b><br>Nubase 2012<br><br><b>Secciones Eficaces de Neutrones Térmicos</b>
+<br>S.F. Mughabghab, Atlas of Neutron Resonances Elsevier Science, 6th Edition, Februay 15 2018, as presented in the <a href="http://www-nds.iaea.org//relnsd/NdsEnsdf/neutroncs.html">Livechart</a>
+<br>N.E. Holden in Handbook of Chemistry and Physics 99Th Edition; <br>I. Dillmann, R. Plag, F. Käppeler and T. Rauscher in KADoNiS v0.3; <br>J. Kopecky in UKAEA-R(15)30.
+<br><br><b>Factor-g de Westcott</b><br>Mughabgahb INDC-NDS-0440
+<br><br><b>Radios de Carga</b><br>I. Angeli, K. Marinova ADNDT 99 (2013)
+<br><br><b>Productos de Fisión de Neutrones Térmicos</b><br>Joint Evaluated Fission and Fusion File JEFF 3.1.1"
+
+]]></string>
+
+
+
+</resources>

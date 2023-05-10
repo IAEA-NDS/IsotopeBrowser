@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single" >
+        <item android:id="@+id/nav_mainpage" android:icon="@drawable/ic_home_white_24dp"
+            android:title="@string/main" />
+        <item android:id="@+id/nav_resulttable" android:icon="@drawable/ic_list_white_24dp"
+            android:title="@string/result_list" />
+        <item android:id="@+id/nav_elements" android:icon="@drawable/mendeleev"
+            android:title="@string/elements_prompt" />
+        <item android:id="@+id/nav_chart"  android:icon="@drawable/chart"
+            android:title="@string/chart_prompt"  />
+        <item android:id="@+id/nav_prefs" android:icon="@android:drawable/ic_menu_preferences"
+            android:title="@string/preferences" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item android:id="@+id/nav_feedback" android:icon="@android:drawable/ic_menu_send"
+                android:title="@string/feedback" />
+        </menu>
+    </item>
+
+</menu>

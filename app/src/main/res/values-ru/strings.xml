@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="a_prompt">A</string>
+<string name="about_prefix">Разработано в Секции Ядерных Данных МАГАТЭ</string>
+<string name="abundance">Ab.</string>
+<string name="abundance_lbl">Распрoстраненность</string>
+<string name="and">и</string>
+<string name="app_name">Изотоп-Браузер</string>
+<string name="avg_en">"Avg En[keV]"</string>
+<string name="mass_excess">Mass excess</string>
+<string name="specific_activity" >Specific act.y</string>
+<string name="decay_constant">Decay const.</string>
+<string name="radiative_capture">Radiative capture</string>
+<string name="fission">"Fission"</string>
+<string name="absorption">"Absorption"</string>
+<string name="n_fission">"(n,fission)"</string>
+<string name="table_title_rad">Avg. En. [keV]ANDInt. % AND En. max. [keV]  AND En. EC [keV] AND En. [keV]  </string>
+
+<string name="between">между</string>
+<string name="binding_energy">Энергия связи</string>
+<string name="btn_search_label">Пуск</string>
+<string name="charge_rad">Зарядовый радиус</string>
+<string name="chart_prompt">Карта</string>
+<string name="choose_dec">Выберите тип распада</string>
+<string name="choose_rad">Выберите вид излучения</string>
+<string name="cum_ther_fy">Кумулятивный выход для деления тепловыми нейтронами</string>
+<string name="decay">распад</string>
+<!--string name="decay_prompt">Мода (ветвь) распада</string-->
+<string name="decay_prompt">Мода распада</string>
+<string name="decay_rad">Излучения при распаде</string>
+
+<string name="decaychain">Цепочка распада</string>
+<string name="decays">Распады</string>
+<string name="electric_mom">Электрический момент</string>
+<string name="element_groups">щелочные металлы, щелочноземельные металлы, переходные металлы, постпереходные металлы, металлоиды, другие неметаллы, галогены, благородные газы, лантаноиды, актиноиды</string>
+<string name="elements_alpha_prompt">сортировка по имени</string>
+<string name="elements_prompt">Элемент</string>
+<string name="feedback">возврат</string>
+<string name="from">из</string>
+<string name="half_life">Период полураспада</string>
+<string name="half_life_unit_prompt">единица</string>
+<string name="half_life_units">ps,ns,µ s,ms,s,m,h,d,Y</string>
+<string name="iaeands">Секция Ядерных Данных МАГАТЭ</string>
+
+<string name="jplike">like</string>
+<string name="label_prefs">установки</string>
+<string name="lbl_message_wait">подождите, пожалуйста</string>
+<string name="lblAdvSearch">эксперт</string>
+<string name="lblClear">сброс</string>
+<string name="lblHelp">помощь</string>
+<string name="lblSearchDecRad">Распад и основные излучения</string>
+<string name="load_data_title">Загрузка</string>
+<string name="magnetic_mom">Магнитный момент</string>
+<string name="main">Главное меню</string>
+<string name="mass">Масса</string>
+<string name="mean_square">среднеквадратичный</string>
+<string name="more_about">Больше об &lt;a href=> NDS web &lt;/a> </string>
+<string name="msg_nobranching">распад не определен</string>
+<string name="n_prompt">N</string>
+<string name="nds_tag">Обеспечивается Секцией Ядерных Данных МАГАТЭ</string>
+<string name="new_in_ib">Новое в</string>
+<string name="no_results">нет результата</string>
+<!--string name="nuc_input_help">символ элемента или его атомный номер</string-->
+<string name="nuclide">Nuclide</string>
+<!--string name="one">нуклид</string-->
+<string name="orderby">упорядочено по</string>
+<string name="ordering">упорядочивание</string>
+<!--string name="other">нуклиды для:</string-->
+<string name="parents">Pодительские</string>
+<string name="pref_language">языки</string>
+<string name="pref_nuclides_orderby">упорядочивание списка нуклидов</string>
+<string name="pref_radiation_orderby">упорядочивание списка излучений из распада</string>
+<string name="pref_value_orderbyenergy">энергия</string>
+<string name="pref_value_orderbyhalflife">период полураспада</string>
+<string name="pref_value_orderbyintensity">интенсивность</string>
+<string name="pref_value_orderbynandz">N и Z</string>
+<string name="pref_value_orderbyzandn">Z  и N</string>
+<string name="pref_decaychain">показать цепочку распадов</string>
+<string name="pref_value_showparents">показать все родительские</string>
+<string name="preferences">Выбор</string>
+<string name="radiation_energy_lbl">энергия излучения</string>
+<string name="Radiation_prompt">Излучение</string>
+<!--string name="Radiation_prompt">Излучение из распада</string-->
+<string name="read">закрыть</string>
+<string name="resonance_int">Резонансный интеграл</string>
+<string name="result_list">Список результатов</string>
+
+<plurals name="search_results">
+<item quantity="one">%1$d  \"%2$s\": </item>
+<item quantity="few">%1$d  \"%2$s\": </item>
+<item quantity="many">%1$d  \"%2$s\": </item>
+<item quantity="other">%1$d r \"%2$s\": </item>
+</plurals>
+
+<string name="see_the">смотри на</string>
+<string name="stable_prompt">стабильный</string>
+<string name="tentative">в оценке ENSDF  отмечен как "возможный"</string>
+<string name="ther_n_capt">Захват тепловых нейтронов</string>
+<string name="uncertain">неопределенно</string>
+<string name="uraniumTentative">Изотопы напйдены в обломках горных пород после термоядерного испытания в 1952 году</string>
+<string name="warn_no_input">Необходимо ввести  хотя бы один параметр</string>
+<string name="warning">Предупреждение</string>
+<string name="width">Ширина</string>
+<string name="z_prompt">Z</string>
+
+<string name="elements_names">"Нейтрон
+Водород
+Гелий
+Литий
+Бериллий
+Бор
+Углерод
+Азот
+Кислород
+Фтор
+Неон
+Натрий
+Магний
+Алюминий
+Кремний
+Фосфор
+Сера
+Хлор
+Аргон
+Калий
+Кальций
+Скандий
+Титан
+Ванадий
+Хром
+Марганец
+Железо
+Кобальт
+Никель
+Медь
+Цинк
+Галлий
+Германий
+Мышьяк
+Селен
+Бром
+Криптон
+Рубидий
+Стронций
+Иттрий
+Цирконий
+Ниобий
+Молибден
+Технеций
+Рутений
+Родий
+Палладий
+Серебро
+Кадмий
+Индий
+Олово
+Сурьма
+Теллур
+Иод
+Ксенон
+Цезий
+Барий
+Лантан
+Церий
+Празеодим
+Неодим
+Прометий
+Самарий
+Европий
+Гадолиний
+Тербий
+Диспрозий
+Гольмий
+Эрбий
+Тулий
+Иттербий
+Лютеций
+Гафний
+Тантал
+Вольфрам
+Рений
+Осмий
+Иридий
+Платина
+Золото
+Ртуть
+Таллий
+Свинец
+Висмут
+Полоний
+Астат
+Радон
+Франций
+Радий
+Актиний
+Торий
+Протактиний
+Уран
+Нептуний
+Плутоний
+Америций
+Кюрий
+Берклий
+Калифорний
+Эйнштейний
+Фермий
+Менделевий
+Нобелий
+Лоуренсий
+Резерфордий
+Дубний
+Сиборгий
+Борий
+Хассий
+Мейтнерий
+Дармштадтий
+Рентгений
+Коперниций
+Нихоний
+Флеровий
+Московий
+Ливерморий
+Теннессин
+Оганесон
+119
+120"</string>
+<string name="help"><![CDATA[ "
+<b><br><span style="color:#194CAF">Руководство</span></b>
+<br>Измените язык, используя панель выбора
+<br>Выберите элемент, или введите Символ, напр., Xe, или Атомный Номер, напр., 54, или Нуклид, напр., 135Xe; поиск начнется автоматически.
+<br>В выпадающем списке выберите пункт для получения детальной информации
+<br>База данных включает в себя основные состояния ядер и изомеры, имеющие период полураспада больше 100 E-9 сек.
+<br><b><br><span style="color:#194CAF">Карта</span></b>
+<br>На Карте Изотопов показаны выбранные нуклиды. Если нет запроса на показ детальной информации о каком-либо нуклиде, показывается полная Карта Изотопов
+<br>Главные моды распада обозначены цветом
+<br>Для того, чтобы увидеть название нуклида и получить полную информацию о нем, можно использовать функцию увеличения.
+<br>Нажмите для перехода к странице с детальной информацией
+<br>Длительное нажатие на символ нуклида позволяет увидеть цепочку распадов. На этой странице показаны основные состояния нуклидов и коэффициенты ветвления распадов. Пунктирными линиями обозначены побочные ветви распадов.
+<br>Используя панель выбора, можно показать или скрыть родительские нуклиды (вверх по цепочке распадов)
+<br>Спонтанное деление и ветви распадов, отмеченные знаком «?» не изображаются.
+<br>Длительное нажатие на какой-либо нуклид приводит к возврату Карты в первоначальное состояние
+<br><b><br><span style="color:#194CAF">Поиск в режиме «Эксперт»</span></b>
+<br>Если включена панель «Эксперт», нажмите «Go» (начать) для начала поиска Если эта панель скрыта, введенные на ней параметры не влияют на выполнение запроса
+<br><b>Погрешности</b>
+<br>Приводятся в скобках в единицах последнего знака, то есть 12.34 (123) означает 12.34 +- 1.23 
+<br><b>Страница детальной информации</b>
+<br><b>Z, N </b>
+<br>Число протонов и нейтронов, соответственно
+<br><b>Jp</b>
+<br>Полный угловой момент и четность. Если эти величины не могут быть приписаны однозначно, значения приводятся в скобках
+<br><b>Распространенность</b>
+<br>Распространенность изотопа в процентах по числу атомов
+<br><b>Период полураспада</b>
+<br>Время, за которое распадается половина от количества изотопа, содержащегося в образце
+<br><b>Родительские нуклиды</b>
+<br>щелкните по символу «Parent», чтобы просмотреть цепочку распада вверх
+<br><b>Мода (ветвь) распада</b>
+<br>Нажмите на цепочку распадов чтобы увидеть ее на Карте.
+Нажмите на символ родительского или дочернего нуклида для передвижения вверх или вниз по цепочке распадов
+<br>Примечание относительно нормализации:
+<br>ec β+  100\u0025<br>β+  p 23\u0025
+<br>означает, что за 100% распадом ec β+ следует 23\u0025  распадов через задержанные протоны.
+<br><b>Излучения из распадов</b>
+<br> Для каждой моды распада перечислены линии излучения, интенсивность которых > 1% от самой интенсивной линии для каждого типа. Для бета-излучения приведены средняя и граничная энергия бета-частиц. Если размер таблицы не позволяет видеть ее на экране целиком, можно использовать горизонтальный скроллинг.
+Приведены энергии и интенсивности фотонов (гамма-лучей и рентгеновского излучения) из распадов дочерних ядер.
+Панель выбора позволяет изменить условия сортировки (по интенсивности или по энергии)
+<br><b>Разности масс</b>
+<br>Разности масс атомов приводятся для распадов между основными состояниями.
+<br><b>Sn и Sp</b>
+<br>Энергии отделения нейтрона и протона
+<br><b>Магнитный момент</b>
+<br>Дипольный магнитный момент, в единицах ядерных магнетонов
+<br><b>Электрический момент</b>
+<br>Квадрупольный электрический момент, в барнах.
+<br><b>Binding/A </b>
+<br>Энергия связи на нуклон, в кэВ
+<br><b>Сечение захвата тепловых нейтронов</b><br>
+Сечение захвата тепловых нейтронов (с кинетической энергией в районе 0.025эВ)
+<br><b>Резонансный интеграл</b>
+<br>Интегральное сечение поглощения нейтронов резонансных энергий, в барнах
+<br><b>g-коэффициент Весткотта</b>
+<br>Отношение усредненного по Максвеллу сечения поглощения нейтронов к сечению для тепловых нейтронов со скоростью 2200 м/сек
+<br>Примечание: C.H. Westcott пришел на работу в МАГАТЭ в 1963 году и основал Секцию Ядерных Данных
+<br><b>Зарядовые радиусы</b>
+<br>Среднеквадратичные зарядовые радиусы, в единицах фм.
+Для нейтронов даны среднеквадратичные радиусы  в единицах фм.
+<br><b>Полные (кумулятивные) выходы из реакции деления тепловыми нейтронами</b>
+<br>Полное число атомов, образовавшихся в реакции деления тепловыми нейтронами за бесконечно большое время.
+<br>Посетите нас <a href="https://www-nds.iaea.org">IAEA Nuclear Data Section</a>
+<br><b><br><span style="color:#194CAF">Источники данных</span></b>
+<br><b>основной</b>
+<br>База данных ENSDF создана и развивается Международной сетью Данных о Ядерной Структуре и Распадам под руководством МАГАТЭ.
+<br><b>Атомные массы, разности масс и энергии отделения</b>
+<br>Atomic Mass Evaluation 2016
+<br><b>распространенность</b>
+<br>Nubase 2012
+<br><b>Сечения взаимодействия для тепловых нейтронов</b>
+<br>S.F. Mughabghab, Atlas of Neutron Resonances Elsevier Science, 6th Edition, Februay 15 2018,
+<br>N.E. Holden in Handbook of Chemistry and Physics 99Th Edition; <br>I. Dillmann, R. Plag, F. Käppeler and T. Rauscher in KADoNiS v0.3; <br>J. Kopecky in UKAEA-R(15)30.
+как  приведено в Livechart
+<br><b>g-коэффициент Весткотта</b>
+<br>Mughabgahb INDC-NDS-0440
+<br><b>Зарядовые радиусы</b>
+<br>I. Angeli, K. Marinova ADNDT 99 (2013)
+<br><b>Полные (кумулятивные) выходы из реакции деления тепловыми нейтронами.</b>
+<br>Joint Evaluated Fission and Fusion File JEFF 3.1.1
+
+"]]></string>
+
+
+</resources>

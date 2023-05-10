@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mendel_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/text_background"
+    android:orientation="vertical" >
+
+    <Spinner
+        android:id="@+id/spinElements"
+        style="@style/slim_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp" />
+
+    <!-- <iaea.nds.mendel.VScroll
+        android:id="@+id/vScroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/spinElements" >
+-->
+        <!--iaea.nds.mendel.HScroll
+            android:id="@+id/hScroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" -->
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@id/spinElements">
+    <iaea.nds.mendel.PeriodicTablePlot xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/periodicTable"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+
+        android:isScrollContainer="true"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/fakebtn"
+            android:layout_width="2000dp"
+            android:layout_height="2000dp"
+            android:background="@null"
+            android:clickable="false"
+            android:focusable="false"
+            />
+
+
+    </iaea.nds.mendel.PeriodicTablePlot>
+</ScrollView>
+        <!--/iaea.nds.mendel.HScroll-->
+    <!--/iaea.nds.mendel.VScroll-->
+
+</RelativeLayout>

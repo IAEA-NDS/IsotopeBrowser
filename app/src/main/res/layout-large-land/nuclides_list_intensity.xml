@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/drawer_layout"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:fitsSystemWindows="true" tools:openDrawer="start">
+
+<LinearLayout
+    android:id="@+id/layEnd"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"        
+    android:background="@color/default_background"     
+    android:orientation="vertical"
+    android:layout_marginLeft="150sp"
+    android:layout_marginRight="150sp"
+    >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/app_title_bkg">
+
+    <ImageButton
+        style="@style/button_drawer_wide"
+        android:id="@+id/imgbuttonopendrawer"
+
+        />
+
+       <TextView
+        android:id="@+id/text"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_background"
+        android:background="@color/app_title_bkg"
+        android:padding="3dp"
+        android:layout_margin="5sp"
+           android:layout_toRightOf="@id/imgbuttonopendrawer"
+       />
+</RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layButtons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/default_background"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="0sp"
+        android:weightSum="10" >
+        <Button
+            android:id="@+id/btnChartSelect"
+            android:textSize="28sp"
+            style="@style/btn_chart"
+
+            android:layout_marginBottom="1sp"
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            />
+        <Button
+            android:id="@+id/btnSortHL"
+            android:textSize="28sp"
+            android:text=" ↺T ½"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:background = "@drawable/pressed"
+            android:layout_marginBottom="1sp"
+            />
+        <Button
+            android:id="@+id/btnSortIR"
+            android:textSize="28sp"
+            android:text=" ↺I %"
+            android:layout_height="match_parent"
+            android:background = "@drawable/pressed"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_marginBottom="1sp"
+            />
+
+    </LinearLayout>
+ <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="1sp"        
+    android:background="@color/help_text"     
+    android:orientation="vertical">    
+ </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_nuclides_list"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/help_text"
+        android:dividerHeight="1dp"
+        android:background="@color/app_title"
+        tools:listitem="@layout/nuclide_list_item_std"
+
+        />
+    <include layout="@layout/iaea_banner" android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+
+    <include layout="@layout/drawer_menu" />
+
+</androidx.drawerlayout.widget.DrawerLayout>

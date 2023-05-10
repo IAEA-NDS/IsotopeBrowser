@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="specific_activity" > "Spezifische Aktivität"</string>
+<string name="decay_constant">"Zerfallskonstante"</string>
+<string name="radiative_capture">"Strahlungseinfang"</string>
+<string name="fission">"Spaltung"</string>
+<string name="absorption">"Absorption"</string>
+<string name="n_fission">"(n,spaltung)"</string>
+
+<string name="table_title_rad">Mittlere En. [keV]ANDIntensität % ANDZerfallsenergie [keV] AND Zerfallsenergie [keV] AND En. [keV] </string>
+
+<string name="about_prefix">Entwickelt durch die IAEA Nuclear Data Section</string>
+<string name="abundance">Hä. </string>
+<string name="abundance_lbl">Natürliche Häufigkeit</string>
+<string name="and">und</string>
+<string name="app_name">Isotope Browser</string>
+<string name="a_prompt">  A</string>
+<string name="avg_en">Mit En[keV]</string>
+<string name="mass_excess">Massenexzess</string>
+<string name="binding_energy">Bindung/A</string>
+<string name="between">zwischen</string>
+<string name="btn_search_label">Los!</string>
+<string name="charge_rad">Ladungsradius</string>
+<string name="chart_decay_lbl_alpha" translatable="false">α</string>
+<string name="chart_decay_lbl_beta" translatable="false">β-</string>
+<string name="chart_decay_lbl_ec" translatable="false">EC</string>
+<string name="chart_decay_lbl_ecbp" translatable="false">EC,β+</string>
+<string name="chart_decay_lbl_p" translatable="false">p</string>
+<string name="chart_decay_lbl_n" translatable="false">n</string>
+<string name="chart_decay_lbl_sf" translatable="false">SF</string>
+<string name="chart_prompt">Nuklidkarte</string>
+<string name="choose_dec">Auswahl Zerfallsart</string>
+<string name="choose_rad">Auswahl Strahlungsart</string>
+<string name="cum_ther_fy">Kumulative thermische Spaltausbeute</string>
+<string name="decay">Zerfall</string>
+<string name="decays">Zerfälle</string>
+<string name="decaychain">Zerfallsreihe</string>
+<string name="decay_prompt">Zerfallsart</string>
+<string name="decay_rad">Zerfallsstrahlung</string>
+<string name="electric_mom">Elektrisches Moment</string>
+<string name="elements_alpha_prompt">nach Namen sortieren</string>
+<string name="elements_prompt">Elemente</string>
+<string name="elements_names">"Neutron,
+Wasserstoff,
+Helium,
+Lithium,
+Beryllium,
+Bor,
+Kohlenstoff,
+Stickstoff,
+Sauerstoff,
+Fluor,
+Neon,
+Natrium,
+Magnesium,
+Aluminium,
+Silizium,
+Phosphor,
+Schwefel,
+Chlor,
+Argon,
+Kalium,
+Calcium,
+Scandium,
+Titan,
+Vanadium,
+Chrom,
+Mangan,
+Eisen,
+Cobalt,
+Nickel,
+Kupfer,
+Zink,
+Gallium,
+Germanium,
+Arsen,
+Selen,
+Brom,
+Krypton,
+Rubidium,
+Strontium,
+Yttrium,
+Zirconium,
+Niob,
+Molybdän,
+Technetium,
+Ruthenium,
+Rhodium,
+Palladium,
+Silber,
+Cadmium,
+Indium,
+Zinn,
+Antimon,
+Tellur,
+Iod,
+Xenon,
+Cäsium,
+Barium,
+Lanthan
+Cer,
+Praseodym,
+Neodym,
+Promethium,
+Samarium,
+Europium,
+Gadolinium,
+Terbium,
+Dysprosium,
+Holmium,
+Erbium,
+Thulium,
+Ytterbium,
+Lutetium,
+Hafnium,
+Tantal,
+Wolfram,
+Rhenium,
+Osmium,
+Iridium,
+Platin,
+Gold,
+Quecksilber,
+Thallium,
+Blei,
+Bismut,
+Polonium,
+Astat,
+Radon,
+Francium,
+Radium,
+Actinium,
+Thorium,
+Protactinium,
+Uran,
+Neptunium,
+Plutonium,
+Americium,
+Curium,
+Berkelium,
+Californium,
+Einsteinium,
+Fermium,
+Mendelevium,
+Nobelium,
+Lawrencium,
+Rutherfordium,
+Dubnium,
+Seaborgium,
+Bohrium,
+Hassium,
+Meitnerium,
+Darmstadtium,
+Roentgenium,
+Copernicium,
+Nihonium,
+Flerovium,
+Moscovium,
+Livermorium,
+Tenness,
+Oganesson
+Ununennium,
+Unbinilium"</string>
+<string name="element_groups">"Alkalimetalle,Erdalkalimetalle,Übergangsmetalle,Metalle,Halbmetalle,Nichtmetalle,Halogene,Edelgase,Lanthanide, Actinoide"</string>
+<string name="from">Von</string>
+<string name="feedback">Feedback</string>
+<string name="half_life">Halbwertszeit</string>
+<string name="half_life_units">"ps,ns,µ s,ms,s,m,h,d,Y"</string>
+<string name="half_life_unit_prompt">Einheit</string>
+<string name="iaeands">"IAEA Nuclear Data Section"</string>
+<string name="jplike">"J\u03C0 wie"</string>
+<string name="label_prefs">Einstellungen</string>
+<string name="lblAdvSearch">Erweitert</string>
+<string name="lblClear">Löschen</string>
+<string name="lblHelp">Hilfe</string>
+<string name="lbl_message_wait">Bitte warten</string>
+<string name="lblSearchDecRad">Zerfalls- und Hauptzerfallsstrahlung</string>
+<string name="load_data_title">Loading…</string>
+<string name="magnetic_mom">Magnetisches Moment</string>
+<string name="main">Start</string>
+<string name="mass">Masse </string>
+<string name="mean_square">mittleres Quadrat</string>
+<string name="more_about">"&#149; Weitere Daten über dieses Nuklid auf dem &lt;a href=> NDS web &lt;/a>  &lt;br&gt;&#149; <b>Unsicherheiten</b>: Beispiel 12.3(11) bedeutet 12.3 &#177; 1.1"</string>
+<string name="msg_nobranching">Kein bekannter Zerfall</string>
+<string name="n_prompt">  N</string>
+<string name="new_in_ib">Neu im Isotope Browser</string>
+<string name="nds_tag">Bereitgestellt durch die IAEA Nuclear Data Section</string>
+<string name="no_results">Keine Nuklide gefunden mit </string>
+<string name="nuclide">Nuklid</string>
+<string name="orderby">ordnen nach</string>
+<string name="ordering">ordnung</string>
+<string name="parents">Vorläufer</string>
+<string name="preferences">Einstellungen</string>
+<string name="pref_nuclides_orderby">Sortierung der Nuklidliste</string>
+<string name="pref_value_orderbyzandn">Z und N</string>
+<string name="pref_value_orderbynandz">N und Z</string>
+<string name="pref_value_orderbyhalflife">Halbwertszeit</string>
+<string name="pref_radiation_orderby">Sortierung der Zerfallsstrahlung</string>
+<string name="pref_value_orderbyenergy">Energie</string>
+<string name="pref_value_orderbyintensity">Intensität</string>
+<string name="pref_language">Sprachen</string>
+<string name="pref_decaychain">Zerfallskettenanzeige</string>
+<string name="pref_value_showparents">Alle Vorläufer zeige</string>
+<string name="radiation_energy_lbl">Strahlungsenergie</string>
+<string name="Radiation_prompt">Zerfallsstrahl. </string>
+<string name="read">verlassen</string>
+<string name="resonance_int">Resonanzintegral</string>
+<string name="result_list">Ergebnisse</string>
+<plurals name="search_results">
+<item quantity="one">%1$d NuKlid fur \"%2$s\": </item>
+<item quantity="other">%1$d NuKlide fur \"%2$s\": </item>
+</plurals>
+
+<string name="see_the">siehe </string>
+<string name="stable_prompt">stabil</string>
+<string name="tentative">vorläufiges ENSDF Evaluationergebnis</string>
+<string name="ther_n_capt">Thermische Neutronenquerschnitte</string>
+<string name="uncertain">unsicher</string>
+<string name="uraniumTentative">Das Isotop wurde indirekt in den Zerfallsprodukten eines thermonuklearen Test aus dem Jahr 1952 nachgewiesen</string>
+<string name="warn_no_input">Bitte mindestens einen Parameter eingeben</string>
+<string name="warning">Warnung</string>
+<string name="width">Breite</string>
+<string name="z_prompt">  Z</string>
+
+<string name="help"><![CDATA[<br>"<br><span style="color:#194CAF"><b>ANLEITUNG (und Datenquellen)</b></span><br><br><br><span style="color:#194CAF"><b>Eingabe:</b></span>
+<b>Element</b>: Symbol oder Z (c oder 6)
+<b>Nuklide</b>: 12c, c12, 12 c, c 12, 12-c, c-12
+<b>Gesamte Datenbank</b> : *
+<br><br><span style="color:#194CAF"><b>Sprache ändern</b></span> gehe zu <b> Menu -> Einstellungen</b>
+<br><br><span style="color:#194CAF"><b>Elemente </b></span> zeigt das <b> Periodensystem</b>
+<br><br><span style="color:#194CAF"><b>Tippen sie auf ein Element </b></span> in der Liste der Resultate, um detaillierte Informationen anzuzeigen
+<br><b>Die Datenbank enthält Grundzustände und Isomere mit Halbwertszeit > 100 ns </b>
+<br><br><span style="color:#194CAF"><b>Nuklidkarte</b></span> <br>Die ausgewählten Nuklide werden auf der Nuklidkarte gezeigt.  Ohne aktive Suchanfrage werden alle Nuklide angezeigt.
+
+<b>Die</b> Farbe  bestimmt die Hauptzerfallsart.
+
+<b>Zoom</b> um die Nuklidnamen anzuzeigen, weiter zoomen für zusammenfassende Daten
+
+<b>Tippen</b> um zur detaillierten Ansicht zu gelangen
+
+<b>Die radioaktive Zerfallsreihe</b>  wird durch  <b>langes Drücken</b> auf ein Nuklid angezeigt. Sie beinhaltet alle Grundzustandszerfallsarten mit bekannten Verzweigungsverhältnissen und alle möglichen Vorläufernuklide. In “Einstellungen” kann die Anzeige auf die Tochternuklide reduziert werden.
+
+Ungenau bekannte Spontanspaltung  und Verzweigungsverhältnisse  markiert mit "?" werden nicht dargestellt.
+<br><b>Langes  Drücken</b> auf dasselbe Nuklid  löscht die angezeigte Zerfallsreihe.
+
+Gestrichelte Linien stehen für schwächere Zerfallsarten.
+<br><br><span style="color:#194CAF"><b>Erweiterte Suche </b></span> <br>
+Wenn die Erweiterte Suche geöffnet ist, kann mit Tippen auf "Los" nach Nukliden gesucht werden, die den erweiterten Suchkriterien entsprechen.
+<b>Bei geschlossener Erweiterte Suche werden die dort eingegeben Parameter nicht verwendet.   </b>
+
+<b>Filter auf bestimmte Zerfällsübergänge</b> : Bei ausgewählter Strahlungsart wird anstatt der Zerfallsart der stärkste Übergang innerhalb des ausgewählten Energiebereichs aufgelistet.
+Schaltflächen oben erlauben die Anzeigemodi zu wechseln. Die Detailseite des Nuklids zeigt in rot die ausgewählten Übergänge.
+
+Wenn im Suchfeld ein Nuklidsymbol eingegeben wird, kann die Suche der Zerfällsübergange auf dessen gesamte Zerfallsreihe erweitert werden.
+<br><br><span style="color:#194CAF"><b>Ergebnisse </b></span> <br>
+Die Sortierung (voreingestellt nach Z, N) kann in den  <b>Einstellungen</b> geändert werden. Durch Tippen auf ein Ergebnis wird die Detailseite des Nuklids angezeigt. Wenn eine Strahlungsart ausgewählt ist, kann  die Anzeige mit zwei
+Schaltfeldern oben zwischen der Strahlungsintensität und  Energie und der Halbwertszeit und Zerfallsart umgeschaltet werden.<br><br><br><span style="color:#194CAF"><b>Unsicherheiten </b></span> <br>
+Werte sind zwischen Klammern dargestellt und beziehen sich auf die am wenigsten signifikanten Ziffer(n)   z.B. <br> 12.34(123)  bedeutet 12.34 +- 1.23
+<br><br><span style="color:#194CAF"><b>Detailseite (Suchergebnisse) </b></span> <br>
+Elementsymbol des Nuklids z.B. U = Uran
+<b>Z, N, A</b>
+Anzahl der Protonen bzw. Neutronen und Massenzahl A=N+Z
+
+<b>J\u03C0</b>
+Gesamtdrehimpuls und Parität. Bei Werten in Klammern ist die Zuordnung ungewiss.
+
+<b>Häufigkeit (Isotopenverhältnis)</b>
+Die Isotopenhäufigkeit ist die relative Anzahl der Atome eines bestimmten Isotops im natürlichen Isotopengemisch des Elements.
+
+<b>Halbwertszeit oder Zerfallsbreite</b>
+Die Zeitspanne in der im Durchschnitt die Hälfte der ursprünglich vorhandenen Atome in einer Probe eines gegebenen Radionuklides zerfallen.
+Für kurzlebige Resonanzen wird die Zerfallsbreite Г angegeben. Aus dem Heisenbergschen Unschärfeprinzip folgt der Zusammenhang zwischen
+Halbwertszeit und Zerfallsbreite:<br> T<sub>1/2</sub> [s]  ≅ ħ x ln2 / Г  = 4.562 10<sup>-22</sup>/ Г (MeV)
+<br><br><b>Vorläufer</b>
+Mögliche Vorläufernuklide in einer Zerfallsreihe. Durch Tippen auf das Vorläufernuklid kann die Zerfallsreihe rückwärts verfolgt werden
+<br><br><b>Zerfallsarten</b>
+Tippe auf  Zerfallsreihe um die Zerfallsarten auf der Nuklidkarte anzuzeigen.
+Durch Tippen auf das Vorläufer- oder Tochternuklid kann die Zerfallsreihe vorwärts bzw. rückwärts verfolgt werden.
+Hinweis zur Normierung in Prozent:  <br>
+ec β+  100%
+<br>          β+ p    23%
+<br>bedeutet,  dass alle Zerfälle  ec β+ sind und  23% aller Zerfälle sind durch verzögerte p nach  β+
+<br><br><b>Zerfallsstrahlung</b>
+Für jede Zerfallsart werden die Übergänge für jede Strahlungsart aufgelistet,  die  > 1% der Intensität des jeweils stärksten Übergangs haben.
+Für beta Strahlung wird die mittlere Energie und die Zerfallsenergie. Berechnete  Zerfallsenergien werden in Klammern angegeben. Durch lange Listen kann  horizontal gescrollt werden.
+Photonen die aus den Tochternukliden emittiert werden sind berücksichtigt.
+<br><br><b>Q-Wert</b>
+<br>Zur Verfügung stehende Energie für Zerfall in den Grundzustand.
+<br><br><b>Sn und Sp</b>
+<br>Neutron- und Protonseparationsenergie.
+<br><br><b>Magnetisches Moment</b>
+<br>Magnetisches Dipolmoment in Einheiten des Kernmagnetons.
+<br><br><b>Elektrisches Moment</b>
+<br>Elektrisches Quadrupolmoment gemessen in barn (10-24 cm2).
+<br><br><b>Bindung/A </b>
+<br>Bindungsenergie pro Nukleon, in keV
+<br><br><b>Thermischer Neutronenquerschnitt</b>
+<br>Wirkungsquerschnitt für den Einfang eines Neutrons mit der kinetischen Energie von   ~0.025 eV.
+<br><br><b>Resonanzintegral</b>
+<br>Über den Resonanzenergiebereich gemittelte Wirkungsquerschnitte von Neutronen für Strahlungseinfang, Spaltung und Absorption  in barn.
+<br><br><b>Westcott g-Faktor</b>
+<br>Das Verhältnis des Maxwell-gemittelten Wirkungsquerschnitt  für Neutroneneinfang zum  2200 m/s (thermisch 0.0253 eV) Wirkungsquerschnitt
+Als Randnotiz, C.H. Westcott kam im Jahr 1963 zur  IAEA  und gründete die Nuclear Data Section.
+<br><br><b>Ladungsradius</b>
+<br>Ladungsradius, gemessen in fm.
+Für das Neutron wird das mittlere Radiusquadrat  in  fm<sup>2</sup>   angegeben.
+<br><br><b>Kumulative Spaltausbeuten für thermische Neutronen  </b>
+<br>Gesamtzahl der Atome eines jeden Spaltprodukts integriert über die Zeit nach einer Spaltung durch ein thermisches Neutron.
+<br>
+<br><br><span style="color:#194CAF"><b>Referenzen</b></span><br>
+<br><b>Evaluierte Kerndaten</b>
+<br><a href="http://www-nds.iaea.org/ensdf">Evaluated Nuclear Structure Data Files</a>.
+Die Kernstrukturdatenevaluierung (ENSDF) wird durch das  Internationale Kernstruktur- und Zerfallsdaten-Netzwerk unter der Schirmherrschaft der IAEA unterhalten.
+<br>
+<br><b>Q-Werte, Atommassen, and Separationsenergien</b>
+<br><a href="https://www.anl.gov/phy/atomic-mass-data-resources">Atomic Mass Evaluation 2020</a><br>
+<br><b>Isotopenhäufigkeiten</b>
+<br><a href="https://www.anl.gov/phy/atomic-mass-data-resources">Nubase 2020</a><br>
+<br><b>Wirkungsquerschnitte für thermische Neutronen</b>
+<br>S.F. Mughabghab, Atlas of Neutron Resonances Elsevier Science,6th edition February 2018, bereitgestellt in der Nuklidkarte
+N.E. Holden in Handbook of Chemistry and Physics 99Th Edition;
+I. Dillmann, R. Plag, F. Käppeler and T. Rauscher in KADoNiS v0.3;
+J. Kopecky in UKAEA-R(15)30.
+<a href="http://www-nds.iaea.org//relnsd/NdsEnsdf/neutroncs.html">Livechart</a><br>
+<br><b>Westcott g-factor</b>
+<br>Mughabgahb  <a href="http://www-nds.iaea.org/publications/indc/indc-nds-0440/">INDC-NDS-0440</a><br>
+<br><b>Ladungsradien</b>
+<br>I. Angeli, K. Marinova   <a href="http://dx.doi.org/10.1016/j.adt.2011.12.006">ADNDT 99 (2013)</a><br>
+<br><b>Spaltausbeuten von thermischen Neutronen</b>
+<br>Joint Evaluated Fission and Fusion File JEFF 3.1.1
+"
+]]></string>
+
+
+</resources>
+
+
