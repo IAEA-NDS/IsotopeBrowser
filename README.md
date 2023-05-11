@@ -1,9 +1,12 @@
 # Isotope Browser 
 
+![https://github.com/IAEA-NDS/ACEMAKER/blob/master/LICENSE](https://img.shields.io/github/license/IAEA-NDS/ACEMAKER) **Android version**
+
+
 <img src="app/src/main/ib_launcher-web.png" width="200"/>
       
 
-Android version
+
 
 ## About
 
