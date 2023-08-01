@@ -83,6 +83,9 @@ public class NuclidesBrowser extends BaseActivity implements TextWatcher, Adapte
     private Spinner spinRadiationTypes;
     private EditText mTextRadEnLow;
     private EditText mTextRadEnHigh;
+
+    private EditText mTextRadIntLow;
+    private EditText mTextRadIntHigh;
     private CheckBox chbxDecChain;
     private LinearLayout layoutDecCahin;
 
@@ -237,6 +240,9 @@ public class NuclidesBrowser extends BaseActivity implements TextWatcher, Adapte
         fillSpin(R.string.Radiation_prompt, spinRadiationTypes, Formatter.getRadiations(), true, false);
         mTextRadEnLow =  findViewById(R.id.txtRadEnLow);
         mTextRadEnHigh = findViewById(R.id.txtRadEnHigh);
+
+        mTextRadIntLow =  findViewById(R.id.txtRadIntLow);
+        mTextRadIntHigh = findViewById(R.id.txtRadIntHigh);
 
         mTextNucid.addTextChangedListener(this);
         mTextN.addTextChangedListener(this);
@@ -632,6 +638,10 @@ public class NuclidesBrowser extends BaseActivity implements TextWatcher, Adapte
         i =  spinRadiationTypes.getSelectedItemPosition();
         String radEnlow = decimal_dot_start(mTextRadEnLow.getText().toString() );
         String radEnup = decimal_dot_start(mTextRadEnHigh.getText().toString());
+
+        String radIntlow = decimal_dot_start(mTextRadIntLow.getText().toString() );
+        String radIntup = decimal_dot_start(mTextRadIntHigh.getText().toString());
+
         if(i>0){
             radtypeForQuery = SQLBuilder.rad_type_a + " in ('" + Formatter.radiationsCode[i-1] + "' )";
             qryPieces.add(radtypeForQuery );
@@ -662,6 +672,15 @@ public class NuclidesBrowser extends BaseActivity implements TextWatcher, Adapte
             }
             if(radenergyForQuery.length() > 0)
                 qryPieces.add(radenergyForQuery);
+
+
+            if(radIntlow.length() > 0 || radIntup.length() > 0){
+                if(radIntlow.length() == 0) radIntlow = "0";
+                if(radIntup.length() == 0) radIntup = "100";
+
+                qryPieces.add( SQLBuilder.rad_intensity_num + " between " + radIntlow + " and " +  radIntup);
+                qryDescPieces.add( " % " + getResources().getString(R.string.between)  + radIntlow + getResources().getString(R.string.and) +  radIntup);
+            }
 
             setWhereForRadtype(radtypeForQuery);
             setWhereForEnergy(radenergyForQuery);

@@ -74,7 +74,9 @@
                 android:padding="10dp"
                 android:scrollHorizontally="true"
                 android:textColor="@color/help_text"
-                android:textSize="22dip" />
+                android:textSize="22dip"
+                android:focusable="true"
+                android:textIsSelectable="true"/>
         </HorizontalScrollView>
 
         <include layout="@layout/iaea_banner" android:layout_width="match_parent"

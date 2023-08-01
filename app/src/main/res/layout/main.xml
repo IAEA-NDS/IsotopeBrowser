@@ -145,7 +145,7 @@
                         android:layout_weight="3"
                         android:textSize="@dimen/btn_font_size" />
                 </LinearLayout>
-
+                <!-- EXPERT -->
                 <LinearLayout
                     android:id="@+id/layAdvSearch"
                     android:layout_width="fill_parent"
@@ -353,6 +353,53 @@
                             android:layout_height="@dimen/slim_spinner_height"
                             android:layout_weight="2.4"
                             android:ems="10"
+                            android:inputType="numberDecimal"
+                            android:textSize="20sp" >
+                        </EditText>
+
+
+                    </LinearLayout>
+
+
+<!-- intensity -->
+                    <LinearLayout
+                        android:id="@+id/layRadInt"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/default_background"
+                        android:orientation="horizontal" >
+
+                        <Spinner
+                            android:id="@+id/spinDummyFiller"
+                            style="@style/slim_spinner"
+                            android:layout_marginLeft="5dip"
+                            android:layout_marginRight="5dip"
+                            android:layout_weight="8"
+                            android:visibility="invisible" />
+
+
+                        <EditText
+                            android:id="@+id/txtRadIntLow"
+                            style="@style/edit_text"
+                            android:layout_height="@dimen/slim_spinner_height"
+                            android:layout_weight="2.4"
+                            android:ems="10"
+                            android:hint="@string/zero_prompt"
+                            android:inputType="numberDecimal"
+                            android:textSize="20sp" >
+                        </EditText>
+
+                        <TextView
+                            style="@style/label_small"
+                            android:layout_weight="3"
+                            android:text="@string/perc_decay" />
+
+                        <EditText
+                            android:id="@+id/txtRadIntHigh"
+                            style="@style/edit_text"
+                            android:layout_height="@dimen/slim_spinner_height"
+                            android:layout_weight="2.4"
+                            android:ems="10"
                             android:hint="@string/hundred_prompt"
                             android:inputType="numberDecimal"
                             android:textSize="20sp" >
@@ -360,6 +407,7 @@
 
 
                     </LinearLayout>
+
 
                     <LinearLayout
                         android:id="@+id/layCbDecChain"

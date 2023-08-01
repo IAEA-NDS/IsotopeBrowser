@@ -6,8 +6,8 @@ android {
         applicationId "iaea.nds.nuclides"
         minSdkVersion 15
         targetSdkVersion 31
-        versionCode 148
-        versionName "5.37.83"
+        versionCode 149
+        versionName "5.38.83"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
