@@ -333,10 +333,10 @@ Unbinilium"</string>
 
 <string name="warning_load_db" translatable="false">"\n\n* WARNING *\nThere will be a few second delay whilst the new database is loading"</string>
 <!-- What's new in this version \u2022 -->
-<string name="whatsnew" translatable="false">"Text in the nuclide detail page can now be selected and copied"
+<string name="whatsnew" translatable="false">"Update of the database \nRevised chinese translation "
 </string>
 <!-- if in the device this version code is not saved, show the message-->
-<string name="whatsnew_versioncode" translatable="false">149</string>
+<string name="whatsnew_versioncode" translatable="false">151</string>
 <string name="width">Width</string>
 
 <string name="z_prompt">  Z</string>

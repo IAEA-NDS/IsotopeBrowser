@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 31
+    compileSdkVersion 33
     defaultConfig {
         applicationId "iaea.nds.nuclides"
         minSdkVersion 15
-        targetSdkVersion 31
-        versionCode 149
-        versionName "5.38.83"
+        targetSdkVersion 33
+        versionCode 151
+        versionName "5.39.84"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {

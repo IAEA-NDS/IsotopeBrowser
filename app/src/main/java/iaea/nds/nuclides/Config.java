@@ -10,7 +10,7 @@ public class Config {
     public static final String DATABASE_ASSET_NAME = "nuclides.db";
     public static final String DATABASE_NAME = "nuclides";
     public static final String DATABASE_ASSET_SQLFILE = "nuclides.sql";
-    public static final int db_version_apk = 83;
+    public static final int db_version_apk = 84;//83;
     /**
      * preferences
      */

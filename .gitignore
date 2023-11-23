@@ -12,4 +12,5 @@
 .DS_Store
 /build
 /captures
+/release
 .externalNativeBuild

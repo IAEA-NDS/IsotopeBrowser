@@ -220,7 +220,78 @@ Uuo
 119
 120"</string>
 
-<string name ="help">"
+
+    <string name="help"><![CDATA[\<br><br><img src=\'ib.png\'> <span style="color:#194CAF"><b>使用帮助</b></span>
+<br><span style="color:#194CAF"><b>输入</b></span>:<br><b>元素</b>：元素符号或 Z (c 或 6)<br><b>核素</b>：12c, c12, 12 c, c 12, 12-c, c-12 <br><b>整个数据库</b>： *
+<br><br><span style="color:#194CAF"><b>更改语言</b></span> 点击<b>菜单 -> 设置。</b>
+<br><br><span style="color:#194CAF"><b>元素</b></span>显示<b>元素周期表。</b>
+<br><br><span style="color:#194CAF"><b>点击结果列表中的条目</b></span>显示详细信息。
+<br><b>数据库中包括基态和半衰期大于100 ns的同质异能态。</b>
+<br><br><span style="color:#194CAF"><b>图表</b></span>
+<br>在核素图中显示所选择的核素。若未进行查询时，显示整个核素图。
+<br>主要衰变方式用不同<b>颜色</b>表示。
+<br>利用<b>缩放</b>功能可获得核素名称，进一步可获得简要的数据结果。
+<br><b>点击</b>链接到详细页面。
+<br><b>长按</b>一个核素以显示<b>衰变链</b>。包括所有基态衰变方式及其分支比和可能的母核。通过“设置”来显示/隐藏衰变链母核信息。
+<br>标记为“?”的自发裂变和分支比数据未画出。
+<br>在一个核素上长按可以<b>重置</b>核素图。
+<br>虚线表示次级衰变方式。
+<br><br><span style="color:#194CAF"><b>高级检索</b></span>
+<br>点击“高级检索”，填写完成相关信息后，按<b>“开始”</b>进行查找。
+<br><b>当高级检索信息输入栏收起后，所填信息不再起作用。</b>
+<br><br><b>辐射筛选：</b> 选择辐射类型之后，结果列表中将显示所选能量范围内的强度最大的谱线而不是衰变方式。
+<br>结果列表上方的按钮可以在2种显示方式之间切换。核素详细页面将匹配的辐射标红显示。
+<br><br>输入核素符号后，可以通过勾选框将辐射搜索结果扩展至整个衰变链。
+<br><br><span style="color:#194CAF"><b>结果列表</b></span>
+<br>默认按照z,n排序。可以在<b>“设置”</b>中改变排序方式。在列表中点击任一条目即可链接到相应的详细信息页面。选择辐射类型后，结果列表上方的2个按钮可以在辐射强度+能量和半衰期+衰变方式两只显示方式之间切换。
+<br><br><span style="color:#194CAF"><b>不确定度</b></span>
+<br>A不确定度列在括号里，与括号前数据最后一位有效位对齐：<br> 12.34 (123) 表示 12.34 +- 1.23
+<br><br><span style="color:#194CAF"><b>详细页面</b></span>
+<br><b>Z, N</b><br>分别代表质子和中子数。
+<br><br><b>J\u03C0</b><br>总角动量和宇称。在括号里的数值表示其值不确定。
+<br><br><b>丰度</b><br>用摩尔分数表示同位素丰度：在一元素中一种同位素原子所占的比例。
+<br><br><b>半衰期</b>或<b>能级宽度</b><br>样品中某一核素衰变一半所需的时间。<br>对于短寿命共振态粒子，给出<b>能级宽度 \u0393</b>。半衰期与能级宽度之间的关系由不确定性原理给出：
+<br>T1/2(s) ≅ ℏ x ln2 / Γ = 4.562 10-22/Γ(MeV)
+<br><br><b>母核</b><br>可能的母核。点击母核符号跳转到上一层的衰变链。
+<br><br><b>衰变方式</b><br>点击<b>衰变链</b>查看相关信息。
+<br>点击母核或子核符号可以跳转到上一层或下一层衰变链。
+<br>注意归一化的百分数：
+<br>
+ec \u03b2+ 100\u0025
+\u03b2+ p 23\u0025
+<br>表示全部都是ec \u03b2+衰变，其中\u03b2+衰变延迟p发射占比23\u0025。
+<br><br><b>衰变辐射</b><br>对于每一种衰变方式，列出强度 > 1\u0025 的每种类型的辐射。
+<br>除此之外, 包含绝对强度 > 1\u0025 的俄歇电子和内转换电子。
+<br><br>对于beta射线，给出平均能量和衰变能。若衰变能为计算值，则列在括号内。表格太大时，可拖动水平拖拉条以显示其余内容。
+<br><br>考虑了子核光子出射。单独列出了511 keV湮没辐射的强度。
+<br><br>利用“<b>设置”</b>可选择从强度到能量的不同排序方式。如何设置<b>“辐射筛选”</b>方式见上方<b>“高级检索”</b>部分。
+<br><br><b>Q值</b><br>基态衰变所产生的能量。
+<br><br><b>Sn和Sp</b><br>中子和质子分离能。
+<br><br><b>磁矩</b><br>磁偶极矩，用核磁子来表示。
+<br><br><b>电矩</b><br>电四极矩，用靶来表示。
+<br><br><b>结合能/A </b><br>每核子结合能，单位keV。
+<br><br><b>热中子俘获截面</b><br>俘获一个动能约为0.0253 eV中子的截面。
+<br><br><b>共振积分</b><br>对整个共振能区 (0.5 eV - \u221E) 按1/E谱的形式对中子吸收反应率进行积分，单位靶。
+<br><br><b>Westcott g-因子</b><br>√π/2 \u00D7 Maxwellian热中子谱平均中子截面与2200 m/s（热中子0.0253 eV）截面的比值。
+<br><br>注：C.H. Westcott在1963年加入IAEA，并建立了核数据科。
+<br><br><b>电荷半径</b><br>电荷半径的均方根，单位fm。
+<br>对于中子给出均方值，单位fm<sup>2</sup>。
+<br><br><b>热中子裂变累积产额</b><br>由热中子引起每次裂变产生的所有裂变产物核素数目之和。
+<br><br><span style="color:#194CAF"><b>请访问</b></span>   <a href="http://www-nds.iaea.org">国际原子能机构核数据科</a><br>
+<br><br><span style="color:#194CAF"><b>数据来源</b></span>
+<br><b>主要来源</b><br><a href="http://www-nds.iaea.org/ensdf">核结构评价数据库(ENSDF)</a>。ENSDF是在IAEA的主持下，由国际核结构与衰变协作网共同维护的数据库。
+<br><b>Q值，原子质量和分离能</b><br><a href="https://www.anl.gov/phy/atomic-mass-data-resources">Atomic Mass Evaluation 2020</a>
+<br><b>丰度</b><br><a href="https://www.anl.gov/phy/atomic-mass-data-resources">Nubase 2020</a>
+<br><b>热中子截面</b><br>S.F. Mughabghab, Atlas of Neutron Resonances Elsevier Science, 6th Edition, Februay 15 2018, as presented in the <a href="http://www-nds.iaea.org//relnsd/NdsEnsdf/neutroncs.html">Livechart</a>
+<br>N.E. Holden in Handbook of Chemistry and Physics 99Th Edition; <br>I. Dillmann, R. Plag, F. Käppeler and T. Rauscher in KADoNiS v0.3; <br>J. Kopecky in UKAEA-R(15)30.
+<br><b>Westcott g-因子</b><br>Mughabgahb  <a href="http://www-nds.iaea.org/publications/indc/indc-nds-0440/">INDC-NDS-0440</a>
+<br><b>电荷半径</b><br>I. Angeli, K. Marinova   <a href="http://dx.doi.org/10.1016/j.adt.2011.12.006">ADNDT 99 (2013)</a>
+<br><b>热中子裂变累积产额</b>
+<br>Joint Evaluated Fission and Fusion File JEFF 3.1.1
+<br>
+]]></string>
+
+<!--string name ="help">"
 <b>^使用说明^</b>\n
 \n利用“<b>设置</b>”可选择不同界面语言。
 \n选择一个元素（或输入元素符号，如xe，或原子量，如54，或一个核素，如135xe）后，回车或按“<b>检索”</b>后自动开始查找。
@@ -303,6 +374,6 @@ Uuo
 \n<b>热中子裂变累积产额</b>
 \nJoint Evaluated Fission and Fusion File JEFF 3.1.1
 \n
-"</string>
+"</string-->
 
 </resources>
