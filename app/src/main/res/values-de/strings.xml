@@ -28,7 +28,7 @@
 <string name="chart_decay_lbl_p" translatable="false">p</string>
 <string name="chart_decay_lbl_n" translatable="false">n</string>
 <string name="chart_decay_lbl_sf" translatable="false">SF</string>
-<string name="chart_prompt">Nuklidkarte</string>
+<string name="chart_prompt">Karte</string>
 <string name="choose_dec">Auswahl Zerfallsart</string>
 <string name="choose_rad">Auswahl Strahlungsart</string>
 <string name="cum_ther_fy">Kumulative thermische Spaltausbeute</string>
