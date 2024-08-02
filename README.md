@@ -1,6 +1,6 @@
 # Isotope Browser 
 
-![https://github.com/IAEA-NDS/ACEMAKER/blob/master/LICENSE](https://img.shields.io/github/license/IAEA-NDS/ACEMAKER) **Android version**
+**Android version**
 
 
 <img src="app/src/main/ib_launcher-web.png" width="200"/>
@@ -31,6 +31,9 @@ The code needs more commenting
 ## Legal note
 
 This code is distributed under the MIT license
+
+Nothing in this license shall be construed as a waiver, either express or implied, 
+of any of the privileges and immunities accorded to the IAEA by its Member States.
 
 Copyright (c) International Atomic Energy Agency (IAEA)
 
