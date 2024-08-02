@@ -966,7 +966,7 @@ public class Nuclide {
             double unc_sec_d = Double.parseDouble(unc_abs) / Double.parseDouble(hl) * hl_sec;
 
 
-            double dec_const = (0.693/hl_sec);
+            double dec_const = (Math.log(2)/hl_sec);
             double dec_const_unc = (unc_sec_d / hl_sec ) * dec_const  ;
 
             String[] ret_dec_const = round_abs_to_significant(new BigDecimal(dec_const+""), new BigDecimal(dec_const_unc+""),35);
