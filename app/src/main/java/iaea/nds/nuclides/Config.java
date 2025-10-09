@@ -12,7 +12,7 @@ public class Config {
     public static final String DATABASE_ASSET_SQLFILE = "nuclides.sql";
     /* this is the version of the database shipped with the app. It is compared with the one saved  in the SharedPreferences
     * of the device. If newer, the db is updated*/
-    public static final int db_version_apk = 86;//85;//;
+    public static final int db_version_apk = 87;//85;//;
     /**
      * preferences
      */

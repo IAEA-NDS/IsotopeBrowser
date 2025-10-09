@@ -8923,7 +8923,6 @@ INSERT INTO "l_decays" VALUES ('211TL',0,'?',NULL,NULL,NULL,6,'210PB','β- n ?')
 INSERT INTO "l_decays" VALUES ('211HG',0,'?',NULL,NULL,NULL,6,'210TL','β- n ?');
 INSERT INTO "l_decays" VALUES ('229U',0,'20',20.0,NULL,'AP',0,'225TH','α       20%');
 INSERT INTO "l_decays" VALUES ('229TH',0,'100',100.0,NULL,NULL,0,'225RA','α       100%');
-INSERT INTO "l_decays" VALUES ('229RA',0,'100',100.0,NULL,NULL,0,'225RN','α       100%');
 INSERT INTO "l_decays" VALUES ('216U',0,'100',100.0,NULL,'AP',0,'212TH','α       100%');
 INSERT INTO "l_decays" VALUES ('216PA',0,'2',2.0,NULL,'SY',7,'216TH','ec      2%');
 INSERT INTO "l_decays" VALUES ('216RN',0,'100',100.0,NULL,NULL,0,'212PO','α       100%');
